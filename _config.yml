@@ -1,4 +1,4 @@
-title: Your awesome title
+title: "GET :: Genomes Environments Traits"
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
@@ -22,7 +22,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
+    twitter: attendGET
     github:  jekyll
     rss: rss
     # dribbble: jekyll
@@ -83,11 +83,13 @@ sass:
   sourcemap: true
 
 collections:
-  speakers:
-    output: true
+  speakers-2016:
+    output: false
+  co-organizers-2016:
+    output: false
   past-conferences:
     output: true
-  sponsors:
+  sponsors2016:
     output: false
   labs:
     output: false

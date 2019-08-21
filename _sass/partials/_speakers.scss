@@ -1,0 +1,47 @@
+.speakers-list {
+  list-style: none;
+  padding: 0;
+  width: 675px;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 26px;
+}
+
+.speaker-img {
+  align-self: flex-start;
+  padding: 0 20px 0 0;
+}
+
+.speaker-bio {
+  padding: 0 0 0 20px;
+}
+
+.sponsors-list {
+  list-style: none;
+  padding: 0;
+  width: 750px;
+  margin: 26px 0 0;
+}
+
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 26px;
+}
+
+.sponsor-img {
+  align-self: center;
+  padding: 0 20px 0 30px;
+}
+
+.sponsor-bio {
+  padding: 0 4px 0 0;
+  width: 400px;
+}
+
+.sponsor-bio > p {
+  display: inline;
+}

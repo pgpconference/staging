@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document: RIGHTSLINK */
+
+
+
+
+* {
+  margin:0;
+  padding:0;
+  outline:none;
+
+  }
+body {
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color:#48484a;
+  text-align:center;
+  line-height:18px;
+  }
+p {
+  padding:0;
+  margin: 0 0 16px 0;
+  }
+h1 {
+  font-size:30px;
+  margin: 0 0 0 0;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+h2 {
+  font-size:30px;
+  margin: 0 0 8px 0;
+  font-weight:bold;
+  color:#48484a;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  line-height:40px;
+
+  }
+h3 {
+  font-size:12px;
+  margin: 0 0 8px 0;
+  font-weight:normal;
+  color:#48484a;
+  text-transform:uppercase;
+  }
+h4 {
+  font-size:12px;
+  }
+h5 {font-size:12px;
+
+  }
+h6 {
+  font-size:12px;
+  }
+a:link, a:visited {
+  color:#3d73aa;
+  }
+a:hover, a:active {
+  color:#3d73aa;
+  }
+ul {
+  margin: 0;
+  padding: 0 0 0 25px;
+  }
+li {
+
+  }
+/*
+=============================================================
+MAIN CSS
+=============================================================
+*/
+#oho {
+  width:1000px;
+  margin: 0 auto;
+  text-align:left;
+  padding: 0 0 9px 0;
+  }
+#header {
+  height:150px;
+  border-bottom:3px solid #231f20;
+  }
+#logo {
+  float:left;
+  padding: 50px 0 0 0;
+  }
+#subheader {
+  min-height:272px;
+  height:100%;
+  height:272px;
+  border-bottom:3px solid #231f20;
+  }
+#subheader .summary {
+  width:400px;
+  float:left;
+  padding: 40px 0 0 80px;
+  line-height:20px;
+  }
+#subheader .summary h2 {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:20px;
+  margin: 0 0 20px 0;
+  }
+#subheader .summary p {
+  font-size:14px;
+  }
+#subheader .cta {
+  width:200px;
+  float:right;
+  text-align:right;
+  padding: 40px 12px 0 0;
+  }
+#subheader .cta h3 {
+  font-weight:bold;
+  font-size:14px;
+  }
+
+
+
+
+
+
+
+/*
+=============================================================
+GLOBAL NAV
+=============================================================
+*/
+
+#nav {
+  height:28px;
+  display:block;
+  list-style: none;
+  float:right;
+  padding:120px 0 0 0;
+  }
+#nav li {
+  float:left;
+  display:block;
+  }
+#nav li a:link, #nav li a:link, #nav li a:visited {
+  display:block;
+  float:left;
+  margin: 0 25px 0 0;
+  font-size:12px;
+  text-transform:uppercase;
+  color:#48484a;
+  text-decoration:none;
+}
+#nav li a:hover {
+  margin: 0 25px 0 0;
+  display:block;
+  color:#d91f2a;
+}
+
+
+
+
+
+/*
+=============================================================
+CONTENT
+=============================================================
+*/
+#content {
+  float:left;
+  margin: 0 0 0 15px;
+  padding:25px 0 0 0;
+  width:775px;
+  }
+
+body.home #content {
+  float:left;
+  margin: 0 0 0 35px;
+  padding:25px 0 0 0;
+  width:500px;
+  }
+#content h2 {
+  background: url('/assets/images/h2_bg.gif') 0 5px no-repeat;
+  padding: 0 0 0 25px;
+  margin: 0 0 20px 0;
+  }
+body.home #content h2 {
+  font-size:16px;
+  font-style:italic;
+  line-height:20px;
+  padding: 0 0 0 25px;
+  margin: 0 0 20px -25px;
+  }
+
+.agenda {
+  background: url('/assets/images/h2_bg.gif') 0 5px no-repeat;
+  padding: 0 0 0 25px;
+  margin: 0 0 20px 0;
+  font-size:20px;
+  font-weight:bold;
+  color:#48484a;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  line-height:40px;
+}
+
+/*
+=============================================================
+CONTENT-WIDE
+=============================================================
+*/
+.content-wide {
+  float:left;
+  margin: 0 0 0 15px;
+  padding:25px 0 0 0;
+  width:775px;
+  }
+
+body.home .content-wide {
+  float:left;
+  margin: 0 0 0 35px;
+  padding:25px 0 0 0;
+  width:575px;
+  }
+.content-wide h2 {
+  background: url('/assets/images/h2_bg.gif') 0 5px no-repeat;
+  padding: 0 0 0 25px;
+  margin: 0 0 20px 0;
+  }
+body.home .content-wide h2 {
+  font-size:16px;
+  font-style:italic;
+  line-height:20px;
+  padding: 0 0 0 25px;
+  margin: 0 0 20px -25px;
+  }
+
+
+
+/*
+=============================================================
+SIDEBAR
+=============================================================
+*/
+
+#sidebar {
+  float:right;
+  width:330px;
+  padding:25px 0 0 0;
+  }
+#sidebar .personnel a {
+  display:block;
+  float:left;
+  margin: 0 16px 0 0;
+  color:#000000;
+  text-decoration:none;
+  height:150px;
+  font-size:11px;
+  }
+#sidebar .personnel span {
+  display:block;
+  padding: 0 0 6px 0;
+  }
+#sidebar .personnel h3 {
+  display:block;
+  clear:both;
+  margin: 0 0 15px 0;
+  }
+#sidebar .personnel img {
+  border:1px solid #b2b4b5;
+  }
+
+#sidebar .personnel img.no-border {
+  border:1px solid #ffffff;
+  }
+
+#sidebar .labs a {
+  display:block;
+  float:left;
+  margin: 0 5px 0 0;
+  color:#000000;
+  text-decoration:none;
+  height:190px;
+  font-size:11px;
+  }
+
+#sidebar .labs span {
+  display:block;
+  padding: 0 0 3px 0;
+  }
+
+#sidebar .labs h3 {
+  display:block;
+  clear:both;
+  margin: 0 0 15px 0;
+  }
+
+#sidebar .labs img {
+  border:1px solid #b2b4b5;
+  }
+
+#sidebar .labs img.no-border {
+  border:1px solid #ffffff;
+  }
+
+/*
+=============================================================
+SIDEBAR-NARROW
+=============================================================
+*/
+
+#sidebar-narrow {
+  float:right;
+  width:230px;
+  padding:25px 0 0 0;
+  }
+#sidebar-narrow .personnel a {
+  display:block;
+  float:left;
+  margin: 0 16px 0 0;
+  color:#000000;
+  text-decoration:none;
+  height:150px;
+  font-size:11px;
+  }
+#sidebar-narrow .personnel span {
+  display:block;
+  padding: 0 0 6px 0;
+  }
+#sidebar-narrow .personnel h3 {
+  display:block;
+  clear:both;
+  margin: 0 0 15px 0;
+  }
+#sidebar-narrow .personnel img {
+  border:1px solid #b2b4b5;
+  }
+
+#sidebar-narrow .personnel img.no-border {
+  border:1px solid #ffffff;
+  }
+
+
+
+/*
+=============================================================
+FOOTER
+=============================================================
+*/
+
+/*
+=============================================================
+COMMON CSS
+=============================================================
+*/
+
+img {
+  border:0;
+  }
+.imgLeft {
+  float: left;
+  margin: 0 15px 0 0px;
+  }
+.imgRight {
+  float: right;
+  margin: 0 0 0 15px;
+  }
+.clear {
+  clear:both;
+  }
+.left {
+  float:left;
+  }
+.right {
+  float:right;
+  }
+
+
+
+

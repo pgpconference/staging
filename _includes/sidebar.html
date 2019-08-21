@@ -1,0 +1,39 @@
+<div id="sidebar">
+  <div class="personnel">
+
+    <h3>Speakers</h3>
+    {% for speaker in site.speakers-2016 %}
+    <a href="/get2016/speakers#{{ speaker.name }}">
+      <span><img src="{{ speaker.image }}"></span>
+      <span>{{ speaker.name }}</span>
+    </a>
+    {% endfor %}
+
+    <h3>Co-Organizers</h3>
+    {% for organizer in site.co-organizers-2016 %}
+    <a href="/get2016/speakers#{{ organizer.name }}">
+      <span><img src="{{ organizer.image }}"></span>
+      <span>{{ organizer.name }}</span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="clear" >
+    {%- assign social = site.minima.social_links -%}
+    <h3>SOCIAL MEDIA</h3>
+    Twitter: <a href="https://twitter.com/{{ social.twitter }}">@{{ social.twitter }}</a><br>
+    <p>Email Updates: <a href="http://www.getconference.com/updates.html">Sign-up</a><br>
+    </p>
+
+  <h3>Past Events</h3>
+  <a href="/get2015/index.html">2015 GET Global</a><br>
+  <a href="/get2014/index.html">2014 GET Conference</a><br>
+  <a href="/get2014/labs.html">2014 GET Labs</a><br>
+  <a href="/get2013/index.html">2013 GET Conference</a><br>
+  <a href="/get2013/labs.html">2013 GET Labs</a><br>
+  <a href="/get2012/index.html">2012 GET Conference</a><br>
+  <a href="/get2011/index.html">2011 GET Conference</a><br>
+  <a href="/get2010/index.html">2010 GET Conference</a>
+
+  </div>
+</div>

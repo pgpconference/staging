@@ -3,18 +3,28 @@
 
   {%- include head.html -%}
 
-  <body>
+  {% if page.layout == "home" %}
+    <body class="home">
+  {% else %}
+    <body class="sub">
+  {% endif %}
+    <div id="oho">
 
-    {%- include header.html -%}
+    {%- include_cached header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    {% if page.layout == "home" %}
+      <main id="content-wide" class="content" aria-label="Content">
+    {% else %}
+      <main id="content" class="content" aria-label="Content">
+    {% endif %}
+      {{ content }}
     </main>
+    {% if page.layout == "home" %}
+      {% include sidebar.html %}
+    {% endif %}
 
-    {%- include footer.html -%}
-
+    {%- include_cached footer.html -%}
+    </div>
   </body>
 
 </html>
