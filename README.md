@@ -19,6 +19,11 @@ The GET Conference repo.
   * Add id to their sidebar url, so clicking the homepage link brings you right to the speaker
 * Create better collections structure, so as to not clutter top_dir
 
+#### Labs - Row Alignments
+
+* The rows get entirely messed up here
+  * Maybe introduce some divs??
+
 ### Agenda
   * Double check that the info on here is accurate
 
@@ -30,8 +35,51 @@ The GET Conference repo.
 
 * Alt Text for Speaker pics
 
+### Image Paths
+
+* Revert image paths to original structure - will be better for future editing
 
 ## Optional
+
+### Refactor SCSS Code
+
+1. Change all #ids to .classes (keep in mind how this will affect markup for current and previous years):
+
+```
+#oho
+#header
+#logo
+#subheader
+#subheader .summary
+#subheader .summary h2
+#subheader .summary p
+#subheader .cta
+#subheader .cta h3
+#nav
+#nav li
+#nav li a:link, #nav li a:link, #nav li a:visited
+#nav li a:hover
+#sidebar
+#sidebar .personnel a
+#sidebar .personnel span
+#sidebar .personnel h3
+#sidebar .personnel img
+#sidebar .personnel img.no-border
+#sidebar .labs a
+#sidebar .labs span
+#sidebar .labs h3
+#sidebar .labs img
+#sidebar .labs img.no-border
+#sidebar-narrow
+#sidebar-narrow .personnel a
+#sidebar-narrow .personnel span
+#sidebar-narrow .personnel h3
+#sidebar-narrow .personnel img
+#sidebar-narrow .personnel img.no-border
+```
+
+* Reminder: I already changed #content and #content-wide to .content and .content-wide.
+  * If I run into issues, check this first
 
 ### Nav
 
