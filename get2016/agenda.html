@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<h2>Agenda</h2>
+
+
+<h3>April 25, 2016</h3>
+
+{% if site.data.agenda.day1[0] %}
+  <ul class="session-list">
+    {% for session in site.data.agenda.day1 %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span class="session-title"><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<h3>April 25, 2016</h3>
+
+{% if site.data.agenda.day2[0] %}
+  <ul class="session-list">
+    {% for session in site.data.agenda.day2 %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<p><a href="/assets/files/get2016/About_GETConference_2016.pdf">Event Flyer as PDF</a></p>
+<p>*Agenda is subject to change</p>
+
+<div class="venue"><h2>Venue</h2></div>
+
+<address class="venue-address">
+  Joseph B. Martin Conference Center at Harvard Medical School <br>
+  77 Avenue Louis Pasteur<br>
+  Boston, MA 02115 <br></address>
+
+<img class="venue-img" src="/assets/images/get2016/martin_center_venue.jpg" align="top">
+
+<p><a href="http://www.theconfcenter.hms.harvard.edu/floor/">floorplans &amp; more images</a></p>

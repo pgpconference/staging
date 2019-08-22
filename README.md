@@ -19,6 +19,9 @@ The GET Conference repo.
   * Add id to their sidebar url, so clicking the homepage link brings you right to the speaker
 * Create better collections structure, so as to not clutter top_dir
 
+### Agenda
+  * Double check that the info on here is accurate
+
 ### Homepage
 
 * Make Homepage fluid
@@ -33,6 +36,10 @@ The GET Conference repo.
 ### Nav
 
 * See about maybe integrating this code into the Nav (I think it highlights the current page?)
+
+### Ordered Collections
+
+* Specify order in `_config.yml` file instead using variables. See Jekyll - [Manually Ordering Documents](https://jekyllrb.com/docs/collections/#manually-ordering-documents)
 
 ```html
 {%- for path in page_paths -%}
