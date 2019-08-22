@@ -93,6 +93,9 @@ collections:
     output: false
   labs:
     output: false
+    # order:
+  expos:
+    output: false
   awards:
     output: false
   judges:

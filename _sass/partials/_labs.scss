@@ -1,0 +1,50 @@
+.labs-agenda {
+  margin: 29px 0 50px;
+}
+
+.labs-agenda-list {
+  list-style: none;
+  padding: 0;
+
+  time {
+    font-weight: 700;
+  }
+}
+
+// h2.labs {
+//   margin: 0 0 24px;
+// }
+
+.labs-list {
+  width: 750px;
+}
+
+.lab-header {
+  font-weight: 700;
+}
+
+.lab-about {
+  width: 500px;
+}
+
+.lab-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lab-link {
+  margin: 0 35px 0 0;
+  width: 200px;
+}
+
+.lab-img {
+  float: left;
+}
+
+.btn-spacing-bottom {
+  margin: 0 0 34px;
+}
+
+.margin-top-extra {
+  margin-top: 50px;
+}
