@@ -2,7 +2,7 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-<div id="header" itemtype="https://schema.org/WPHeader">
+<header id="header" itemtype="https://schema.org/WPHeader">
   <div id="logo"><a href="http://www.getconference.org" itemprop="headline"><img src="/assets/images/get2014/GET_Logo_126x80.gif" alt="Genomes Environments Traits"></a></div>
   <ul id="nav">
 
@@ -10,28 +10,5 @@
     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
   {% endfor %}
   </ul>
-</div><!-- /header -->
-
-  {% if page.layout == "home" %}
-    <div id="subheader">
-      <img src="/assets/images/get2010/GET.gif" alt="GET" class="left">
-      <div class="summary">
-        <h2>GET Conference</h2>
-        <p>The GET Conference brings together leading thinkers to discuss how we measure and understand people and their traits.<br>
-          <br><a style="color:#d91f2a; font-weight:bold" href="http://www.getconference.org/get2016/gety-awards-release.html" target="_blank">Announcing GETy Award Winners</a>
-        </p>
-      </div>
-
-      <div class="cta">
-        <h3><b>GET Conference</b><br></h3>
-        <p>April 25-26. <a href="/agenda">Details.</a><br>
-          <a href="http://getconference.eventbrite.com/"><img src="/assets/images/get2010/btn_register_now.gif" alt="Register Now"></a>
-        </p>
-        <p>&nbsp;</p>
-        <h3><b>GET Labs + Expo</b></h3>
-        <p>April 25. <a href="/labs">Details</a><br>
-          <a href="https://www.eventbrite.com/e/get-labs-tickets-21118572218"><img src="/assets/images/get2010/btn_register_now.gif" alt="Register Now"></a></p>
-      </div>
-    </div>
-  {% endif%}
+</header><!-- /header -->
 </header>

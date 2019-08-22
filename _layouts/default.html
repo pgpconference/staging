@@ -13,7 +13,9 @@
     {%- include_cached header.html -%}
 
     {% if page.layout == "home" %}
-      <main id="content-wide" class="content" aria-label="Content">
+      {%- include_cached subheader.html -%}
+      <main id="content-wide" class="content-wide" aria-label="Content">
+
     {% else %}
       <main id="content" class="content" aria-label="Content">
     {% endif %}
