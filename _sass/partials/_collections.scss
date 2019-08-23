@@ -37,7 +37,7 @@
 
 .speaker-img {
   align-self: baseline;
-  margin: 0 0 16px;
+  margin: 0 auto 16px;
   // padding: 0 20px;
   padding: 0;
 }
@@ -146,8 +146,7 @@
   margin: 70px 0 0;
 }
 
-
-.awards-title {
+.award-title {
   font-weight: 700;
 }
 
@@ -175,14 +174,19 @@
   display: block;
 }
 
-li.award {
+.award {
   display: block;
+}
+
+.award-links a {
+  margin: 0;
+  width: initial;
 }
 
 .award-img {
   display: flex;
-  justify-content: center;
   flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -196,6 +200,8 @@ img {
   text-align: center;
   margin: 0;
 }
+
+
 
 // /**
 //  * Media Sponsors
