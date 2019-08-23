@@ -76,41 +76,41 @@ MAIN CSS
   text-align:left;
   padding: 0 0 9px 0;
   }
-#header {
+.site-header {
   height:150px;
   border-bottom:3px solid #231f20;
   }
-#logo {
+.site-logo {
   float:left;
   padding: 50px 0 0 0;
   }
-#subheader {
+.subheader {
   min-height:272px;
   height:100%;
   height:272px;
   border-bottom:3px solid #231f20;
   }
-#subheader .summary {
+.subheader .summary {
   width:400px;
   float:left;
   padding: 40px 0 0 80px;
   line-height:20px;
   }
-#subheader .summary h2 {
+.subheader .summary h2 {
   font-family:Georgia, "Times New Roman", Times, serif;
   font-size:20px;
   margin: 0 0 20px 0;
   }
-#subheader .summary p {
+.subheader .summary p {
   font-size:14px;
   }
-#subheader .cta {
+.subheader .cta {
   width:200px;
   float:right;
   text-align:right;
   padding: 40px 12px 0 0;
   }
-#subheader .cta h3 {
+.subheader .cta h3 {
   font-weight:bold;
   font-size:14px;
   }
@@ -127,18 +127,18 @@ GLOBAL NAV
 =============================================================
 */
 
-#nav {
+.site-nav {
   height:28px;
   display:block;
   list-style: none;
   float:right;
   padding:120px 0 0 0;
   }
-#nav li {
+.site-nav li {
   float:left;
   display:block;
   }
-#nav li a:link, #nav li a:link, #nav li a:visited {
+.site-nav li a:link, .site-nav li a:link, .site-nav li a:visited {
   display:block;
   float:left;
   margin: 0 25px 0 0;
@@ -147,10 +147,10 @@ GLOBAL NAV
   color:#48484a;
   text-decoration:none;
 }
-#nav li a:hover {
+.site-nav li a:hover {
   margin: 0 25px 0 0;
   display:block;
-  color:#d91f2a;
+  color:$link-hover-color;
 }
 
 
@@ -239,12 +239,12 @@ SIDEBAR
 =============================================================
 */
 
-#sidebar {
+.sidebar {
   float:right;
   width:330px;
   padding:25px 0 0 0;
   }
-#sidebar .personnel a {
+.sidebar .personnel a {
   display:block;
   float:left;
   margin: 0 16px 0 0;
@@ -253,28 +253,28 @@ SIDEBAR
   height:150px;
   font-size:11px;
   }
-#sidebar .personnel span {
+.sidebar .personnel span {
   display:block;
   padding: 0 0 6px 0;
   }
-#sidebar .personnel h3 {
+.sidebar .personnel h3 {
   display:block;
   clear:both;
   margin: 0 0 15px 0;
   }
-#sidebar .personnel img {
+.sidebar .personnel img {
   border:1px solid #b2b4b5;
   }
 
-#sidebar .personnel img.no-border {
+.sidebar .personnel img.no-border {
   border:1px solid #ffffff;
   }
 
-#sidebar .organizers {
+.sidebar .organizers {
   width: 220px;
 }
 
-#sidebar .labs a {
+.sidebar .labs a {
   display:block;
   float:left;
   margin: 0 5px 0 0;
@@ -284,22 +284,22 @@ SIDEBAR
   font-size:11px;
   }
 
-#sidebar .labs span {
+.sidebar .labs span {
   display:block;
   padding: 0 0 3px 0;
   }
 
-#sidebar .labs h3 {
+.sidebar .labs h3 {
   display:block;
   clear:both;
   margin: 0 0 15px 0;
   }
 
-#sidebar .labs img {
+.sidebar .labs img {
   border:1px solid #b2b4b5;
   }
 
-#sidebar .labs img.no-border {
+.sidebar .labs img.no-border {
   border:1px solid #ffffff;
   }
 
@@ -309,12 +309,12 @@ SIDEBAR-NARROW
 =============================================================
 */
 
-#sidebar-narrow {
+.sidebar-narrow {
   float:right;
   width:230px;
   padding:25px 0 0 0;
   }
-#sidebar-narrow .personnel a {
+.sidebar-narrow .personnel a {
   display:block;
   float:left;
   margin: 0 16px 0 0;
@@ -323,20 +323,20 @@ SIDEBAR-NARROW
   height:150px;
   font-size:11px;
   }
-#sidebar-narrow .personnel span {
+.sidebar-narrow .personnel span {
   display:block;
   padding: 0 0 6px 0;
   }
-#sidebar-narrow .personnel h3 {
+.sidebar-narrow .personnel h3 {
   display:block;
   clear:both;
   margin: 0 0 15px 0;
   }
-#sidebar-narrow .personnel img {
+.sidebar-narrow .personnel img {
   border:1px solid #b2b4b5;
   }
 
-#sidebar-narrow .personnel img.no-border {
+.sidebar-narrow .personnel img.no-border {
   border:1px solid #ffffff;
   }
 

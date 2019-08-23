@@ -68,11 +68,11 @@ ul {
  * Custom
  */
 
-#header,
-#subheader,
+.site-header,
+.subheader,
 .content-wide,
 .summary,
-#sidebar,
+.sidebar,
 .speakers,
 .organizers,
 .speakers-list,
@@ -82,11 +82,11 @@ ul {
   flex-wrap: wrap;
 }
 
-#header,
-#subheader,
+.site-header,
+.subheader,
 .content-wide,
 .summary,
-#sidebar,
+.sidebar,
 .speakers,
 .organizers {
   display: flex;
@@ -94,17 +94,28 @@ ul {
   justify-content: center;
 }
 
+.site-header {
+  border-bottom: 3px solid $border-color;
+  padding: 0 0 10px;
+}
+
 #oho {
   padding: 40px 10px 20px;
 }
 
-#nav {
+.top-nav {
   display: none;
 }
 
-#subheader,
+.subheader,
 .content-wide {
   padding: 0 16px;
+}
+
+.row-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .summary {

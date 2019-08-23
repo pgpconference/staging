@@ -1,9 +1,4 @@
 @media only screen and (min-width: 425px) {
-  .organizers h3 {
-    // width: 100%;
-    // text-align: center;
-  }
-
   .sidebar-header {
     font-size: 20px;
     text-align: center;
@@ -36,20 +31,129 @@
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
+// Small devices (landscape phones, 576px and up)
 @media only screen and (min-width: 576px) {
+  .subheader {
+    display: block;
+    margin: 16px 6.5% 0 0;
 
+    .summary {
+      line-height: 20px;
+      padding: 0;
+      width: 200px;
+
+      h2 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 20px;
+        margin: 0 0 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      float: none;
+      justify-content: space-around;
+      margin: 0 0 20px;
+      padding: 0 12px;
+      width: auto;
+
+      h3 {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    > img {
+      padding: 0 0 0 30px;
+    }
+  }
+
+  .cta-row {
+    text-align: center;
+    width: 50%;
+  }
+
+  .row-top {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sidebar h2,
+  .sidebar h3 {
+    width: 100%;
+  }
+
+  .content-wide h2,
+  .sidebar h2 {
+    margin: 10px 0 8px;
+    width: 100%;
+  }
+
+  .content-wide {
+    padding: 0 30px;
+  }
+
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
-/* Medium devices (tablets, 768px and up) */
+// Medium devices (tablets, 768px and up)
 @media only screen and (min-width: 768px) {
+  .site-header {
+    border-bottom: 3px solid $border-color;
+    justify-content: space-between;
+    padding: 0;
+  }
 
+  .site-logo {
+    float: left;
+    padding: 0 0 0 16px;
+  }
+
+  .top-nav {
+    display: block;
+    float: right;
+    height: 28px;
+    list-style: none;
+    padding: 70px 0 0 0;
+
+    li {
+      display: block;
+      float: left;
+
+      a:link,
+      a:link,
+      a:visited {
+        color: $text-color;
+        display: block;
+        float: left;
+        font-size: 12px;
+        margin: 0 25px 0 0;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:hover {
+        color: $link-hover-color;
+        display: block;
+        margin: 0 25px;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 920px) {
 
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+// Extra large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
 
 }
