@@ -31,7 +31,7 @@ title: Awards
 
 <ul class="speakers-list">
   {% assign judges = site.judges | sort: 'order' %}
-  {% for judge in site.judges %}
+  {% for judge in judges %}
   <li class="speaker">
     <img class="speaker-img" src="{{ judge.image }}" alt="{{ judge.name }}">
     <span class="speaker-bio">{{ judge.content }}</span>
