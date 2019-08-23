@@ -2,7 +2,8 @@
   <div class="personnel">
 
     <h3>Speakers</h3>
-    {% for speaker in site.speakers-2016 %}
+    {% assign speakers = site.speakers-2016 | sort: 'order' %}
+    {% for speaker in speakers %}
     <a href="/get2016/speakers#{{ speaker.name }}">
       <span><img src="{{ speaker.image }}"></span>
       <span>{{ speaker.name }}</span>
@@ -10,12 +11,15 @@
     {% endfor %}
 
     <h3>Co-Organizers</h3>
-    {% for organizer in site.co-organizers-2016 %}
-    <a href="/get2016/speakers#{{ organizer.name }}">
-      <span><img src="{{ organizer.image }}"></span>
-      <span>{{ organizer.name }}</span>
-    </a>
-    {% endfor %}
+    <div class="organizers">
+      {% assign organizers = site.co-organizers-2016 | sort: 'order' %}
+      {% for organizer in organizers %}
+      <a href="/get2016/speakers#{{ organizer.name }}">
+        <span><img src="{{ organizer.image }}"></span>
+        <span>{{ organizer.name }}</span>
+      </a>
+      {% endfor %}
+    </div>
   </div>
 
   <div class="clear" >
