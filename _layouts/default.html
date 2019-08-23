@@ -5,6 +5,8 @@
 
   {% if page.layout == "home" %}
     <body class="home">
+  {% elsif page.name contains "awards" %}
+    <body class="sub awards">
   {% else %}
     <body class="sub">
   {% endif %}

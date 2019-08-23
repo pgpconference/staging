@@ -1,17 +1,41 @@
-.speakers-list {
+/**
+ * Common - Speakers, Awards
+ */
+
+.speakers-list,
+.sponsors-list,
+.awards-list {
   list-style: none;
   padding: 0;
-  width: 675px;
 }
 
-.speaker {
-  display: flex;
-  justify-content: space-between;
+.speakers-list,
+.awards-list {
+  width: 675px;
+ }
+
+ .speaker,
+ .sponsor,
+ .award {
+   display: flex;
+   justify-content: space-between;
+}
+
+.speaker,
+.sponsor {
   margin: 0 0 26px;
 }
 
-.speaker-img {
+.speaker-img,
+.award-img, {
   align-self: flex-start;
+}
+
+/**
+ * Speakers
+ */
+
+.speaker-img {
   padding: 0 20px 0 0;
 }
 
@@ -19,17 +43,13 @@
   padding: 0 0 0 20px;
 }
 
+/**
+ * Sponsors
+ */
+
 .sponsors-list {
-  list-style: none;
-  padding: 0;
   width: 750px;
   margin: 26px 0 0;
-}
-
-.sponsor {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0 26px;
 }
 
 .sponsor-img {
@@ -45,3 +65,63 @@
 .sponsor-bio > p {
   display: inline;
 }
+
+/**
+ * Awards
+ */
+
+body.awards {
+  max-width: 1519px;
+}
+
+.awards-banner {
+  display: flex;
+  margin: 4px 0 48px 2px;
+  width: 775px;
+
+  img {
+    margin: 0 48px 0 0;
+  }
+
+  .gety-text {
+    font-size: 20px;
+    padding: 13px 0 2px 4px;
+  }
+}
+
+.awards-header {
+  margin: 70px 0 0;
+}
+
+.award {
+  // margin: 36px 0 26px;
+  margin: 24px 0 26px;
+  justify-content: flex-start;
+}
+
+.award-img {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  width: 200px;
+}
+
+.award-img img {
+  align-self: center;
+  align-self: end;
+  margin: 0;
+  position: relative;
+  right: 7px;
+  vertical-align: bottom;
+}
+
+.award-content {
+  margin: 0 0 0 36px;
+}
+
+.award-title {
+  font-weight: 700;
+  margin: 0;
+}
+

@@ -1,0 +1,30 @@
+---
+layout: default
+title: Awards
+---
+
+<div class="awards-banner">
+  <img src="/get2016/images/GETy_Awards_200.jpg" alt="GETy Awards">
+  <div class="gety-text">
+    <p>Honoring Excellence in Participant-Centered Research</p>
+    <p><a style="color:#d91f2a; font-weight:bold" href="http://www.getconference.org/get2016/gety-awards-release.html" target="_blank">Announcing GETy Award Winners</a>
+  </div>
+</div>
+
+<div class="awards-header"><h2>Award Categories</h2></div>
+
+
+<ul class="awards-list">
+  {% assign awards = site.awards %}
+  {% for award in awards %}
+  <li class="award">
+    <div class="award-img"><img src="{{ award.image }}" alt="{{ award.alt }}"></div>
+    <div class="award-content">
+      <p class="award-title">{{ award.title }} Award</p>
+      <div class="award-text">{{ award.content }}</siv>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+
