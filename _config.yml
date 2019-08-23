@@ -99,3 +99,5 @@ collections:
     output: false
   judges:
     output: false
+  media-sponsors:
+    output: false

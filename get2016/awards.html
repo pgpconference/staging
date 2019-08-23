@@ -38,3 +38,22 @@ title: Awards
   </li>
   {% endfor %}
 </ul>
+
+<h2>Thanks to our media partners</h2>
+
+<div class="media-sponsors">
+  {% assign sponsors = site.media-sponsors %}
+  {% for sponsor in sponsors %}
+  <div class="sponsor-row">
+    <div class="sponsor-img media-sponsor-img"><img src="{{ sponsor.image }}" alt="{{ sponsor.name }} logo"></div>
+    <div class="sponsor-fb"><a href="{{ sponsor.facebook }}" alt="{{ sponsor.name }} Facebook">Facebook</a></div>
+    <div class="sponsor-tw"><a href="{{ sponsor.twitter }}" alt="{{ sponsor.name }} Twitter">@{{ sponsor.name }}</a></div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>Ceremony</h2>
+
+<p>Date and Time: <time>6:00pm on April 25, 2016</time>
+<br>Location: Harvard Medical School
+<br>To attend, you must be a registered attendee of either the <a href="http://www.getconference.org/get2016/index.html" alt="GET Conference">GET Conference</a> or <a href="http://www.getconference.org/get2016/labs.html">GET Labs</a>.</p>
