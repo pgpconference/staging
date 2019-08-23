@@ -1,0 +1,204 @@
+/**
+ * Base - Custom
+ */
+
+body {
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: 13px;
+  // line-height: 18px;
+  line-height: 1.384615;
+}
+
+p {
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: $base-font-family;
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  color: $text-color;
+  font-family: $secondary-font-family;
+  font-size: 30px;
+  font-weight: bold;
+  // line-height: 40px;
+  line-height: 1.333333;
+  margin: 0 0 8px;
+}
+
+h3 {
+  color: $text-color;
+  // font-size: 12px;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 12px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $link-color;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 25px;
+}
+
+/**
+ * Custom
+ */
+
+#header,
+#subheader,
+.content-wide,
+.summary,
+#sidebar,
+.speakers,
+.organizers,
+.speakers-list,
+.organizers-list,
+.sidebar-social-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#header,
+#subheader,
+.content-wide,
+.summary,
+#sidebar,
+.speakers,
+.organizers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#oho {
+  padding: 40px 10px 20px;
+}
+
+#nav {
+  display: none;
+}
+
+#subheader,
+.content-wide {
+  padding: 0 16px;
+}
+
+.summary {
+  margin: 20px 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.speakers-list,
+.organizers-list {
+  padding: 0;
+}
+
+.speakers-list a span,
+.organizers-list a span {
+  display: block;
+}
+
+.speakers-list a,
+.organizers-list a {
+  margin: 0 0 32px;
+  text-align: center;
+  width: 50%;
+}
+
+.organizers-list {
+  padding: 0;
+
+  a {
+    width: 50%;
+  }
+}
+
+ul,
+ol {
+  padding: 0 0 15px 20px;
+}
+
+.sidebar-social-list {
+  padding: 0 30px;
+}
+
+.sidebar-list {
+  width: 100%;
+}
+
+.site-footer {
+  padding: 20px 20px 10px;
+  text-align: center;
+}
+
+
+/*
+=============================================================
+COMMON CSS
+=============================================================
+*/
+
+img {
+  border: 0;
+}
+
+.imgLeft {
+  float: left;
+  margin: 0 15px 0;
+}
+
+.imgRight {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.list-style-none {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.margin-top-tall {
+  margin-top: 50px;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}

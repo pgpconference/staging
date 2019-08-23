@@ -1,0 +1,55 @@
+@media only screen and (min-width: 425px) {
+  .organizers h3 {
+    // width: 100%;
+    // text-align: center;
+  }
+
+  .sidebar-header {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .speakers-list a,
+  .organizers-list a {
+    margin: 0 10px 16px;
+    width: auto;
+  }
+
+  .speakers-list a span,
+  .organizers-list a span {
+    width: 100px;
+  }
+
+  .speakers-list,
+  .organizers-list {
+    justify-content: center;
+  }
+
+  .speakers,
+  .organizers {
+    margin: 20px 0;
+  }
+
+  .sidebar-social-list {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 920px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

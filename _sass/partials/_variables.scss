@@ -6,6 +6,8 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
+$secondary-font-family: Georgia, "Times New Roman", Times, serif;
+
 $heading-font-family: Arial, Helvetica, sans-serif !default;
 // $heading-font-size:   13 !default;
 $heading-font-weight: 700 !default;
@@ -15,13 +17,16 @@ $heading-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 $spacing-unit--small:     20px !default;
 
-$text-color:       #111 !default;
+// $text-color:       #111 !default;
+$text-color:       #48484a;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
+$link-color:       #3d73aa;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-dark-1:      #48484a;
 $orange-color:     #f66a0a !default;
 $table-text-align: left !default;
 
