@@ -19,6 +19,23 @@ The GET Conference repo.
   * Add id to their sidebar url, so clicking the homepage link brings you right to the speaker
 * Create better collections structure, so as to not clutter top_dir
 
+#### Relative Directories
+See here:
+
+```ruby
+# From: https://simpleit.rocks/ruby/jekyll/collections/understanding-how-collections-work/
+{% for collection in site.collections %}
+ Collection name: {{collection.label}}
+ Relative path to the collection's source directory: {{collection.relative_directory }}
+ Full path to the collection's directory: {{collection.directory}}
+ Output collection files as individual files?: {{collection.output}}
+ {% for doc in collection.docs%}
+  {{doc.title}}
+  {{doc.slug}}
+ {% endfor %}
+{% endfor %}
+```
+
 #### Labs - Row Alignments
 
 * The rows get entirely messed up here
