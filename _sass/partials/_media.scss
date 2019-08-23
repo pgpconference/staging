@@ -1,4 +1,12 @@
 @media only screen and (min-width: 425px) {
+  .content h2 {
+    background: url('/assets/images/h2_bg.gif') 0 5px no-repeat;
+    margin: 0 0 20px;
+    // padding: 0 0 0 10px;
+    padding: 0 0 0 20px;
+    text-align: initial;
+  }
+
   .sidebar-header {
     font-size: 20px;
     text-align: center;
@@ -27,6 +35,12 @@
   }
 
   .sidebar-social-list {
+    text-align: center;
+  }
+
+  .awards-header h2 {
+    background: none;
+    padding: 0;
     text-align: center;
   }
 }
@@ -103,6 +117,90 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .speakers-list,
+  .sponsors-list,
+  .awards-list {
+    margin: 0 auto;
+    width: calc(100vw - 60px);
+  }
+
+  .speaker,
+  .sponsor,
+  .award {
+    display: flex;
+  }
+
+  .speaker,
+  .sponsor {
+    margin: 0 0 26px;
+  }
+
+  .collections-tag {
+    padding: 0 20px 16px;
+  }
+
+  /**
+   * 576 - Speaker
+   */
+
+  .speaker-img {
+    padding: 0 20px 0 0;
+  }
+
+  /**
+   * 576 - Sponsor
+   */
+
+  .sponsor {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+
+  .sponsor-img {
+    align-self: flex-start;
+    padding: 0 0 16px;
+  }
+
+  /**
+   * 576 - Awards
+   */
+
+  .awards-banner {
+    display: flex;
+    flex-wrap: nowrap;
+    // margin: 30px 0 20px 2px;
+    margin: 20px 0 30px;
+    width: auto;
+  }
+
+  .awards-banner img {
+    align-self: center;
+    margin: 0 40px 0 10px;
+  }
+
+  .awards-banner .gety-text {
+    text-align: left;
+    // font-size: 16px
+    font-size: 18px;
+  }
+
+  .gety-text p {
+    margin: 0 0 8px;
+  }
+
+  .awards-header {
+    margin: 30px 0 0;
+  }
+
+  .award-img {
+    margin: 0 50px 0 0;
+    min-width: 120px;
+  }
+
+
+
+
 }
 
 // Medium devices (tablets, 768px and up)

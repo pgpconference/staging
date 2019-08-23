@@ -1,5 +1,5 @@
 /**
- * Common - Speakers, Awards, Media Sponsors
+ * Collections - Speakers, Sponsors, Awards
  */
 
 .speakers-list,
@@ -9,25 +9,21 @@
   padding: 0;
 }
 
-.speakers-list,
-.awards-list {
-  width: 675px;
- }
-
- .speaker,
- .sponsor,
- .award {
-   display: flex;
-   justify-content: space-between;
+.speaker,
+.sponsor,
+.award {
+  // display: flex;
+  justify-content: space-between;
 }
 
 .speaker,
 .sponsor {
-  margin: 0 0 26px;
+  // margin: 0 0 26px;
+  margin: 0 0 6px;
 }
 
 .speaker-img,
-.award-img, {
+.award-img {
   align-self: flex-start;
 }
 
@@ -35,61 +31,114 @@
  * Speakers
  */
 
+.speakers-list {
+  margin: 0 10px;
+}
+
 .speaker-img {
-  padding: 0 20px 0 0;
+  align-self: baseline;
+  margin: 0 0 16px;
+  // padding: 0 20px;
+  padding: 0;
 }
 
 .speaker-bio {
   padding: 0 0 0 20px;
 }
 
-/**
- * Sponsors
- */
+// /**
+//  * Common - Speakers, Awards, Media Sponsors
+//  */
 
-.sponsors-list {
-  margin: 58px 0 0;
-  width: 750px;
-}
+// .speakers-list,
+// .sponsors-list,
+// .awards-list {
+//   list-style: none;
+//   padding: 0;
+// }
 
-.sponsor {
-  margin: 0 0 56px;
-}
+// .speakers-list,
+// .awards-list {
+//   width: 675px;
+//  }
 
-.sponsor-img {
-  align-self: center;
-  padding: 0 20px 0 30px;
-}
+//  .speaker,
+//  .sponsor,
+//  .award {
+//    display: flex;
+//    justify-content: space-between;
+// }
 
-.sponsor-bio {
-  padding: 0 4px 0 0;
-  width: 400px;
-}
+// .speaker,
+// .sponsor {
+//   margin: 0 0 26px;
+// }
 
-.sponsor-bio > p {
-  display: inline;
-}
+// .speaker-img,
+// .award-img, {
+//   align-self: flex-start;
+// }
 
-/**
- * Awards
- */
+// /**
+//  * Speakers
+//  */
 
-body.awards {
-  max-width: 1519px;
-}
+// .speaker-img {
+//   padding: 0 20px 0 0;
+// }
+
+// .speaker-bio {
+//   padding: 0 0 0 20px;
+// }
+
+// /**
+//  * Sponsors
+//  */
+
+// .sponsors-list {
+//   margin: 58px 0 0;
+//   width: 750px;
+// }
+
+// .sponsor {
+//   margin: 0 0 56px;
+// }
+
+// .sponsor-img {
+//   align-self: center;
+//   padding: 0 20px 0 30px;
+// }
+
+// .sponsor-bio {
+//   padding: 0 4px 0 0;
+//   width: 400px;
+// }
+
+// .sponsor-bio > p {
+//   display: inline;
+// }
+
+// /**
+//  * Awards
+//  */
 
 .awards-banner {
   display: flex;
-  margin: 4px 0 48px 2px;
-  width: 775px;
+  margin: 4px 0 48px;
+  // width: 775px;
+  width: auto;
 
   img {
-    margin: 0 48px 0 0;
+    // margin: 0 48px 0 0;
+    align-self: center;
+    // margin: 0 20px 0 0;
+    margin: 0;
   }
 
   .gety-text {
-    font-size: 20px;
-    padding: 13px 0 2px 4px;
+    // font-size: 20px;
+    font-size: 16px;
+    padding: 13px 0 2px;
   }
 }
 
@@ -97,71 +146,90 @@ body.awards {
   margin: 70px 0 0;
 }
 
-.award {
-  // margin: 36px 0 26px;
-  margin: 24px 0 26px;
-  justify-content: flex-start;
-}
 
-.award-img {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  min-width: 200px;
-  width: 200px;
-}
-
-.award-img img {
-  align-self: center;
-  align-self: end;
-  margin: 0;
-  position: relative;
-  right: 7px;
-  vertical-align: bottom;
-}
-
-.award-content {
-  margin: 0 0 0 36px;
-}
-
-.award-title {
+.awards-title {
   font-weight: 700;
-  margin: 0;
 }
 
-/**
- * Media Sponsors
- */
+// body.awards {
+//   max-width: 1519px;
+// }
 
-.media-sponsors {
-  margin: 0 0 32px;
-  padding: 0 20px 0 0;
-  width: 675px;
-}
-
-.media-sponsor-img {
-  margin: 0;
-  padding: 0;
-  width: 300px;
-}
-
-.sponsor-row {
-  display: flex;
+.awards-banner {
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 32px auto;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0 30px;
+}
+
+.content h2 {
   text-align: center;
 }
 
-.sponsor-fb,
-.sponsor-tw {
-  align-self: center;
+.awards-header {
+  margin: 0 auto;
+  text-align: center;
 }
 
-.sponsor-tw {
-  width: 90px;
+.awards-list {
+  display: block;
 }
 
-.sponsor-fb {
-  width: 57px;
+li.award {
+  display: block;
 }
+
+.award-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+img {
+  display: block;
+  vertical-align: middle;
+}
+
+.award-content {
+  text-align: center;
+  margin: 0;
+}
+
+// /**
+//  * Media Sponsors
+//  */
+
+// .media-sponsors {
+//   margin: 0 0 32px;
+//   padding: 0 20px 0 0;
+//   width: 675px;
+// }
+
+// .media-sponsor-img {
+//   margin: 0;
+//   padding: 0;
+//   width: 300px;
+// }
+
+// .sponsor-row {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   margin: 32px auto;
+//   text-align: center;
+// }
+
+// .sponsor-fb,
+// .sponsor-tw {
+//   align-self: center;
+// }
+
+// .sponsor-tw {
+//   width: 90px;
+// }
+
+// .sponsor-fb {
+//   width: 57px;
+// }

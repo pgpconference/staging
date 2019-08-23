@@ -14,4 +14,4 @@ layout: default
     {% endfor %}
   </ul>
 
-<p>Speaker list is subject to change.</p>
+<p class="collections-tag">Speaker list is subject to change.</p>
