@@ -55,6 +55,7 @@ markdown: kramdown
 theme: minima
 
 plugins:
+  - github-pages
   - jekyll-admin
   - jekyll-feed
   - jekyll-include-cache
@@ -99,5 +100,5 @@ collections:
     output: false
   judges:
     output: false
-  media-sponsors:
+  media-partners:
     output: false
