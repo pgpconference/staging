@@ -2,12 +2,12 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-<header id="header" class="site-header" itemtype="https://schema.org/WPHeader">
-  <div id="logo" class="site-logo"><a href="{{ site.url }}" itemprop="headline"><img src="/assets/images/get2014/GET_Logo_126x80.gif" alt="Genomes Environments Traits"></a></div>
-  <ul id="nav" class="top-nav">
+<header id="header" itemtype="https://schema.org/WPHeader">
+  <div id="logo"><a href="{{ site.url }}{{ site.baseurl }}" itemprop="headline"><img src="{{ "/assets/images/get2014/GET_Logo_126x80.gif" | relative_url}}" alt="Genomes Environments Traits"></a></div>
+  <ul id="nav">
 
   {% for item in site.data.navigation.header2016 %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
   {% endfor %}
   </ul>
 </header><!-- /header -->

@@ -8,7 +8,7 @@ layout: default
     {% assign speakers = site.speakers-2016 | sort: 'order' %}
     {% for speaker in speakers %}
     <li class="speaker">
-      <img class="speaker-img" src="{{ speaker.image }}" alt="{{ speaker.name }}">
+      <img class="speaker-img" src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}">
       <span class="speaker-bio">{{ speaker.content }}</span>
     </li>
     {% endfor %}

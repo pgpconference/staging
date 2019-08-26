@@ -1,5 +1,5 @@
 /**
- * Collections - Speakers, Sponsors, Awards
+ * Common - Speakers, Awards, Media Partners
  */
 
 .speakers-list,
@@ -178,7 +178,8 @@
   display: block;
 }
 
-.award-links a {
+.award-links a,
+.media-partner-img {
   margin: 0;
   width: initial;
 }
@@ -201,6 +202,38 @@ img {
   margin: 0;
 }
 
+/**
+ * Media Partners
+ */
+
+.media-partners {
+  margin: 0 0 32px;
+  padding: 0 20px 0 0;
+  width: 675px;
+}
+
+.media-partner-img {
+  margin: 0;
+  width: initial;
+}
+
+.partner-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+img {
+  display: block;
+  vertical-align: middle;
+}
+
+.award-content {
+  text-align: center;
+  margin: 0;
+}
 
 
 // /**

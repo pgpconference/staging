@@ -1,49 +1,43 @@
-<div id="sidebar" class="sidebar">
-  <div class="speakers">
+<div id="sidebar">
+  <div class="personnel">
 
-    <div class="sidebar-header"><h3>Speakers</h3></div>
-    <div class="speakers-list">
-      {% assign speakers = site.speakers-2016 | sort: 'order' %}
-      {% for speaker in speakers %}
-      <a href="/get2016/speakers#{{ speaker.name }}">
-        <span><img src="{{ speaker.image }}"></span>
-        <span>{{ speaker.name }}</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-  <div class="organizers">
-  <h3>Co-Organizers</h3>
-    <div class="organizers-list">
+    <h3>Speakers</h3>
+    {% assign speakers = site.speakers-2016 | sort: 'order' %}
+    {% for speaker in speakers %}
+    <a href="/get2016/speakers#{{ speaker.name }}">
+      <span><img src="{{ speaker.image | relative_url }}"></span>
+      <span>{{ speaker.name }}</span>
+    </a>
+    {% endfor %}
+
+    <h3>Co-Organizers</h3>
+    <div class="organizers">
       {% assign organizers = site.co-organizers-2016 | sort: 'order' %}
       {% for organizer in organizers %}
       <a href="/get2016/speakers#{{ organizer.name }}">
-        <span><img src="{{ organizer.image }}"></span>
+        <span><img src="{{ organizer.image | relative_url }}"></span>
         <span>{{ organizer.name }}</span>
       </a>
       {% endfor %}
     </div>
   </div>
 
-  <div class="sidebar-social-list">
-    <div class="sidebar-list">
-      {%- assign social = site.minima.social_links -%}
-      <h3>SOCIAL MEDIA</h3>
-      Twitter: <a href="https://twitter.com/{{ social.twitter }}">@{{ social.twitter }}</a><br>
-      <p>Email Updates: <a href="http://www.getconference.com/updates.html">Sign-up</a><br>
-      </p>
-    </div>
+  <div class="clear" >
+    {%- assign social = site.minima.social_links -%}
+    <h3>SOCIAL MEDIA</h3>
+    Twitter: <a href="https://twitter.com/{{ social.twitter }}">@{{ social.twitter }}</a><br>
+    <p>Email Updates: <a href="http://www.getconference.com/updates.html">Sign-up</a><br>
+    </p>
 
-    <div class="sidebar-list">
-      <h3>Past Events</h3>
-      <a href="/get2015/index.html">2015 GET Global</a><br>
-      <a href="/get2014/index.html">2014 GET Conference</a><br>
-      <a href="/get2014/labs.html">2014 GET Labs</a><br>
-      <a href="/get2013/index.html">2013 GET Conference</a><br>
-      <a href="/get2013/labs.html">2013 GET Labs</a><br>
-      <a href="/get2012/index.html">2012 GET Conference</a><br>
-      <a href="/get2011/index.html">2011 GET Conference</a><br>
-      <a href="/get2010/index.html">2010 GET Conference</a>
-    </div>
+  <h3>Past Events</h3>
+  <a href="/get2015/index.html">2015 GET Global</a><br>
+  <a href="/get2014/index.html">2014 GET Conference</a><br>
+  <a href="/get2014/labs.html">2014 GET Labs</a><br>
+  <a href="/get2013/index.html">2013 GET Conference</a><br>
+  <a href="/get2013/labs.html">2013 GET Labs</a><br>
+  <a href="/get2012/index.html">2012 GET Conference</a><br>
+  <a href="/get2011/index.html">2011 GET Conference</a><br>
+  <a href="/get2010/index.html">2010 GET Conference</a>
+
   </div>
 </div>
