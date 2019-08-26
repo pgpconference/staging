@@ -5,7 +5,7 @@
     {% assign speakers = site.speakers-2016 | sort: 'order' %}
     {% for speaker in speakers %}
     <a href="/get2016/speakers#{{ speaker.name }}">
-      <span><img src="{{ speaker.image }}"></span>
+      <span><img src="{{ speaker.image | relative_url }}"></span>
       <span>{{ speaker.name }}</span>
     </a>
     {% endfor %}
@@ -15,7 +15,7 @@
       {% assign organizers = site.co-organizers-2016 | sort: 'order' %}
       {% for organizer in organizers %}
       <a href="/get2016/speakers#{{ organizer.name }}">
-        <span><img src="{{ organizer.image }}"></span>
+        <span><img src="{{ organizer.image | relative_url }}"></span>
         <span>{{ organizer.name }}</span>
       </a>
       {% endfor %}

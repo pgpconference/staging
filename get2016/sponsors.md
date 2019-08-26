@@ -9,7 +9,7 @@ layout: default
   {% for sponsor in sponsors %}
   <li class="sponsor">
     <span class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</span>
-    <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="sponsor-img">
+    <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
   </li>
   {% endfor %}
 </ul>
