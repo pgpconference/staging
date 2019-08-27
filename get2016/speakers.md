@@ -9,7 +9,7 @@ layout: default
     {% for speaker in speakers %}
     <li class="speaker">
       <img class="speaker-img" src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}">
-      <span class="speaker-bio">{{ speaker.content }}</span>
+      <div class="speaker-bio">{{ speaker.content }}</div>
     </li>
     {% endfor %}
   </ul>

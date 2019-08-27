@@ -8,7 +8,7 @@ layout: default
   {% assign sponsors = site.sponsors2016 | sort: 'order' %}
   {% for sponsor in sponsors %}
   <li class="sponsor">
-    <span class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</span>
+    <div class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</div>
     <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
   </li>
   {% endfor %}
