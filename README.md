@@ -1,24 +1,52 @@
 # GET Conference Website
 
+<!-- MarkdownTOC -->
+
+* [Questions](#questions)
+* [Issues](#issues)
+* [Nav Menu](#nav-menu)
+  * [Labs](#labs)
+  * [Collections](#collections)
+    * [Relative Directories](#relative-directories)
+    * [Labs - Row Alignments](#labs---row-alignments)
+  * [Homepage](#homepage)
+  * [Speakers](#speakers)
+  * [Image Paths](#image-paths)
+* [Optional](#optional)
+  * [Refactor SCSS Code](#refactor-scss-code)
+  * [Nav](#nav)
+  * [Ordered Collections](#ordered-collections)
+
+<!-- /MarkdownTOC -->
+
+
 The GET Conference repo.
 
+<a id="questions"></a>
 ## Questions
 
 * How is the updates.html redirect working?
 * Speakers page, I changed the images to align to the top of the paragraph. Is that ok?
 
+<a id="issues"></a>
 ## Issues
 
-### Semantic HTML Tags
+<a id="nav-menu"></a>
+## Nav Menu
 
-* Recode lists, tables, etc, with proper tags
+* Glitch at 768px (fine again at 769px)
 
+<a id="labs"></a>
+### Labs
+
+* Needs Desktop styles
+
+<a id="collections"></a>
 ### Collections
 
-* Double check spelling and filenames for 2016 Speakers
-  * Add id to their sidebar url, so clicking the homepage link brings you right to the speaker
-* Create better collections structure, so as to not clutter top_dir
+* See if I can next collections under get2016, to reduce clutter and ensure continuity in future site iterations
 
+<a id="relative-directories"></a>
 #### Relative Directories
 See here:
 
@@ -36,28 +64,31 @@ See here:
 {% endfor %}
 ```
 
+<a id="labs---row-alignments"></a>
 #### Labs - Row Alignments
 
 * The rows get entirely messed up here
   * Maybe introduce some divs??
 
-### Agenda
-  * Double check that the info on here is accurate
-
+<a id="homepage"></a>
 ### Homepage
 
-* Make Homepage fluid
+* 768-862px: Sidebar only showing 2 speakers
 
+<a id="speakers"></a>
 ### Speakers
 
 * Alt Text for Speaker pics
 
+<a id="image-paths"></a>
 ### Image Paths
 
 * Revert image paths to original structure - will be better for future editing
 
+<a id="optional"></a>
 ## Optional
 
+<a id="refactor-scss-code"></a>
 ### Refactor SCSS Code
 
 1. Change all #ids to .classes (keep in mind how this will affect markup for current and previous years):
@@ -98,10 +129,12 @@ See here:
 * Reminder: I already changed #content and #content-wide to .content and .content-wide.
   * If I run into issues, check this first
 
+<a id="nav"></a>
 ### Nav
 
 * See about maybe integrating this code into the Nav (I think it highlights the current page?)
 
+<a id="ordered-collections"></a>
 ### Ordered Collections
 
 * Specify order in `_config.yml` file instead using variables. See Jekyll - [Manually Ordering Documents](https://jekyllrb.com/docs/collections/#manually-ordering-documents)
