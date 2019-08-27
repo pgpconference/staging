@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1024px) {
+  #oho {
+    width: calc(100vw - 20vw);
+  }
+
+  .site-logo,
+  .subheader {
+    padding: 0;
+  }
+
+  .top-nav {
+    display: block;
+    float: right;
+    height: 28px;
+    list-style: none;
+    padding: 71px 0 1px 0;
+  }
+
+  /**
+   * Subheader
+   */
+
+  .subheader {
+    display: block;
+    height: 244px;
+
+    .cta {
+      // width: 120px;
+      display: inline-flex;
+      float: right;
+      margin: 40px 0 20px;
+      padding: 0 12px;
+      width: 140px;
+
+      .cta-row,
+      .cta-row h3 {
+        text-align: right;
+      }
+    }
+
+    .summary {
+      // width: 420px;
+      align-content: flex-start;
+      float: left;
+      justify-content: flex-start;
+      margin: 47px 0 0;
+      padding: 0;
+      text-align: left;
+      width: 50%;
+
+      h2 {
+        margin: 0 0 27px;
+        text-align: left;
+      }
+    }
+  }
+
+  .row-top {
+    display: inline-flex;
+    justify-content: flex-start;
+    max-width: 650px;
+    width: auto;
+  }
+
+  .get-logo {
+    padding: 0 80px 0 0;
+    width: 196px;
+  }
+
+  .register-btn {
+    margin: 10px 0 0 auto;
+  }
+}

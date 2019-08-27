@@ -2,15 +2,13 @@
 
 $baseurl: '/pgpconference';
 // Import partials.
-@import
-  'partials/variables',
-  'partials/base',
-  'partials/layout',
-  'partials/syntax-highlighting',
-  'partials/custom',
-  'partials/collections',
-  'partials/agenda',
-  'partials/media'
-  // 'partials/get2016',
-  // 'partials/labs'
-  ;
+@import 'partials/variables';
+@import  'partials/base';
+@import  'partials/layout';
+@import  'partials/syntax-highlighting';
+@import  'partials/custom';
+@import  'partials/collections';
+@import  'partials/agenda';
+@import  'partials/media';
+// @import 'partials/get2016';
+// @import 'partials/labs;

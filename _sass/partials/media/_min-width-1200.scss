@@ -1,0 +1,37 @@
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  #oho {
+    margin: 0 auto;
+    width: 1000px;
+  }
+
+  .subheader {
+    height: 272px;
+  }
+
+  .row-top {
+    max-width: 800px;
+  }
+
+  .cta-row {
+    margin: 0 0 20px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  .content-wide,
+  .sidebar {
+    padding: 30px 0 20px;
+  }
+
+  .speakers {
+    margin: 0 0 20px;
+  }
+
+  .speakers-list img,
+  .organizers-list img {
+    width: initial;
+  }
+}

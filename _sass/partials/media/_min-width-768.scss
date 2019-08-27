@@ -1,0 +1,270 @@
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  #oho {
+    margin: 0 auto;
+    // padding: 0;
+    padding: 50px 0 0;
+    // width: calc(100vw - 10vw);
+    width: calc(100vw - 6vw);
+  }
+
+  .site-header {
+    border-bottom: 3px solid $border-color;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .site-logo,
+  .subheader {
+    padding: 0;
+  }
+
+  .site-logo {
+    float: left;
+    padding: 0 0 0 16px;
+  }
+
+  .top-nav {
+    display: block;
+    float: right;
+    height: 28px;
+    list-style: none;
+    padding: 71px 0 1px 0;
+
+    li {
+      display: block;
+      float: left;
+
+      a:link,
+      a:link,
+      a:visited {
+        color: $text-color;
+        display: block;
+        float: left;
+        font-size: 12px;
+        margin: 0 25px 0 0;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:hover {
+        color: $link-hover-color;
+        display: block;
+        // margin: 0 25px;
+      }
+    }
+  }
+
+  .get-logo {
+    width: 50%;
+  }
+
+  .subheader {
+    border-bottom: 3px solid #231f20;
+    display: inline-flex;
+    justify-content: space-between;
+    // margin: 16px 0 auto;
+    margin: 0;
+    // padding: 0 10px;
+
+    .cta {
+      display: inline-flex;
+      // margin: 40px 0 20px;
+      margin: 40px 0 10px;
+      // width: 120px;
+      width: 140px;
+    }
+
+    .summary {
+      align-content: flex-start;
+      margin: 40px 0 0;
+      padding: 0;
+      width: 50%;
+    }
+  }
+
+  .row-top {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .cta-row {
+    width: 100%;
+
+    h3 {
+      margin: 0 0 8px;
+    }
+  }
+
+  /**
+   * Main
+   */
+
+  .content-wide {
+    float: left;
+    padding: 0 20px;
+    width: 54%;
+
+    .home {
+      justify-content: flex-start;
+    }
+  }
+
+  .content-wide h2 {
+    background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    margin: 0 0 20px -25px;
+    padding: 0 0 0 25px;
+    text-align: left;
+  }
+
+  .get-img {
+    margin: 0 auto;
+  }
+
+  .content-wide,
+  .sidebar {
+    // padding-bottom: 20px;
+    padding: 20px 0;
+  }
+
+  .content {
+    padding: 0 0 20px;
+  }
+
+
+  /**
+   * Homepage - Sidebar
+   */
+
+  .sidebar {
+    float: right;
+    width: 37%;
+  }
+
+  .sidebar-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+    // width: 50%;
+    width: 37%;
+  }
+
+  .sidebar-list {
+    margin: 0 10px;
+    // width: 150px;
+  }
+
+  .speakers,
+  .organizers {
+    justify-content: flex-start;
+  }
+
+  .speakers-list,
+  .organizers-list {
+    justify-content: flex-start;
+
+    a {
+      margin: 0 5px 16px;
+    }
+  }
+
+  .organizers-list {
+    justify-content: flex-start;
+    width: 70%;
+  }
+
+  .organizers-list a span {
+    margin: 0;
+  }
+
+  .sidebar-social-list {
+    justify-content: flex-start;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .sidebar h2,
+  .sidebar h3 {
+    text-align: left;
+  }
+
+  .sidebar h3 {
+    font-size: 14px;
+  }
+
+  .speakers-list a:last-of-type {
+    margin: 0 auto 0 0;
+  }
+
+  .speakers-list a span,
+  .organizers-list a span {
+    width: 90px;
+  }
+
+  .speakers-list img,
+  .organizers-list img {
+    margin: 0 auto;
+    width: 76px;
+  }
+
+  .sidebar-list span,
+  .sidebar-list a,
+  .sidebar-list p {
+    padding: 0 0 0 4px;
+  }
+
+  #sidebar .personnel h3 {
+    clear: both;
+    display: block;
+    margin: 0 0 15px;
+  }
+
+  /**
+   * 768 - Awards
+   */
+
+  .awards-list {
+    width: 675px;
+  }
+
+  .awards-banner {
+    img {
+      margin: 0 28px 0 0;
+    }
+
+    .gety-text {
+      font-size: 20px;
+    }
+  }
+
+  .award-img {
+    flex-direction: column;
+
+    img {
+      align-self: end;
+    }
+  }
+
+  .award-content {
+    margin: 0 0 0 36px;
+  }
+
+  .award-title {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .awards-header {
+    margin: 40px 0 0;
+  }
+
+  .awards .awards-h2 {
+    margin: 40px 0 20px 20px;
+  }
+}
