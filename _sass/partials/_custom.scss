@@ -37,8 +37,14 @@ h2 {
   margin: 0 0 8px;
 }
 
+.content-wide h2,
+.sidebar h2 {
+  margin: 20px 0 8px;
+  width: 100%;
+}
+
 .content h2 {
-   // background: url(images/h2_bg.gif) 0 5px no-repeat;
+   // background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
   padding: 0 0 0 10px;
   margin: 16px 0 20px;
   text-align: initial;
@@ -114,6 +120,10 @@ ul {
   display: none;
 }
 
+/**
+ * Subheader
+ */
+
 .subheader,
 .content-wide {
   padding: 0 16px;
@@ -125,11 +135,31 @@ ul {
   justify-content: center;
 }
 
+.cta {
+  text-align: center;
+}
+
 .summary {
   margin: 20px 0;
   padding: 0 20px;
   text-align: center;
 }
+
+.register-btn {
+  margin: 10px auto;
+}
+
+/**
+ * Homepage
+ */
+
+.home {
+  margin: 0 0 16px;
+}
+
+/**
+ * Speakers
+ */
 
 .speakers-list,
 .organizers-list {
@@ -146,6 +176,11 @@ ul {
   margin: 0 0 32px;
   text-align: center;
   width: 50%;
+}
+
+.speakers-list img,
+.organizers-list img {
+  margin: 0 auto;
 }
 
 .organizers-list {
@@ -193,6 +228,11 @@ img {
 .imgRight {
   float: right;
   margin: 0 0 0 15px;
+}
+
+.align-center {
+  display: block;
+  margin: 0 auto;
 }
 
 .clear {
