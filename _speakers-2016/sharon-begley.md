@@ -1,6 +1,6 @@
 ---
 name: Sharon Begley
-image: /assets/images/get2016/Sharon-Begley.jpg
+image: /get2016/images/Sharon-Begley.jpg
 order: 2
 ---
 

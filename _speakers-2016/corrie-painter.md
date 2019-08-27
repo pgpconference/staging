@@ -1,6 +1,6 @@
 ---
 name: Corrie Painter
-image: /assets/images/get2016/Corrie-Painter.jpg
+image: /get2016/images/Corrie-Painter.jpg
 order: 15
 ---
 

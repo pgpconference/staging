@@ -1,6 +1,6 @@
 ---
 name: Joi Ito
-image: /assets/images/get2016/Joi-Ito.jpg
+image: /get2016/images/Joi-Ito.jpg
 order: 11
 ---
 

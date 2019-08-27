@@ -1,6 +1,6 @@
 ---
 name: Rob Knight
-image: /assets/images/get2016/Rob-Knight.jpg
+image: /get2016/images/Rob-Knight.jpg
 order: 13
 ---
 

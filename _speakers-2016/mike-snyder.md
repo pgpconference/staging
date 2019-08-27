@@ -1,6 +1,6 @@
 ---
 name: Mike Snyder
-image: /assets/images/get2016/Mike-Snyder.jpg
+image: /get2016/images/Mike-Snyder.jpg
 order: 17
 ---
 

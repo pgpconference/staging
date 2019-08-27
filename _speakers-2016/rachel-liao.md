@@ -1,6 +1,6 @@
 ---
 name: Rachel Liao
-image: /assets/images/get2016/Rachel_Liao.jpg
+image: /get2016/images/Rachel_Liao.jpg
 order: 14
 ---
 

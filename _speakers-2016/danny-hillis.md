@@ -1,6 +1,6 @@
 ---
 name: Danny Hillis
-image: /assets/images/get2016/Danny-Hillis.jpg
+image: /get2016/images/Danny-Hillis.jpg
 order: 9
 ---
 

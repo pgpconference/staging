@@ -1,6 +1,6 @@
 ---
 name: Jessica Green
-image: /assets/images/get2016/Jessica-Green.jpg
+image: /get2016/images/Jessica-Green.jpg
 order: 8
 ---
 

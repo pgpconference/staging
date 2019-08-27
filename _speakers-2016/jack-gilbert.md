@@ -1,6 +1,6 @@
 ---
 name: Jack Gilbert
-image: /assets/images/get2016/Jack-Gilbert.jpg
+image: /get2016/images/Jack-Gilbert.jpg
 order: 7
 ---
 

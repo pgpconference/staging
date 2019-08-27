@@ -1,6 +1,6 @@
 ---
 name: Kathy Hudson
-image: /assets/images/get2016/Kathy-Hudson.jpg
+image: /get2016/images/Kathy-Hudson.jpg
 order: 10
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: Eric + Sonia
-image: /assets/images/get2016/Sonia-Eric.jpg
+image: /get2016/images/Sonia-Eric.jpg
 order: 19
 ---
 

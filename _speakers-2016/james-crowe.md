@@ -1,6 +1,6 @@
 ---
 name: James Crowe
-image: /assets/images/get2016/James_Crowe.jpeg
+image: /get2016/images/James_Crowe.jpeg
 order: 4
 ---
 

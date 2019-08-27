@@ -1,6 +1,6 @@
 ---
 name: Finale Doshi Velez
-image: /assets/images/get2016/Finale-Doshi-Velez.jpg
+image: /get2016/images/Finale-Doshi-Velez.jpg
 order: 5
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: Erika von Mutius
-image: /assets/images/get2016/Erika-von Mutius.jpg
+image: /get2016/images/Erika-von Mutius.jpg
 order: 18
 ---
 

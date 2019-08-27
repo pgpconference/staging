@@ -1,6 +1,6 @@
 ---
 name: Geoffrey Siwo
-image: /assets/images/get2016/Geoffrey-Siwo.jpeg
+image: /get2016/images/Geoffrey-Siwo.jpeg
 order: 16
 ---
 
