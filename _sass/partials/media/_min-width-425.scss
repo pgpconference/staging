@@ -1,58 +1,5 @@
 @media only screen and (min-width: 425px) {
 
-  // .top-nav {
-  //   position: fixed;
-  //   right: 0;
-  //   top: 0;
-  //   width: 40%;
-  //   border: 0;
-
-  //   li {
-  //     width: 80%;
-
-  //     &:last-of-type a {
-  //       padding: 10px 0 16px;
-  //     }
-
-  //     a,
-  //     a:visited {
-  //       font-size: 14px;
-  //       padding: 10px 0;
-  //     }
-  //   }
-  // }
-
-  // .site-nav {
-  //   input:checked~.trigger {
-  //     background: white;
-  //     border-radius: 5px;
-  //     border: 1px solid #e8e8e8;
-  //     display: flex;
-  //     flex-wrap: wrap;
-  //     justify-content: center;
-  //     padding: 52px 0 15px;
-  //     position: absolute;
-  //     z-index: -1;
-  //   }
-
-  //   .menu-icon>svg path {
-  //     fill: white;
-  //   }
-
-  //   .menu-icon {
-  //     width: 46px;
-  //     height: 21px;
-  //     padding: 15px 0;
-  //   }
-
-  //   label[for="nav-trigger"] {
-  //     width: 46px;
-  //     height: 50px;
-  //     background: black;
-  //     border: 1px solid black;
-  //   }
-  // }
-
   .content h2 {
     background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
     margin: 20px 0;

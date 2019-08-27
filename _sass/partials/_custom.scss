@@ -183,8 +183,9 @@ ul {
   width: 50%;
 }
 
-.speakers-list img,
-.organizers-list img {
+.content-wide .speakers-list img,
+.content-wide .organizers-list img {
+  border: 1px solid #b2b4b5;
   margin: 0 auto;
 }
 
@@ -266,4 +267,6 @@ img {
   margin-bottom: 16px;
 }
 
-
+.mt20 {
+  margin-top: 20px;
+}

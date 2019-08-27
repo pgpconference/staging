@@ -2,9 +2,7 @@
 @media only screen and (min-width: 768px) {
   #oho {
     margin: 0 auto;
-    // padding: 0;
     padding: 50px 0 0;
-    // width: calc(100vw - 10vw);
     width: calc(100vw - 6vw);
   }
 
@@ -14,7 +12,9 @@
     padding: 0;
   }
 
+
   .site-logo,
+  .site-title,
   .subheader {
     padding: 0;
   }
@@ -51,23 +51,20 @@
       a:hover {
         color: $link-hover-color;
         display: block;
-        // margin: 0 25px;
       }
     }
   }
 
-  /**
-   * Nav - Wide Screen
-   */
-
-  .top-nav,
-  .top-nav li {
+  .top-nav {
     width: auto;
-  }
 
-  .top-nav li a,
-  .top-nav li:last-of-type a {
-    padding: 0;
+    li {
+      width: auto;
+      a,
+      &:last-of-type a {
+        padding: 0;
+      }
+    }
   }
 
   .site-nav {
@@ -76,24 +73,30 @@
     float: right;
     position: static;
     width: auto;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+      margin-left: auto;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
   }
-  .site-nav label[for="nav-trigger"] {
-    display: none;
-  }
-  .site-nav .menu-icon {
-    display: none;
-  }
-  .site-nav input ~ .trigger {
-    display: block;
-  }
-  .site-nav .page-link {
-    display: inline;
-    padding: 0;
-    margin-left: auto;
-  }
-  .site-nav .page-link:not(:last-child) {
-    margin-right: 20px;
-  }
+
   .get-logo {
     width: 50%;
   }
@@ -102,15 +105,11 @@
     border-bottom: 3px solid #231f20;
     display: inline-flex;
     justify-content: space-between;
-    // margin: 16px 0 auto;
     margin: 0;
-    // padding: 0 10px;
 
     .cta {
       display: inline-flex;
-      // margin: 40px 0 20px;
       margin: 40px 0 10px;
-      // width: 120px;
       width: 140px;
     }
 
@@ -140,13 +139,43 @@
    * Main
    */
 
+
+  /**
+   * Main - Non-Homepage
+   */
+
+  .content {
+    padding: 0 0 20px 15px;
+
+    h2 {
+      padding: 0 0 0 25px;
+    }
+  }
+
+
+  /**
+   * Main - Homepage
+   */
+
+   .content-wide,
+   .sidebar {
+     padding: 20px 0;
+   }
+
   .content-wide {
+    box-sizing: border-box;
     float: left;
-    padding: 0 20px;
-    width: 54%;
+    // padding: 0 20px;
+    padding: 20px 30px;
+    // width: 54%;
+    width: 62%;
 
     .home {
       justify-content: flex-start;
+    }
+
+    .mt20 {
+      margin-top: 20px;
     }
   }
 
@@ -164,17 +193,6 @@
     margin: 0 auto;
   }
 
-  .content-wide,
-  .sidebar {
-    // padding-bottom: 20px;
-    padding: 20px 0;
-  }
-
-  .content {
-    padding: 0 0 20px;
-  }
-
-
   /**
    * Homepage - Sidebar
    */
@@ -182,50 +200,6 @@
   .sidebar {
     float: right;
     width: 37%;
-  }
-
-  .sidebar-social-list {
-    display: flex;
-    flex-wrap: wrap;
-    float: right;
-    justify-content: center;
-    // width: 50%;
-    width: 37%;
-  }
-
-  .sidebar-list {
-    margin: 0 10px;
-    // width: 150px;
-  }
-
-  .speakers,
-  .organizers {
-    justify-content: flex-start;
-  }
-
-  .speakers-list,
-  .organizers-list {
-    justify-content: flex-start;
-
-    a {
-      margin: 0 5px 16px;
-    }
-  }
-
-  .organizers-list {
-    justify-content: flex-start;
-    width: 70%;
-  }
-
-  .organizers-list a span {
-    margin: 0;
-  }
-
-  .sidebar-social-list {
-    justify-content: flex-start;
-    padding: 0;
-    text-align: left;
-    width: 100%;
   }
 
   .sidebar h2,
@@ -237,25 +211,67 @@
     font-size: 14px;
   }
 
-  .speakers-list a:last-of-type {
-    margin: 0 auto 0 0;
+  /**
+   * Sidebar - Speakers
+   */
+  .speakers,
+  .organizers {
+    justify-content: flex-start;
   }
 
-  .speakers-list a span,
-  .organizers-list a span {
-    width: 90px;
+  .speakers {
+    margin: 0 0 20px;
   }
 
-  .speakers-list img,
-  .organizers-list img {
-    margin: 0 auto;
-    width: 76px;
+  .speakers-list,
+  .organizers-list {
+    justify-content: flex-start;
+
+    a {
+      margin: 0 5px 16px;
+      width: 76px;
+
+      &:last-of-type {
+        margin: 0 auto 0 0;
+      }
+    }
+
+    a div,
+    img {
+      margin: 0 auto;
+      width: 76px;
+    }
   }
 
-  .sidebar-list span,
-  .sidebar-list a,
-  .sidebar-list p {
-    padding: 0 0 0 4px;
+  .organizers-list {
+    justify-content: flex-start;
+    width: 70%;
+
+    a span {
+      margin: 0;
+    }
+  }
+
+  .sidebar-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: flex-start;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .sidebar-list {
+    margin: 0 10px;
+  }
+
+  .sidebar-list  {
+    span,
+    a,
+    p {
+      padding: 0 0 0 4px;
+    }
   }
 
   #sidebar .personnel h3 {
@@ -265,8 +281,34 @@
   }
 
   /**
+   * Sponsors
+   */
+
+  .sponsor {
+      display: flex;
+      flex-direction: row;
+    }
+
+  .sponsor-bio {
+    width: 392px;
+  }
+
+  // 768
+  .sponsor-img {
+    margin: 0 0 0 35px;
+    padding: 0 20px 0 0;
+  }
+
+
+  /**
    * 768 - Awards
    */
+
+  body.awards .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 
   .awards-list {
     width: 675px;
@@ -280,6 +322,19 @@
     .gety-text {
       font-size: 20px;
     }
+  }
+
+  .awards-header h2 {
+    margin: 0 0 20px;
+    // clear: both;
+  }
+
+  .awards-list {
+    width: calc(100vw - 36px);
+  }
+
+  .award {
+    width: 675px;
   }
 
   .award-img {

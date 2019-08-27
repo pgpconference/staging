@@ -33,5 +33,5 @@ layout: home
 
 <div class="align-center"><img src="{{ "/get2016/images/getexpo-all.png" | relative_url }}" alt="expo"></div>
 
-<h2>About GETy Awards</h2>
+<h2 class="mt20">About GETy Awards</h2>
 <p>During the evening of April 25th, we will have our inaugural GETy Awards ceremony honoring people and projects that have displayed excellence in participant-centered research. There are seven award categories: Communications, Diversity, Governance, Participant Pioneers, People’s Choice, Sharing and Toolmakers. For details and to nominate, please visit the <a href="http://www.getconference.org/get2016/awards.html">GETy Awards page</a>.</p>
