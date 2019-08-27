@@ -1,7 +1,7 @@
 @media only screen and (min-width: 425px) {
   .content h2 {
-    background: url('/assets/images/h2_bg.gif') 0 5px no-repeat;
-    margin: 0 0 20px;
+    background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
+    margin: 20px 0;
     // padding: 0 0 0 10px;
     padding: 0 0 0 20px;
     text-align: initial;
@@ -35,7 +35,7 @@
   }
 
   .speaker-img {
-    margin: 0;
+    // margin: 0;
   }
 
   .awards-speaker {
@@ -45,6 +45,10 @@
   .sidebar-social-list {
     text-align: center;
   }
+
+  /**
+   * Awards
+   */
 
   .awards-header h2,
   .awards .awards-h2 {
@@ -140,7 +144,7 @@
   .sponsors-list,
   .awards-list {
     margin: 0 auto;
-    width: calc(100vw - 60px);
+    // width: calc(100vw - 60px);
   }
 
   .speaker,
@@ -162,8 +166,13 @@
    * 576 - Speaker
    */
 
+
   .speaker-img {
     padding: 0 20px 0 0;
+  }
+
+  .speaker-bio {
+    padding: 0 0 0 20px;
   }
 
   /**
@@ -213,7 +222,7 @@
 
   .awards-header h2,
   .awards .awards-h2 {
-    background: url('/assets/images/h2_bg.gif') 0 5px no-repeat;
+    background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
     padding: 0 0 0 20px;
     margin: 0 0 20px 0;
     text-align: initial;
@@ -229,7 +238,7 @@
   }
 
   .awards-header h2 {
-    background: url("/assets/images/h2_bg.gif") 0 5px no-repeat;
+    background: url("#{$baseurl}/assets/images/h2_bg.gif") 0 5px no-repeat;
     text-align: left;
     margin: 0 0 20px 20px;
     padding: 0 0 0 20px;
@@ -290,9 +299,14 @@
       a:hover {
         color: $link-hover-color;
         display: block;
-        margin: 0 25px;
+        // margin: 0 25px;
       }
     }
+  }
+
+  #oho {
+    margin: 0 auto;
+    width: calc(100vw - 10vw);
   }
 
   /**
@@ -334,11 +348,21 @@
     margin: 40px 0 20px 20px;
   }
 }
+
 @media only screen and (min-width: 920px) {
 
 }
 
+@media only screen and (min-width: 1024px) {
+  #oho {
+    width: calc(100vw - 20vw);
+  }
+}
+
 // Extra large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
-
+  #oho {
+    margin: 0 auto;
+    width: 1000px;
+  }
 }

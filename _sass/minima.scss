@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+$baseurl: '/pgpconference';
 // Import partials.
 @import
   'partials/variables',
@@ -8,8 +9,8 @@
   'partials/syntax-highlighting',
   'partials/custom',
   'partials/collections',
+  'partials/agenda',
   'partials/media'
   // 'partials/get2016',
-  // 'partials/agenda',
   // 'partials/labs'
   ;
