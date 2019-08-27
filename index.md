@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+redirect_from:
+  - get2016/
 ---
 
 <h2>About the GET Conference</h2>
@@ -27,11 +29,12 @@ layout: home
 
 <p>Sign-up for GET Labs and you can experience the best participatory health research studies around today and advance human health through direct participation in up to 17 different studies.</p>
 
-<p><img src="/assets/images/get2016/getlabs_2016.png" alt="labs"></p>
+<p><img src="{{ "/get2010/images/btn_register_now.gif" | relative_url }}" alt="Register Now"></p>
+<p><img src="{{ "/get2016/images/getlabs_2016.png" | relative_url }}" alt="labs"></p>
 
 <p>GET Expo is a forum for researchers where toolmakers and companies that support participatory health studies showcase their products, services, platforms and share know-how.</p>
 
-<p><img src="/assets/images/get2016/getexpo-all.png" alt="expo"></p>
+<p><img src="{{ "/get2016/images/getexpo-all.png" | relative_url }}" alt="expo"></p>
 
 <h2>About GETy Awards</h2>
 <p>During the evening of April 25th, we will have our inaugural GETy Awards ceremony honoring people and projects that have displayed excellence in participant-centered research. There are seven award categories: Communications, Diversity, Governance, Participant Pioneers, People’s Choice, Sharing and Toolmakers. For details and to nominate, please visit the <a href="http://www.getconference.org/get2016/awards.html">GETy Awards page</a>.</p>

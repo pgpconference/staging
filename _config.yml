@@ -59,6 +59,7 @@ plugins:
   - jekyll-admin
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
