@@ -30,6 +30,7 @@
     height: 28px;
     list-style: none;
     padding: 71px 0 1px 0;
+    position: static;
 
     li {
       display: block;
@@ -55,6 +56,44 @@
     }
   }
 
+  /**
+   * Nav - Wide Screen
+   */
+
+  .top-nav,
+  .top-nav li {
+    width: auto;
+  }
+
+  .top-nav li a,
+  .top-nav li:last-of-type a {
+    padding: 0;
+  }
+
+  .site-nav {
+    background-color: inherit;
+    border: none;
+    float: right;
+    position: static;
+    width: auto;
+  }
+  .site-nav label[for="nav-trigger"] {
+    display: none;
+  }
+  .site-nav .menu-icon {
+    display: none;
+  }
+  .site-nav input ~ .trigger {
+    display: block;
+  }
+  .site-nav .page-link {
+    display: inline;
+    padding: 0;
+    margin-left: auto;
+  }
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 20px;
+  }
   .get-logo {
     width: 50%;
   }

@@ -109,6 +109,8 @@ ul {
 
 .site-header {
   border-bottom: 3px solid $border-color;
+  display: block;
+  float: none;
   padding: 0 0 10px;
 }
 
@@ -116,9 +118,12 @@ ul {
   padding: 40px 20px 20px;
 }
 
-.top-nav {
-  display: none;
+.nowrap {
+  margin: 0 auto;
+  max-width: initial;
+  padding: 0;
 }
+
 
 /**
  * Subheader
@@ -260,3 +265,5 @@ img {
 .margin-bottom-16 {
   margin-bottom: 16px;
 }
+
+

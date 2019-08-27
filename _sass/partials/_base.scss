@@ -192,6 +192,18 @@ pre {
   }
 }
 
+.nowrap {
+  margin: 0 auto;
+  max-width: none;
+  padding: 0;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    margin: 0 auto;
+    max-width: none;
+    padding: 0;
+  }
+}
 
 
 /**
