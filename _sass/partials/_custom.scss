@@ -118,40 +118,12 @@ ul {
   padding: 40px 20px 20px;
 }
 
-.top-nav {
-  // display: none;
+.nowrap {
+  margin: 0 auto;
+  max-width: initial;
+  padding: 0;
 }
 
-.top-nav {
-  // display: block;
-  // float: right;
-  // height: 28px;
-  // list-style: none;
-  // padding: 71px 0 1px 0;
-
-  li {
-    display: block;
-    float: left;
-
-    a:link,
-    a:link,
-    a:visited {
-      color: $text-color;
-      display: block;
-      float: left;
-      font-size: 12px;
-      margin: 0 25px 0 0;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-
-    a:hover {
-      color: $link-hover-color;
-      display: block;
-      // margin: 0 25px;
-    }
-  }
-}
 
 /**
  * Subheader
