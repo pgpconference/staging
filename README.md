@@ -4,7 +4,7 @@
 
 * [Questions](#questions)
 * [Issues](#issues)
-* [Nav Menu](#nav-menu)
+  * [Sidebar](#sidebar)
   * [Labs](#labs)
   * [Collections](#collections)
     * [Relative Directories](#relative-directories)
@@ -16,6 +16,7 @@
   * [Refactor SCSS Code](#refactor-scss-code)
   * [Nav](#nav)
   * [Ordered Collections](#ordered-collections)
+* [Completed](#completed)
 
 <!-- /MarkdownTOC -->
 
@@ -31,10 +32,10 @@ The GET Conference repo.
 <a id="issues"></a>
 ## Issues
 
-<a id="nav-menu"></a>
-## Nav Menu
+<a id="sidebar"></a>
+### Sidebar
 
-* Glitch at 768px (fine again at 769px)
+* Speaker and Organizer Font Styles
 
 <a id="labs"></a>
 ### Labs
@@ -73,7 +74,6 @@ See here:
 <a id="homepage"></a>
 ### Homepage
 
-* 768-862px: Sidebar only showing 2 speakers
 
 <a id="speakers"></a>
 ### Speakers
@@ -147,3 +147,10 @@ See here:
   {%- endif -%}
 {%- endfor -%}
 ```
+
+<a id="completed"></a>
+## Completed
+
+* Make Homepage fluid
+* Sidebar - SPeakers & Organizer better markup (replace span w/ div)
+* * 768-862px: Sidebar only showing 2 speakers
