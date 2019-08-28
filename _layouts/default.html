@@ -12,8 +12,7 @@
   {% endif %}
     <div id="oho">
 
-    {% assign menu_year = "header" | append: page.year %}
-    {%- include_cached header.html year=menu_year -%}
+    {%- include header.html -%}
 
     {% if page.layout == "home" %}
       {%- include_cached subheader.html -%}

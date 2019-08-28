@@ -11,17 +11,3 @@ header2016:
     url: "/get2016/labs"
   - title: AWARDS
     url: "/get2016/awards"
-
-header2015:
-  - title: 2015 HOME
-    url: "/get2015/"
-  - title: SPEAKERS
-    url: "/get2015/speakers"
-  - title: SPONSORS
-    url: "/get2015/sponsors"
-  - title: AGENDA
-    url: "/get2015/agenda"
-  - title: LABS+EXPO
-    url: "/get2015/labs"
-  - title: AWARDS
-    url: "/get2015/awards"
