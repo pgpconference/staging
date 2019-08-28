@@ -24,8 +24,9 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="questions"></a>
 ## Questions
 
-* Is there any reason the "Sign up for Email Updates" link on the Sidebar needs to go to /updates.html?
-  * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
+1. Is there any reason the "Sign up for Email Updates" link on the Sidebar needs to go to /updates.html?
+    * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
+2. Google Analytics Setup?
 
 <a id="remaining-years"></a>
 ## Remaining Years

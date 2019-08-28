@@ -1,3 +1,7 @@
+/**
+ * Agenda
+ */
+
 .agenda-heading {
   font-size: 14px;
   font-weight: 700;
@@ -18,111 +22,50 @@
 .session-details {
   clear: both;
   display: inline-block;
+  max-width: 76%;
   width: 200px;
 }
 
 .session-list {
-  max-width: 400px;
-}
-
-.agenda-left {
-  width: 65px;
-  /* float: left; */
-  margin: 0 20px 0 0;
-  display: inline-block;
-  vertical-align: top;
-}
-
-/**
- * Agenda
- */
-
-.session-list {
-  max-width: 400px;
   margin: 0 0 20px;
+  max-width: 400px;
 }
 
 .agenda-left {
-  width: 65px;
-  /* float: left; */
+  // float: left;
+  display: inline-block;
   margin: 0 20px 0 0;
-  display: inline-block;
   vertical-align: top;
+  width: 65px;
 }
 
-.session-details {
-/*   max-width: 290px; */
-  clear: both;
-  /*   float: none; */
-  display: inline-block;
-  max-width: 76%;
-}
-
-// .sessions {
-//   display: flex;
-//   flex-wrap: wrap;
-//   // justify-content: space-between;
+// .session-list {
+//   margin: 0 0 20px;
+//   max-width: 400px;
 // }
 
-// ul.session-list {
-//   max-width: 625px;
-//   padding: 0;
-// }
-
-// .sessions > * {
+// .agenda-left {
+//   // float: left;
+//   display: inline-block;
 //   margin: 0 20px 0 0;
-// }
-
-// .session {
+//   vertical-align: top;
 //   width: 65px;
 // }
 
-
-// .content h3 {
-//   font-weight: 700;
-//   line-height: 1.5;
+// .session-details {
+//   // max-width: 290px;
+//   clear: both;
+//   // float: none;
+//   display: inline-block;
+//   max-width: 76%;
 // }
 
-// .session-time {
-//   margin: 0 20px 0;
-//   width: 65px;
-// }
+.content .venue h2 {
+  margin: 25px 0;
+}
 
-// .sessions {
-//   margin: 0 0 18px;
-//   max-height: 36px;
-// }
+.venue-address,
+.venue-img {
+  margin: 0 0 16px;
+}
 
-// ul.session-list {
-//   margin: 0 0 52px;
-// }
-
-// .no-max-height {
-//   max-height: initial;
-
-//   p {
-//     margin: 0;
-//   }
-// }
-
-// .session-title {
-//   text-transform: capitalize;
-// }
-
-// time.session-time {
-//   width: 50px;
-//   text-align: right;
-//   margin: 0 35px 0 0;
-// }
-
-// .venue {
-//   margin: 50px 0 20px 0;
-// }
-
-// .venue-address {
-//   margin: 0 0 16px;
-// }
-
-// .venue-img {
-//   margin: 0 0 16px;
-// }
