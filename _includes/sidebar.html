@@ -7,7 +7,7 @@
       {% for speaker in speakers %}
       <a href="/get2016/speakers#{{ speaker.name }}">
         <div class="sidebar-speaker-img"><img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}"></div>
-        <div>{{ speaker.name }}</div>
+        <div class="speaker-name">{{ speaker.name }}</div>
       </a>
       {% endfor %}
     </div>
@@ -19,7 +19,7 @@
       {% for organizer in organizers %}
       <a href="/get2016/speakers#{{ organizer.name }}">
         <div class="sidebar-speaker-img"><img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}"></div>
-        <div>{{ organizer.name }}</div>
+        <div class="speaker-name">{{ organizer.name }}</div>
       </a>
       {% endfor %}
     </div>

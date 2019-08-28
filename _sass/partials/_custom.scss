@@ -163,11 +163,36 @@ ul {
 }
 
 /**
- * Speakers
+ * Speakers & Organizers
  */
 
-.speakers-list,
-.organizers-list {
+  .sidebar {
+    margin: 0 0 26px;
+  }
+
+ .sidebar .speakers-list,
+ .sidebar .organizers-list {
+   a,
+   a div,
+   img {
+     width: 90px;
+   }
+
+   a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 9px 16px;
+
+    &:last-of-type {
+      // margin: 0 auto 0 0;
+      justify-self: flex-start;
+    }
+   }
+ }
+
+.sidebar .speakers-list,
+.sidebar .organizers-list {
   padding: 0;
 }
 
@@ -176,8 +201,8 @@ ul {
   display: block;
 }
 
-.speakers-list a,
-.organizers-list a {
+.sidebar .speakers-list a,
+.sidebar .organizers-list a {
   margin: 0 0 32px;
   text-align: center;
   width: 50%;
@@ -239,6 +264,10 @@ img {
 .align-center {
   display: block;
   margin: 0 auto;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .clear {
