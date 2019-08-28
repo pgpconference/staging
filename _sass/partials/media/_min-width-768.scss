@@ -286,13 +286,23 @@
    * Sponsors
    */
 
+  // body.sponsors h2 {
+  .sponsors h2 {
+    margin: 25px 0 26px;
+    padding: 0 0 0 25px;
+  }
+
   .sponsor {
-      display: flex;
-      flex-direction: row;
-    }
+    display: flex;
+    flex-direction: row;
+  }
 
   .sponsor-bio {
     width: 392px;
+
+    p {
+      display: inline;
+    }
   }
 
   // 768
