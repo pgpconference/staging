@@ -8,7 +8,7 @@
   {% elsif page.name contains "awards" %}
     <body class="sub awards">
   {% else %}
-    <body class="sub">
+    <body class="sub {{ page.class | downcase }}">
   {% endif %}
     <div id="oho">
 

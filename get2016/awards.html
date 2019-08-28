@@ -1,5 +1,6 @@
 ---
 layout: default
+class: awards
 title: Awards
 ---
 
@@ -27,19 +28,19 @@ title: Awards
   {% endfor %}
 </ul>
 
-<h2>Meet our judges</h2>
+<h2 class="full-width">Meet our judges</h2>
 
-<ul class="speakers-list">
+<ul class="judges-list">
   {% assign judges = site.judges | sort: 'order' %}
   {% for judge in judges %}
-  <li class="speaker">
-    <img class="speaker-img" src="{{ judge.image | relative_url }}" alt="{{ judge.name }}">
-    <span class="speaker-bio">{{ judge.content }}</span>
+  <li class="judge">
+    <img class="judge-img" src="{{ judge.image | relative_url }}" alt="{{ judge.name }}">
+    <span class="judge-bio">{{ judge.content }}</span>
   </li>
   {% endfor %}
 </ul>
 
-<h2>Thanks to our media partners</h2>
+<h2 class="full-width">Thanks to our media partners</h2>
 
 <div class="media-partners">
   {% assign partners = site.media-partners %}
@@ -52,7 +53,7 @@ title: Awards
   {% endfor %}
 </div>
 
-<h2>Ceremony</h2>
+<h2 class="full-width">Ceremony</h2>
 
 <p>Date and Time: <time>6:00pm on April 25, 2016</time>
 <br>Location: Harvard Medical School

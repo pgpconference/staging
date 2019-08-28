@@ -82,12 +82,18 @@
 
   .sidebar {
     width: 330px;
-  }
 
-  .speakers-list,
-  .organizers-list {
-    a {
-      margin: 0 8px 16px;
+    .speakers-list,
+    .organizers-list {
+      a,
+      a div,
+      img {
+        width: 90px;
+      }
+
+      a {
+        margin: 0 9px 16px;
+      }
     }
   }
 }

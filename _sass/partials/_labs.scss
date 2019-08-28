@@ -1,50 +1,156 @@
-.labs-agenda {
-  margin: 29px 0 50px;
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+
+  iframe {
+    height: 100%;
+    left: 0;
+    max-height: 315px;
+    max-width: 560px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.list-style-none {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
 }
 
 .labs-agenda-list {
   list-style: none;
   padding: 0;
-
-  time {
-    font-weight: 700;
-  }
-}
-
-// h2.labs {
-//   margin: 0 0 24px;
-// }
-
-.labs-list {
-  width: 750px;
 }
 
 .lab-header {
   font-weight: 700;
 }
 
-.lab-about {
-  width: 500px;
+.labs-participants {
+  list-style: none;
+  // padding: 0 20px 15px;
+  padding: 0 5px 15px;
 }
 
-.lab-body {
-  display: flex;
-  justify-content: space-between;
+.lab-entry {
+  margin: 40px 0;
 }
 
-.lab-link {
-  margin: 0 35px 0 0;
-  width: 200px;
+.lab-link img {
+  margin: 0 auto;
 }
 
-.lab-img {
-  float: left;
+@media only screen and (min-width: 576px) {
+  .lab-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+
+  .lab-header,
+  .lab-about {
+    width: 55%;
+  /*   width: 50%; */
+  }
+
+  .lab-link {
+    margin: 0 10px 0 0;
+  }
+
+  .lab-link img {
+    margin: 0;
+  }
 }
 
-.btn-spacing-bottom {
-  margin: 0 0 34px;
+
+@media only screen and (min-width: 768px) {
+
+  .labs .content {
+    width: 700px;
+  }
+
+  .labs .content h2 {
+    margin: 25px 0 20px;
+    padding: 0 0 0 25px;
+  }
+
+  .labs-btn {
+    margin: 10px 0 40px;
+  }
+
+  .video-responsive {
+    padding-bottom: 42.25%;
+  }
+
+  .labs-agenda {
+    margin: 29px 0 50px;
+  }
+
+  .labs-agenda-list {
+    list-style: none;
+    padding: 0;
+
+    time {
+      font-weight: 700;
+    }
+  }
+
+  // .labs-list {
+  //   width: 750px;
+  // }
+
+  .lab-header,
+  .lab-about {
+    width: 450px;
+  }
+
+  .lab-header {
+    font-weight: 700;
+  }
+
+  .lab-about {
+    // margin: 0 40px 0 0;
+    margin: 0 20px 0 0;
+    // width: 500px;
+  }
+
+  .lab-link {
+    // margin: 0 35px 0 0;
+    width: 200px;
+  }
+
+  .lab-img {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+
+  // .btn-spacing-bottom {
+  //   margin: 0 0 34px;
+  // }
+
+  // .margin-top-extra {
+  //   margin-top: 50px;
+  // }
+
 }
 
-.margin-top-extra {
-  margin-top: 50px;
+@media only screen and (min-width: 920px) {
+  .labs .content {
+    // width: 750px;
+    width: 775px;
+  }
+
+  .lab-header,
+  .lab-about {
+    width: 500px;
+  }
+
+  .lab-link {
+    margin: 0;
+  }
 }

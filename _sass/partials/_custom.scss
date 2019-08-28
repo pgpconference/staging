@@ -107,6 +107,10 @@ ul {
   justify-content: center;
 }
 
+#oho {
+  padding: 40px 20px 20px;
+}
+
 .site-header {
   border-bottom: 3px solid $border-color;
   display: block;
@@ -114,8 +118,13 @@ ul {
   padding: 0 0 10px;
 }
 
-#oho {
-  padding: 40px 20px 20px;
+.site-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.site-title {
+  padding: 0;
 }
 
 .nowrap {
@@ -163,11 +172,36 @@ ul {
 }
 
 /**
- * Speakers
+ * Speakers & Organizers
  */
 
-.speakers-list,
-.organizers-list {
+  .sidebar {
+    margin: 0 0 26px;
+  }
+
+ .sidebar .speakers-list,
+ .sidebar .organizers-list {
+   a,
+   a div,
+   img {
+     width: 90px;
+   }
+
+   a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 9px 16px;
+
+    &:last-of-type {
+      // margin: 0 auto 0 0;
+      justify-self: flex-start;
+    }
+   }
+ }
+
+.sidebar .speakers-list,
+.sidebar .organizers-list {
   padding: 0;
 }
 
@@ -176,8 +210,8 @@ ul {
   display: block;
 }
 
-.speakers-list a,
-.organizers-list a {
+.sidebar .speakers-list a,
+.sidebar .organizers-list a {
   margin: 0 0 32px;
   text-align: center;
   width: 50%;
@@ -241,6 +275,10 @@ img {
   margin: 0 auto;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .clear {
   clear: both;
 }
@@ -267,6 +305,18 @@ img {
   margin-bottom: 16px;
 }
 
+.mt10 {
+  margin-top: 10px;
+}
+
 .mt20 {
   margin-top: 20px;
+}
+
+.btn-spacing-bottom {
+  margin: 0 0 34px;
+}
+
+.margin-top-extra {
+  margin-top: 50px;
 }

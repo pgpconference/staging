@@ -28,6 +28,14 @@
 }
 
 /**
+ * Sponsors
+ */
+
+.sponsor-bio {
+  width: 90%;
+}
+
+/**
  * Speakers
  */
 
@@ -118,9 +126,22 @@
 //   display: inline;
 // }
 
-// /**
-//  * Awards
-//  */
+/**
+ * Awards
+ */
+
+.awards {
+  .content {
+    h2 {
+      margin: 25px 0 26px;
+    }
+
+    .awards-header h2 {
+      margin: 0 0 1px;
+    }
+  }
+}
+
 
 .awards-banner {
   display: flex;
@@ -157,8 +178,8 @@
 .awards-banner {
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
   margin: 30px 0 30px;
+  text-align: center;
 }
 
 .content h2 {
@@ -168,6 +189,7 @@
 .awards-header {
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 .awards-list {
@@ -208,6 +230,7 @@ img {
 
 .media-partners {
   margin: 0 0 32px;
+  max-width: 100%;
   padding: 0 20px 0 0;
   width: 675px;
 }
@@ -236,9 +259,33 @@ img {
 }
 
 
-// /**
-//  * Media Sponsors
-//  */
+/**
+ * Judges
+ */
+
+.judges-list {
+  list-style: none;
+  list-style-type: none;
+  width: 90%;
+}
+
+.judge {
+  margin: 0 0 26px;
+}
+
+.judge-img {
+  margin: 0 auto 16px;
+}
+
+/**
+ * Media Sponsors
+ */
+
+
+.partner-row {
+  flex-direction: column;
+  align-items: center;
+}
 
 // .media-sponsors {
 //   margin: 0 0 32px;

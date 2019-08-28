@@ -1,5 +1,4 @@
 @media only screen and (min-width: 425px) {
-
   .content h2 {
     background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
     margin: 20px 0;
@@ -14,25 +13,24 @@
     width: 100%;
   }
 
-  .speakers-list a,
-  .organizers-list a {
-    margin: 0 10px 16px;
-    width: auto;
-  }
-
-  .speakers-list a span,
-  .organizers-list a span {
-    width: 100px;
-  }
-
-  .speakers-list,
-  .organizers-list {
-    justify-content: center;
-  }
-
   .speakers,
   .organizers {
     margin: 20px 0;
+  }
+
+  .sidebar .speakers-list,
+  .sidebar .organizers-list {
+    justify-content: center;
+
+    a {
+      display: block;
+      margin: 0 10px 16px;
+      width: auto;
+    }
+
+    span {
+      width: 100px;
+    }
   }
 
   .speaker-img {
@@ -66,5 +64,13 @@
     margin: 0;
     width: initial;
   }
-}
 
+  /**
+   * Judges
+   */
+
+  .judge-img {
+    margin: 0 auto 16px 0;
+  }
+
+}

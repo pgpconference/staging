@@ -1,5 +1,7 @@
 ---
 layout: default
+class: sponsors
+title: Sponsors
 ---
 
 <h2>Sponsors</h2>

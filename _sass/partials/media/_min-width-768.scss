@@ -20,6 +20,7 @@
   }
 
   .site-logo {
+    display: block;
     float: left;
     padding: 0 0 0 16px;
   }
@@ -148,6 +149,7 @@
     padding: 0 0 20px 15px;
 
     h2 {
+      margin: 25px 0 52px;
       padding: 0 0 0 25px;
     }
   }
@@ -199,6 +201,7 @@
 
   .sidebar {
     float: right;
+    margin: 0;
     width: 37%;
   }
 
@@ -214,17 +217,18 @@
   /**
    * Sidebar - Speakers
    */
-  .speakers,
-  .organizers {
+
+  .sidebar .speakers,
+  .sidebar .organizers {
     justify-content: flex-start;
   }
 
-  .speakers {
+  .sidebar .speakers {
     margin: 0 0 20px;
   }
 
-  .speakers-list,
-  .organizers-list {
+  .sidebar .speakers-list,
+  .sidebar .organizers-list {
     justify-content: flex-start;
 
     a {
@@ -284,13 +288,23 @@
    * Sponsors
    */
 
+  // body.sponsors h2 {
+  .sponsors h2 {
+    margin: 25px 0 26px;
+    padding: 0 0 0 25px;
+  }
+
   .sponsor {
-      display: flex;
-      flex-direction: row;
-    }
+    display: flex;
+    flex-direction: row;
+  }
 
   .sponsor-bio {
     width: 392px;
+
+    p {
+      display: inline;
+    }
   }
 
   // 768
@@ -324,13 +338,31 @@
     }
   }
 
+  // Full Size
+  .awards-banner {
+    margin: 30px 0;
+  }
+  .awards-banner img {
+    margin: 0 48px 0 0;
+  }
+
+  .award-img {
+    margin: 0 80px 0 0;
+    min-width: 120px;
+  }
+
+  .awards .gety-text {
+    padding: 6px;
+  }
+
   .awards-header h2 {
-    margin: 0 0 20px;
+    margin: 0 0 1px;
     // clear: both;
   }
 
   .awards-list {
-    width: calc(100vw - 36px);
+    margin: 0 0 20px;
+    // width: calc(100vw - 36px);
   }
 
   .award {
@@ -360,5 +392,66 @@
 
   .awards .awards-h2 {
     margin: 40px 0 20px 20px;
+  }
+
+  .judge {
+    justify-content: flex-start;
+    display: flex;
+    margin: 0 0 26px;
+  }
+
+  .judges-list {
+    width: 675px;
+    display: block;
+    margin: 0;
+  }
+
+  .judge-img {
+    align-self: baseline;
+    margin: 0 auto 16px;
+    padding: 0;
+  }
+
+  .judge-bio {
+    padding: 0 0 0 20px;
+  }
+
+  .judge-img {
+    align-self: baseline;
+    margin: 0 20px 16px 0;
+    padding: 0;
+  }
+
+  .media-partners {
+    margin: 0 0 20px;
+    padding: 0 20px 0 0;
+    width: 100%;
+  }
+
+  .media-partner-img {
+    margin: 0;
+    width: initial;
+    width: 320px;
+    margin-right: 40px;
+  }
+
+  .partner-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 675px;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 675px;
+    align-items: center;
+  }
+
+  .partner-fb,
+  .partner-tw {
+    margin: 0 40px 0 0;
+    vertical-align: initial;
+    width: 60px;
   }
 }
