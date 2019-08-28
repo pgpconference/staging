@@ -107,6 +107,10 @@ ul {
   justify-content: center;
 }
 
+#oho {
+  padding: 40px 20px 20px;
+}
+
 .site-header {
   border-bottom: 3px solid $border-color;
   display: block;
@@ -114,8 +118,13 @@ ul {
   padding: 0 0 10px;
 }
 
-#oho {
-  padding: 40px 20px 20px;
+.site-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.site-title {
+  padding: 0;
 }
 
 .nowrap {
@@ -296,6 +305,18 @@ img {
   margin-bottom: 16px;
 }
 
+.mt10 {
+  margin-top: 10px;
+}
+
 .mt20 {
   margin-top: 20px;
+}
+
+.btn-spacing-bottom {
+  margin: 0 0 34px;
+}
+
+.margin-top-extra {
+  margin-top: 50px;
 }

@@ -1,5 +1,9 @@
 // Small devices (landscape phones, 576px and up)
 @media only screen and (min-width: 576px) {
+  .site-logo {
+    // display: block;
+  }
+
   .subheader {
     display: block;
     margin: 16px 6.5% 0 0;
@@ -193,6 +197,23 @@
 
   .award-img {
     padding: 0;
+  }
+
+  /**
+   * Judges
+   */
+
+  .judge {
+    display: flex;
+  }
+
+  .judge-bio {
+    padding: 0 0 0 20px;
+  }
+
+  .judge-img {
+    align-self: baseline;
+    margin: 0 20px 16px 0;
   }
 
   .top-nav {

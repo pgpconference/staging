@@ -1,6 +1,6 @@
 @media only screen and (min-width: 920px) {
-  .speakers-list,
-  .organizers-list {
+  .sidebar .speakers-list,
+  .sidebar .organizers-list {
     a,
     a div,
     img {
@@ -9,7 +9,20 @@
 
     a {
       // margin: 0 9px 16px;
+      // margin: 0 15px 16px;
     }
   }
+
+  // .sidebar .speakers-list a div,
+  // .sidebar .speakers-list img,
+  // .sidebar .organizers-list a div,
+  // .sidebar .organizers-list img {
+  //   width: 90px;
+  // }
+
+  // .sidebar .speakers-list a,
+  // .sidebar .organizers-list a {
+  //   margin: 0 15px 16px;
+  // }
 }
 

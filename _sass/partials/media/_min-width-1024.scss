@@ -85,8 +85,14 @@
 
     .speakers-list,
     .organizers-list {
+      a,
+      a div,
+      img {
+        width: 90px;
+      }
+
       a {
-        margin: 0 8px 16px;
+        margin: 0 9px 16px;
       }
     }
   }
