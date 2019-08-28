@@ -116,6 +116,10 @@
     max-width: 540px;
   }
 
+  .speakers .collections-tag {
+    margin: 0 10px 0 111px;
+  }
+
   /**
    * 576 - Sponsor
    */
@@ -128,6 +132,10 @@
   .sponsor-img {
     align-self: flex-start;
     padding: 0 0 16px;
+  }
+
+  .sponsors .collections-tag {
+    padding: 0 20px 16px 0;
   }
 
   /**
