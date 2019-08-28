@@ -1,5 +1,7 @@
 ---
 layout: default
+class: speakers
+title: Speakers
 ---
 
 <h2>Speakers & Discussion Leaders</h2>

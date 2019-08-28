@@ -1,5 +1,7 @@
 ---
 layout: default
+class: get-labs-participants
+title: GET Labs Participants
 ---
 
 ## GET Labs Participants
