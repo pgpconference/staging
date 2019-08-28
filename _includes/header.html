@@ -17,13 +17,7 @@
         </label>
 
         <ul class="trigger nav-links">
-          {% assign menu_data = site.data.navigation. | append: include.year %}
-          {%- for menu_hash in menu_data -%}
-            {%- assign year = menu_hash[0] -%}
-            {{ menu_hash }}
-            {{ year }}
-          {% endfor %}
-          {% for item in {{ menu }} %}
+          {% for item in site.data.navigation.header2016 %}
             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
