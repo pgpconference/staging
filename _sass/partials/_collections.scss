@@ -35,6 +35,10 @@
   width: 90%;
 }
 
+.sponsors .collections-tag {
+  padding: 0 20px 16px 0;
+}
+
 /**
  * Speakers
  */
@@ -54,77 +58,11 @@
   // padding: 0 0 0 20px;
 }
 
-// /**
-//  * Common - Speakers, Awards, Media Sponsors
-//  */
+.speakers .collections-tag {
+  margin: 0 10px;
+}
 
-// .speakers-list,
-// .sponsors-list,
-// .awards-list {
-//   list-style: none;
-//   padding: 0;
-// }
 
-// .speakers-list,
-// .awards-list {
-//   width: 675px;
-//  }
-
-//  .speaker,
-//  .sponsor,
-//  .award {
-//    display: flex;
-//    justify-content: space-between;
-// }
-
-// .speaker,
-// .sponsor {
-//   margin: 0 0 26px;
-// }
-
-// .speaker-img,
-// .award-img, {
-//   align-self: flex-start;
-// }
-
-// /**
-//  * Speakers
-//  */
-
-// .speaker-img {
-//   padding: 0 20px 0 0;
-// }
-
-// .speaker-bio {
-//   padding: 0 0 0 20px;
-// }
-
-// /**
-//  * Sponsors
-//  */
-
-// .sponsors-list {
-//   margin: 58px 0 0;
-//   width: 750px;
-// }
-
-// .sponsor {
-//   margin: 0 0 56px;
-// }
-
-// .sponsor-img {
-//   align-self: center;
-//   padding: 0 20px 0 30px;
-// }
-
-// .sponsor-bio {
-//   padding: 0 4px 0 0;
-//   width: 400px;
-// }
-
-// .sponsor-bio > p {
-//   display: inline;
-// }
 
 /**
  * Awards
@@ -286,36 +224,3 @@ img {
   flex-direction: column;
   align-items: center;
 }
-
-// .media-sponsors {
-//   margin: 0 0 32px;
-//   padding: 0 20px 0 0;
-//   width: 675px;
-// }
-
-// .media-sponsor-img {
-//   margin: 0;
-//   padding: 0;
-//   width: 300px;
-// }
-
-// .sponsor-row {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-//   margin: 32px auto;
-//   text-align: center;
-// }
-
-// .sponsor-fb,
-// .sponsor-tw {
-//   align-self: center;
-// }
-
-// .sponsor-tw {
-//   width: 90px;
-// }
-
-// .sponsor-fb {
-//   width: 57px;
-// }

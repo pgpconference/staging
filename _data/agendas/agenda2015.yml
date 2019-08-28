@@ -1,0 +1,57 @@
+a2015:
+  year: 2015
+  day1:
+    - title: Public Lecture and Reception
+      time: 07:00pm
+      details: "Festive Hall of the Austrian Academy of Sciences
+      <br>\"How new genomic technologies will impact us all\" by George Church
+      <br><br>Followed by a discussion moderated by Esther Dyson
+      with Sharon Terry, Christiane Druml, Markus Müller, M.D."
+
+  day2:
+    - title: Registration
+      time: 08:30am
+    - title: Opening RemarksGiulio Superti-Furga
+      time: 09:00am
+    - title: "Session I: Populations"
+      time: 09:15am
+      details: "Chair: Sir John Chisholm, Genomics England
+          <br><br>Within a few years millions of people will have their genomic data. Multiple countries have embarked on large initiatives aiming to advance precision medicine and the health of their populations. What are the opportunities to realize social benefits that exceed these enormous investments?"
+    - title: Break
+      time: 12:00pm
+      details: Networking and Lunch
+    - title: "Session II: Environments"
+      time: 01:30pm
+      details: "Chair: Tim Spector, UK Twin Registry
+      <br>Human traits and diseases emerge from a complex interplay of genomes and the environment. Large-scale cohort studies have been instrumental for understanding how environmental exposures such as diet, physical activity, and smoking influence our health. New tools for measuring microbiomes, epigenomes and metabolomes are contributing to new insights about environmental components of human health.  What approaches can help us measure important environmental influences of human health so as to maximize the impact of large-scale population genome sequencing and precision medicine initiatives?"
+    - title: Break
+      time: 03:00pm
+    - title: Special Sessions
+      time: 03:30pm
+      details: '<a href="https://docs.google.com/document/d/1adnX5Zku-fPilOCDwYuNKjkf_PELERtBVsujl2NNAwQ/edit">Flash Talks -- 8th floor seminar room</a>'
+    - title: Wrap-up
+      time: 06:00pm
+
+  day3:
+    - title: "Session III: Traits"
+      time: 09:00am
+      details: "Chair: Joseph Kvedar, Center for Connected Health
+      <br>DNA sequencing technologies have revolutionized our ability to measure the molecular basis of life. But when it comes to traits, even the pioneers of the Personal Genome Project still have to fill out lengthy, old-fashioned questionnaires?! What does technology have to offer for improved measurement? And how can we use these tools to facilitate research, healthy living, better medicine?"
+    - title: Break
+      time: 10:30am
+    - title: "Session IV: Society"
+      time: 10:45am
+      details: "Chair: Barbara Prainsack, King's College
+      <br> What does it mean for society when genomic information becomes more broadly available? Which societal trends influence how genomic information is going to be used (or not used) in medicine and beyond? Are there any general lessons to be learned about the relationship between societal developments and technology-driven advances in biomedicine?"
+    - title: Lunch
+      time: 12:15pm
+    - title: "Vignette: Sarah Gray"
+      time: 1:15pm
+    - title: "Session V: Technology"
+      time: 1:30pm
+      details: "Chair: George Church, Harvard
+      <br>New technologies are the most important driver of biomedical research and precision medicine. We are currently harvesting the fruits of investments into DNA sequencing technology and IT infrastructure that were initiated 1-2 decades ago. Which prompts the question: Which technologies being developed today do you think are most promising, in need of further investment, such that we are able to reap their benefits for personal health, medicine and society ~10 years from now?"
+    - title: Special Sessions
+      time: 03:30pm
+    - title: Adjourn
+      time: 05:00pm

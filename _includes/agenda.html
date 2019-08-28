@@ -1,0 +1,88 @@
+{%- for agenda_hash in site.data.agendas -%}
+  {%- assign year = agenda_hash[0] -%}
+  {% if year contains include.year %}
+      {% assign ay = "a" | append: include.year %}
+      {% assign agenda = agenda_hash[1][ay] %}
+      {% assign day1 = agenda.day1 %}
+      {% assign day2 = agenda.day2 %}
+      {% assign day3 = agenda.day3 %}
+      {% endif %}
+{% endfor %}
+
+{% if include.date1 %}
+  <h3 class="agenda-heading">{{ include.date1 }}</h3>
+  <ul class="session-list">
+    {% for session in day1 %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span class="session-title"><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if include.date2 %}
+  <h3 class="agenda-heading">{{ include.date2 }}</h3>
+  <ul class="session-list">
+    {% for session in day2 %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span class="session-title"><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif%}
+
+{% if include.date3 %}
+  <h3 class="agenda-heading">{{ include.date3 }}</h3>
+  <ul class="session-list">
+    {% for session in day3 %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span class="session-title"><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif%}
+
+
+{% comment %}
+{% if include.date2 %}
+  <h3 class="agenda-heading">{{ include.date2 }}</h3>
+  <ul class="session-list">
+    {% for session in day2 %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span class="session-title"><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if include.date3 %}
+  <h3 class="agenda-heading">{{ include.date3 }}</h3>
+  <ul class="session-list">
+    {% for session in day_three %}
+    <li class="sessions {{ session.class }}">
+      <time class="session-time">{{ session.time }}</time>
+      <div class="session-details">
+        <span class="session-title"><strong>{{ session.title }}</strong></span>
+        {{ session.details | markdownify }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% endcomment %}

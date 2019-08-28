@@ -3,7 +3,7 @@
 
     <div class="sidebar-header"><h3>Speakers</h3></div>
     <div class="speakers-list">
-      {% assign speakers = site.speakers-2016 | sort: 'order' %}
+      {% assign speakers = site.speakers2016 | sort: 'order' %}
       {% for speaker in speakers %}
       <a href="/get2016/speakers#{{ speaker.name }}">
         <div class="sidebar-speaker-img"><img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}"></div>
@@ -15,7 +15,7 @@
   <div class="organizers">
   <h3>Co-Organizers</h3>
     <div class="organizers-list">
-      {% assign organizers = site.co-organizers-2016 | sort: 'order' %}
+      {% assign organizers = site.organizers2016 | sort: 'order' %}
       {% for organizer in organizers %}
       <a href="/get2016/speakers#{{ organizer.name }}">
         <div class="sidebar-speaker-img"><img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}"></div>

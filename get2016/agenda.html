@@ -2,42 +2,14 @@
 layout: default
 class: agenda
 title: Agenda
+year: 2016
+date1: April 25, 2016
+date2: April 26, 2016
 ---
 
 <h2>Agenda</h2>
 
-
-<h3 class="agenda-heading">April 25, 2016</h3>
-
-{% if site.data.agenda.day1[0] %}
-  <ul class="session-list">
-    {% for session in site.data.agenda.day1 %}
-    <li class="sessions {{ session.class }}">
-      <time class="session-time">{{ session.time }}</time>
-      <div class="session-details">
-        <span class="session-title"><strong>{{ session.title }}</strong></span>
-        {{ session.details | markdownify }}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
-<h3 class="agenda-heading">April 26, 2016</h3>
-
-{% if site.data.agenda.day2[0] %}
-  <ul class="session-list">
-    {% for session in site.data.agenda.day2 %}
-    <li class="sessions {{ session.class }}">
-      <time class="session-time">{{ session.time }}</time>
-      <div class="session-details">
-        <span><strong>{{ session.title }}</strong></span>
-        {{ session.details | markdownify }}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-{% endif %}
+{% include_cached agenda.html year=page.year date1=page.date1 date2=page.date2 %}
 
 <p><a href="/assets/files/get2016/About_GETConference_2016.pdf">Event Flyer as PDF</a></p>
 <p>*Agenda is subject to change</p>
