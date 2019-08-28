@@ -5,11 +5,14 @@
 * [Questions](#questions)
 * [Remaining Years](#remaining-years)
 * [Issues](#issues)
+  * [2015](#2015)
+    * [Agendas](#agendas)
+  * [Nav Menus](#nav-menus)
   * [Favicon](#favicon)
   * [Collections](#collections)
     * [Relative Directories](#relative-directories)
   * [Sidebar](#sidebar)
-  * [Image Paths](#image-paths)
+  * [2016 Image Paths](#2016-image-paths)
 * [Optional](#optional)
   * [Nav](#nav)
   * [Ordered Collections](#ordered-collections)
@@ -36,17 +39,33 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="issues"></a>
 ## Issues
 
+<a id="2015"></a>
+### 2015
+
+<a id="agendas"></a>
+#### Agendas
+
+* Expand column width
+* Generating accidental repeat data
+
+<a id="nav-menus"></a>
+### Nav Menus
+
+* Need to write conditional logic so that nav menu generates the year-relevant links
+  * Add `year: ` front matter to all pages
+    * encode year into url
+    *
+
 <a id="favicon"></a>
 ### Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
 
-
 <a id="collections"></a>
 ### Collections
 
-* Collections need to be nested under relevant years, if possible.
-  * If not, they will have to be suffixed with year number (not ideal situation)
+* Would like to find a way to tidy the directory structure up
+  * May be a Jekyll limitation though
 
 <a id="relative-directories"></a>
 #### Relative Directories
@@ -71,8 +90,8 @@ See here:
 
 * Speakers and Organizers need font formatting
 
-<a id="image-paths"></a>
-### Image Paths
+<a id="2016-image-paths"></a>
+### 2016 Image Paths
 
 Revert image paths to original structure - will be better for future editing
 
@@ -89,6 +108,7 @@ Needs to be done for:
   * `media\_min-width-425.scss`
   * `media\_min-width-576.scss`
   * `media\_min-width-768.scss`
+
 
 <a id="optional"></a>
 ## Optional

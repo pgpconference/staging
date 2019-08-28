@@ -1,5 +1,4 @@
 <header class="site-header">
-
   <div class="wrapper nowrap">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -18,7 +17,13 @@
         </label>
 
         <ul class="trigger nav-links">
-          {% for item in site.data.navigation.header2016 %}
+          {% assign menu_data = site.data.navigation. | append: include.year %}
+          {%- for menu_hash in menu_data -%}
+            {%- assign year = menu_hash[0] -%}
+            {{ menu_hash }}
+            {{ year }}
+          {% endfor %}
+          {% for item in {{ menu }} %}
             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>

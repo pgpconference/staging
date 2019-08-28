@@ -85,21 +85,23 @@ sass:
   sourcemap: true
 
 collections:
-  speakers-2016:
+  speakers2016:
     output: false
-  co-organizers-2016:
+  speakers2015:
     output: false
-  past-conferences:
+  organizers2016:
+    output: false
+  past-conferences2016:
     output: true
   sponsors2016:
     output: false
-  labs:
+  labs2016:
     output: false
-  expos:
+  expos2016:
     output: false
-  awards:
+  awards2016:
     output: false
-  judges:
+  judges2016:
     output: false
-  media-partners:
+  media-partners2016:
     output: false

@@ -16,7 +16,7 @@ title: Awards
 
 
 <ul class="awards-list">
-  {% assign awards = site.awards %}
+  {% assign awards = site.awards2016 %}
   {% for award in awards %}
   <li class="award">
     <div class="award-img"><img src="{{ award.image | relative_url }}" alt="{{ award.alt }}"></div>
@@ -31,7 +31,7 @@ title: Awards
 <h2 class="full-width">Meet our judges</h2>
 
 <ul class="judges-list">
-  {% assign judges = site.judges | sort: 'order' %}
+  {% assign judges = site.judges2016 | sort: 'order' %}
   {% for judge in judges %}
   <li class="judge">
     <img class="judge-img" src="{{ judge.image | relative_url }}" alt="{{ judge.name }}">
@@ -43,7 +43,7 @@ title: Awards
 <h2 class="full-width">Thanks to our media partners</h2>
 
 <div class="media-partners">
-  {% assign partners = site.media-partners %}
+  {% assign partners = site.media-partners2016 %}
   {% for partner in partners %}
   <div class="partner-row">
     <div class="partner-img media-partner-img"><img src="{{ partner.image | relative_url }}" alt="{{ partner.name }} logo"></div>
