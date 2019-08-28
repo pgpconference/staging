@@ -3,49 +3,42 @@
 <!-- MarkdownTOC -->
 
 * [Questions](#questions)
+* [Remaining Years](#remaining-years)
 * [Issues](#issues)
-  * [Sidebar](#sidebar)
-  * [Labs](#labs)
   * [Collections](#collections)
     * [Relative Directories](#relative-directories)
-    * [Labs - Row Alignments](#labs---row-alignments)
-  * [Homepage](#homepage)
-  * [Speakers](#speakers)
+  * [Sidebar](#sidebar)
   * [Image Paths](#image-paths)
 * [Optional](#optional)
-  * [Refactor SCSS Code](#refactor-scss-code)
   * [Nav](#nav)
   * [Ordered Collections](#ordered-collections)
-* [Completed](#completed)
+* [Miscellaneous Notes For Luna](#miscellaneous-notes-for-luna)
+  * [Refactored SCSS Code](#refactored-scss-code)
 
 <!-- /MarkdownTOC -->
 
 
-The GET Conference repo.
+The GET Conference: https://pgpconference.github.io/pgpconference/
 
 <a id="questions"></a>
 ## Questions
 
-* How is the updates.html redirect working?
-* Speakers page, I changed the images to align to the top of the paragraph. Is that ok?
+* Is there any reason the "Sign up for Email Updates" link on the Sidebar needs to go to /updates.html?
+  * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
+
+<a id="remaining-years"></a>
+## Remaining Years
+
+* Currently the 2010-2105 sites need to be imported. These should be a quicker process than the 2016 site was.
 
 <a id="issues"></a>
 ## Issues
 
-<a id="sidebar"></a>
-### Sidebar
-
-* Speaker and Organizer Font Styles
-
-<a id="labs"></a>
-### Labs
-
-* Needs Desktop styles
-
 <a id="collections"></a>
 ### Collections
 
-* See if I can next collections under get2016, to reduce clutter and ensure continuity in future site iterations
+* Collections need to be nested under relevant years, if possible.
+  * If not, they will have to be suffixed with year number (not ideal situation)
 
 <a id="relative-directories"></a>
 #### Relative Directories
@@ -65,33 +58,62 @@ See here:
 {% endfor %}
 ```
 
-<a id="labs---row-alignments"></a>
-#### Labs - Row Alignments
+<a id="sidebar"></a>
+### Sidebar
 
-* The rows get entirely messed up here
-  * Maybe introduce some divs??
-
-<a id="homepage"></a>
-### Homepage
-
-
-<a id="speakers"></a>
-### Speakers
-
-* Alt Text for Speaker pics
+* Speakers and Organizers need font formatting
 
 <a id="image-paths"></a>
 ### Image Paths
 
-* Revert image paths to original structure - will be better for future editing
+Revert image paths to original structure - will be better for future editing
+
+Needs to be done for:
+* Collections:
+  * Co-Organizers
+  * Expos
+  * Labs
+  * Speakers-2016: christoph-bock.md
+  * Sponsors 2016
+* SASS
+  * `_custom.scss`
+  * `_get2016.scss`
+  * `media\_min-width-425.scss`
+  * `media\_min-width-576.scss`
+  * `media\_min-width-768.scss`
 
 <a id="optional"></a>
 ## Optional
 
-<a id="refactor-scss-code"></a>
-### Refactor SCSS Code
+<a id="nav"></a>
+### Nav
 
-1. Change all #ids to .classes (keep in mind how this will affect markup for current and previous years):
+* See about integrating code for highlighting the current page into the Nav menu
+
+```html
+{%- for path in page_paths -%}
+  {%- assign my_page = site.pages | where: "path", path | first -%}
+  {%- if my_page.title -%}
+  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+  {%- endif -%}
+{%- endfor -%}
+```
+
+<a id="ordered-collections"></a>
+### Ordered Collections
+
+* Specify order in `_config.yml` file instead using variables. See Jekyll - [Manually Ordering Documents](https://jekyllrb.com/docs/collections/#manually-ordering-documents)
+  * This was not working when I attempted. Troubleshoot if possible, since this will be useful for future iterations.
+
+<a id="miscellaneous-notes-for-luna"></a>
+## Miscellaneous Notes For Luna
+
+A note or two for Luna:
+
+<a id="refactored-scss-code"></a>
+### Refactored SCSS Code
+
+1. Changed all #ids to .classes. This may require some adustive for previous conference years.
 
 ```
 #oho
@@ -128,29 +150,3 @@ See here:
 
 * Reminder: I already changed #content and #content-wide to .content and .content-wide.
   * If I run into issues, check this first
-
-<a id="nav"></a>
-### Nav
-
-* See about maybe integrating this code into the Nav (I think it highlights the current page?)
-
-<a id="ordered-collections"></a>
-### Ordered Collections
-
-* Specify order in `_config.yml` file instead using variables. See Jekyll - [Manually Ordering Documents](https://jekyllrb.com/docs/collections/#manually-ordering-documents)
-
-```html
-{%- for path in page_paths -%}
-  {%- assign my_page = site.pages | where: "path", path | first -%}
-  {%- if my_page.title -%}
-  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-  {%- endif -%}
-{%- endfor -%}
-```
-
-<a id="completed"></a>
-## Completed
-
-* Make Homepage fluid
-* Sidebar - SPeakers & Organizer better markup (replace span w/ div)
-* * 768-862px: Sidebar only showing 2 speakers
