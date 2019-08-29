@@ -1,6 +1,6 @@
 ---
 name: Parametric Human Project
-image: images/PHP_250.png
+image: /get2015/images/PHP_250.png
 link: http://www.parametrichuman.org/
 ---
 

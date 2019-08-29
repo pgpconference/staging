@@ -1,6 +1,6 @@
 ---
 name: Illumina
-image: ../get2010/images/illumina.jpg
+image: /get2010/images/illumina.jpg
 link: https://www.illumina.com/
 ---
 

@@ -17,6 +17,7 @@
   * [Nav](#nav)
   * [Ordered Collections](#ordered-collections)
 * [Miscellaneous Notes For Luna](#miscellaneous-notes-for-luna)
+  * [Mobile Nav](#mobile-nav)
   * [Refactored SCSS Code](#refactored-scss-code)
 
 <!-- /MarkdownTOC -->
@@ -138,6 +139,11 @@ Needs to be done for:
 
 A note or two for Luna:
 
+<a id="mobile-nav"></a>
+### Mobile Nav
+
+Determin if `scripts/mobile-nav.js` is actually doing anything, or if I can delete it
+
 <a id="refactored-scss-code"></a>
 ### Refactored SCSS Code
 
@@ -178,3 +184,4 @@ A note or two for Luna:
 
 * Reminder: I already changed #content and #content-wide to .content and .content-wide.
   * If I run into issues, check this first
+  *

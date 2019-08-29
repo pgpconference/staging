@@ -1,6 +1,6 @@
 ---
 name: Novartis
-image: images/Novartis_250.jpg
+image: /get2015/images/Novartis_250.jpg
 link: https://www.novartis.com/
 ---
 

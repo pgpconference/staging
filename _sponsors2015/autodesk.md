@@ -1,6 +1,6 @@
 ---
 name: Autodesk
-image: ../get2014/images/autodesk_250.jpg
+image: /get2014/images/autodesk_250.jpg
 link: http://www.autodesk.com
 ---
 

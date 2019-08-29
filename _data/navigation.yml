@@ -11,3 +11,17 @@ header2016:
     url: "/get2016/labs"
   - title: AWARDS
     url: "/get2016/awards"
+
+header2015:
+  - title: 2015 Home
+    url: "/get2015"
+  - title: Agenda
+    url: "/agenda"
+  - title: Speakers
+    url: "/speakers"
+  - title: Sponsors
+    url: "/sponsors"
+  - title: Apply
+    url: http://www.getconference.org/apply.html"
+  - title: Nominate
+    url: http://www.getconference.org/nominate.html"

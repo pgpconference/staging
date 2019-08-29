@@ -91,9 +91,15 @@ collections:
     output: false
   organizers2016:
     output: false
+  organizers2015:
+    output: false
+  organizers2014:
+    output: false
   past-conferences2016:
     output: true
   sponsors2016:
+    output: false
+  sponsors2015:
     output: false
   labs2016:
     output: false
