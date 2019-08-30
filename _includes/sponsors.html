@@ -1,0 +1,34 @@
+{% for collection in site.collections %}
+  {% if include.col_name contains collection.label %}
+  {% for sponsor in collection.docs %}
+   {% unless sponsor.type == "custom" %}
+<ul class="sponsors-list">
+  <li class="sponsor">
+    <div class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</div>
+    <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
+  </li>
+  {% endunless %}
+  {% endfor %}
+</ul>
+  {% endif%}
+{% endfor %}
+
+
+{% for collection in site.collections %}
+  {% if include.col_name contains collection.label %}
+    {% for sponsor in collection.docs %}
+      {% if sponsor.type == "custom" %}
+<h2>{{ sponsor.heading }}</h2>
+
+<ul class="sponsors-list">
+  <li class="sponsor">
+    <div class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</div>
+    <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
+  </li>
+      {% endif %}
+    {% endfor %}
+</ul>
+  {% endif%}
+{% endfor %}
+
+
