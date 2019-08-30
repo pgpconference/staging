@@ -17,6 +17,7 @@
           </span>
         </label>
 
+        {%- assign current_conf = include.current_conf -%}
         {%- assign year_str = "/get" | append: include.year | default: "2016" -%}
         {%- if year_str contains "201" -%}
         {%- endif -%}
@@ -25,7 +26,11 @@
           {%- if menu[0] contains include.year -%}
             {%- for item in menu[1] -%}
               {%- unless item.url contains "http" %}
+              {%- if current_conf contains page.year or item.url contains year_str -%}
+                <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+              {%- else -%}
                 <li><a href="{{ site.baseurl }}{{ year_str }}{{ item.url }}">{{ item.title }}</a></li>
+              {%- endif -%}
               {%- endunless -%}
               {%- if item.url contains "http" -%}
               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
