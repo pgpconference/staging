@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+year: 2016
 ---
 
 <h2>About the GET Conference</h2>

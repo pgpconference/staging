@@ -2,6 +2,7 @@
 layout: default
 class: get-labs-participants
 title: GET Labs Participants
+year: 2016
 ---
 
 ## GET Labs Participants
