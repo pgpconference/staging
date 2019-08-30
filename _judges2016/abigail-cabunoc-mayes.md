@@ -1,5 +1,6 @@
 ---
 name: Abigail Cabunoc Mayes
+last: Cabunoc Mayes
 image: /get2016/images/Abigail-Cabunoc-Mayes.jpg
 order: 4
 ---

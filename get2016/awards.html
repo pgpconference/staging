@@ -31,15 +31,8 @@ year: 2016
 
 <h2 class="full-width">Meet our judges</h2>
 
-<ul class="judges-list">
-  {% assign judges = site.judges2016 | sort: 'order' %}
-  {% for judge in judges %}
-  <li class="judge">
-    <img class="judge-img" src="{{ judge.image | relative_url }}" alt="{{ judge.name }}">
-    <span class="judge-bio">{{ judge.content }}</span>
-  </li>
-  {% endfor %}
-</ul>
+{% assign str = "site.judges" | append: page.year %}
+{% include_cached judges.html col_name=str %}
 
 <h2 class="full-width">Thanks to our media partners</h2>
 

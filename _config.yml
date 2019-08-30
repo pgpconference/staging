@@ -89,20 +89,10 @@ conference_year: 2016
 collections:
   speakers2016:
     output: false
-    sort_by: last
   speakers2015:
     output: false
   speakers2014:
     output: false
-    order:
-      - alan-priscilla-oppenheimer-foundation.md
-      - google-cloud-platform.md
-      - complete-genomics.md
-      - autodesk.md
-      - ibm.md
-      - involution-studios.md
-      - personalgenomes-org.md
-      - qiagen.md
   speakers2013:
     output: false
   speakers2012:

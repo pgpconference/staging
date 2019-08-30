@@ -1,5 +1,6 @@
 ---
 name: Kaitlin Thaney
+last: Thaney
 image: /get2016/images/Kaitlin-Thaney.jpg
 order: 14
 ---

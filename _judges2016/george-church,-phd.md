@@ -1,5 +1,6 @@
 ---
 name: George Church, PhD
+last: Church
 image: /get2010/images/George-Church.jpg
 order: 6
 ---

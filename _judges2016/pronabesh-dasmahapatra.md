@@ -1,5 +1,6 @@
 ---
 name: Pronabesh DasMahapatra
+last: DasMahapatra
 image: /get2016/images/Pronabesh-DasMahapatra.jpg
 order: 7
 ---

@@ -1,5 +1,6 @@
 ---
 name: Misha Angrist
+last: Angrist
 image: /get2013/images/Misha-Angrist.jpg
 order: 1
 ---

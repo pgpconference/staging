@@ -13,6 +13,7 @@
     * [Labs](#labs)
     * [Agendas](#agendas)
     * [Index page needs to be finished](#index-page-needs-to-be-finished)
+  * [2016](#2016)
   * [Favicon](#favicon)
   * [Collections](#collections)
     * [Relative Directories](#relative-directories)
@@ -56,7 +57,9 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="collections-ordering"></a>
 ### Collections Ordering
 
-* Need to work out how to do dynamic ordering for collections (Speakers, Sponsors, etc).
+* Needs Dynamic Ordering Fix:
+  * Sponsors
+  * Try doing some debugging with this to see if I can go by a central _config.yml file_
 
 <a id="2014"></a>
 ### 2014
@@ -93,6 +96,11 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 
 <a id="index-page-needs-to-be-finished"></a>
 #### Index page needs to be finished
+
+<a id="2016"></a>
+### 2016
+
+* Speakers pg - Daniel Hills bio not bold at start
 
 <a id="favicon"></a>
 ### Favicon
@@ -155,9 +163,11 @@ Needs to be done for:
 <a id="dry"></a>
 ### DRY
 
-* Ideally make the following more DRY:
+* Ideally make the following pages more DRY:
   * Agenda
   * Labs
+* Is it possibly to have a single `_include_` for processing speaker lists that look exactly the same, but might need slightly different classes/data? (Judges, Speakers, etc)
+  * Should be easy enough to do with a bit of liquid
 
 <a id="nav"></a>
 ### Nav

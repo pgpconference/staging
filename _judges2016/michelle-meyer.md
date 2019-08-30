@@ -1,5 +1,6 @@
 ---
 name: Michelle Meyer, J.D., Ph.D.
+last: Meyer
 image: /get2016/images/Michelle-Meyer.jpg
 order: 11
 ---

@@ -1,5 +1,6 @@
 ---
 name: John Cammack
+last: Cammack
 image: /get2016/images/John-Cammack.jpeg
 order: 5
 ---

@@ -1,5 +1,6 @@
 ---
 name: Prabhjot Singh, MD
+last: Singh
 image: /get2016/images/Prabhjot-Singh.jpg
 order: 13
 ---

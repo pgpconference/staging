@@ -1,5 +1,6 @@
 ---
 name: Ryan Phelan
+last: Phelan
 image: /get2016/images/Ryan-Phelan.jpg
 order: 12
 ---

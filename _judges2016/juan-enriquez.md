@@ -1,5 +1,6 @@
 ---
 name: Juan Enriquez
+last: Enriquez
 image: /get2016/images/Juan-Enriquez.jpg
 order: 9
 ---

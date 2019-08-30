@@ -3,45 +3,26 @@ layout: home
 year: 2013
 ---
 
-<h2>Historic Event</h2>
+<h2>April 25-26, 2013</h2>
 
-This year we are celebrating the 10th Anniversary of the Personal Genome Project and the 25th anniversary of the launch of the Human Genome Project. Since its inception in [2010](http://www.getconference.org/GET2010/index.html), the GET Conference series brings together the pioneers of personal genome sequencing to debate the technical, commercial, and societal impacts of affordable DNA sequencing. In 2015, we find ourselves on the verge of massive-scale population genome projects, and we will explore the impact of the breath-taking advances in genomic technologies for health and society.
+The GET Conference is the event for people working at the frontiers of human biology. We invite leading thinkers to discuss the important ways in which new genomic technologies will affect all of our lives in the coming years and to debate their technical, commercial, and societal impacts. We bring together scientists, industry leaders, entrepreneurs, practitioners, investors, researchers, and others to discuss advances in our ability to measure and understand human biology.
 
-## Agenda and Sessions
+The GET Conference is produced by PersonalGenomes.org, a nonprofit organization which aims to increase biological literacy and improve human health through its support of the Personal Genome Project and other groundbreaking initiatives.
 
-Within a few years **millions of people** will have their **genomic data**. Multiple countries have embarked on mega-cohort initiatives aiming to advance **precision medicine** and the health of their populations. What are the opportunities to realize **social benefits** that exceed these **enormous investments**?
+## Topics and themes
 
-We will explore this and more across several sessions:
+Omics: personal genomes, microbiomes, immunomes, metabolomes, more
+Sensors: health and enviromental sensor technologies, self-tracking
+Policy: access, sharing, governance, privacy, IP
+Data & IT: visualization, modeling, applications, tools
+Traits: measurement, interpretation, new products and practices
+Medicine: preventive + predictive + personalized + participatory
 
-*   **Populations**, chaired by Sir John Chisholm, Genomics England
-*   **Society**, chaired by Barbara Prainsack, King's College
-*   **Technology**, chaired by George Church, Harvard Medical School
-*   **Environment**, chaired by Tim Spector, UK Twins Registry
-*   **Traits**, chaired by Joseph Kvedar, Harvard Center for Connected Health
+## Exploring Human Variation -- LIVE in 4D
 
-## Details
+Some of the most well-characterized humans on earth attend the annual GET Conference. Many of these omic astronauts have already obtained personal genome sequencing, had their microbiomes characterized at various bodily habitats, and know something about the average length of their telomeres. The prospect of gaining access to these pioneers (and their data!) attracts an increasing number of research groups to join us for this two day event and organize phenotyping booths, specimen collection stations, sensor distribution and other activities. Phenotypes being studied this year include: brain structure, flu incidence, physical traits, body and home microbiomes, cognition, the sense of smell and skin oiliness. For more info, see [Labs page](http://www.getconference.org/get2013/labs.html).
 
-*   **Date & Place:** 17-19 September 2015 in Vienna, Austria
-*   **Venue:** CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences
-*   All participation fees are covered by PersonalGenomes.org & CeMM. Invited guests are responsible for their own travel.
+## Thanks to our Sponsors
 
-## Your Contribution
+[![sponsors](/get2013/images/Sponsors_02182013b.jpg)](http://www.getconference.org/get2013/sponsors.html)
 
-The conference will be a highly interactive gathering of opinion leaders and creative minds. Please visit the conference website to [apply for a personal invitation](http://www.getconference.org/apply.html) and/or [nominate a colleague](http://www.getconference.org/nominate.html) who could provide an interesting perspective. With the application form please feel free to submit **proposals for short talks pitching new concepts, provocative ideas**, etc. that will contribute to the discussion and stimulate our thinking about the **genomic future**.
-
-## About the GET Conference
-
-The GET Conference brings together leading thinkers to discuss how we measure and understand people and their traits. For the past five years, this event has explored the frontiers of understanding about human biology and serves as an annual forum to debate the technical, commercial, and societal impacts.
-
-The GET Conference is produced by PersonalGenomes.org, a 501(c)(3) charitable organization based in the United States whose mission is to make a wide spectrum of human biological information accessible and actionable to increase biological literacy and improve human health. We support groundbreaking initiatives including the Personal Genome Project, the Open Humans Network and the GET Conference.
-
-## Co-Organizers
-
-<img src="{{ "/get2015/images/get2015_coorganizers.jpg" | relative_url }} alt="GET 2015 Co-Organizers>
-
-## Thanks to our sponsors
-
-<img src="/get2015/images/autodesklogo_570_106.jpg" alt="Autodesk logo">
-<img src="/get2015/images/illumina_570x194.jpg" alt="illumina logo">
-<img src="/get2015/images/Novartis_570x241.jpg" alt="Novartis Pharmaceuticals logo">
-<img src="/get2015/images/Parametric_Human_570x200.jpg" alt="Parametric Human Project logo">

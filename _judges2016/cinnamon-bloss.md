@@ -1,5 +1,6 @@
 ---
 name: Cinnamon Bloss
+last: Bloss
 image: /get2016/images/Cinnamon-Bloss.jpg
 order: 3
 ---
