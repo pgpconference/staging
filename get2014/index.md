@@ -1,6 +1,6 @@
 ---
 layout: home
-year: 2015
+year: 2014
 ---
 
 <h2>About the GET Conference on April 30th</h2>

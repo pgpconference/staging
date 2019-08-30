@@ -42,7 +42,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="remaining-years"></a>
 ## Remaining Years
 
-* Currently the 2010-2105 sites need to be imported. These should be a quicker process than the 2016 site was.
+* Currently the 2010-2013 sites need to be imported. This is a much quicker process than the 2016 site was
 
 <a id="issues"></a>
 ## Issues
