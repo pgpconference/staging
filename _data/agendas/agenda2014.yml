@@ -1,0 +1,47 @@
+a2014:
+  year: 2014
+  day1:
+    - date: APRIL 30, 2014
+    - title: Registration Opens
+      time: 08:00am
+      details: Continental Breakfast
+    - title: Welcome
+      time: 08:45am
+      details: Jason Bobe, Executive Director of PersonalGenomes.org
+    - title: Opening Remarks
+      time: 08:47am
+      details: George Church<br>Introduced by Ryan Phelan
+    - title: "Session I: Human Genomics"
+      time: 09:00am
+      details: "Sponsored Talk: Nathaniel Pearson: Sharing, Comparing, and Exploring Our Genomes in the Empowered Genome Community [(video)](https://www.youtube.com/watch?v=rWt7MA_R-14&index=4&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV/)
+      <br><br>GENOMES IN MEDICINE PANEL [(video)](https://www.youtube.com/watch?v=Bo2D4jxAC0U&index=1&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)
+      \"<br>Robert Green:\" Integrating medical genetics into primary care
+      \"<br>Michael Linderman:\" Preparing the next generation of genomicists
+      \"<br>Diana Bianchi:\" How Prenatal Screening Using Sequencing of Cell-Free Fetal DNA is Revolutionizing Prenatal Care (In a Very Short Time)
+      <br>Carolyn Johnson, moderator"
+    - title: Break
+      time: 10:30am
+      details:
+    - title: "Session II: Explorers"
+      time: 10:45am
+      details: "Vignette: Randy Buckner: Genome meet Brain Connectome [(video)](https://www.youtube.com/watch?v=sYKk8zSIWP0&index=5&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)
+      <br><br>Vignette: Ting Wu: A genomic puzzle, a potential therapy, and Space [(video)](https://www.youtube.com/watch?v=FNUrHROyGDQ&index=8&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)
+      <br><br>Vignette: AJ Jacobs: Creating a Global Family Tree [(details: video)](https://www.youtube.com/watch?v=tsiDLe1mBkg&index=10&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)"
+    - title: Break
+      time: 12:00pm
+      details: Networking and Lunch
+    - title: "Session III: Environments"
+      time: 01:30pm
+      details: "GENOMICS & SPORTS PANEL [(video)](https://www.youtube.com/watch?v=RcLhLU2DQss&index=2&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)
+      Heidi Rehm, Genetics lab director and cardiomyopathies expert
+      Mark Gerstein, Yale computational biologist
+      David Epstein, author of _The Sports Gene_
+      Jonathan Scheiman, moderator
+      Vignette: Geoffrey Von Maltzahn: Microbes as medicine: Microbiome therapeutics and a new era of ecological medicine"
+    - title: Break
+      time: 03:00pm
+    - title: "Session IV: Measuring & Modifying Traits"
+      time: 03:30pm
+      details: "Sponsored Talk: Juhan Sonin: Health Axioms [(video)](https://www.youtube.com/watch?v=xzrQbDS4jKY&index=6&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)\n\n Vignette: Deborah Estrin: Small Data [(video)](https://www.youtube.com/watch?v=EU3VMwX3Rt4&index=11&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV)\n\n Vignette: Alastair Dant & Albert Sun: Storytelling with Sensors [(video)](https://www.youtube.com/watch?v=oskUl1KYmeg&index=13&list=PL1kf5_cQRRR7Smt1HZm-F5qcQgg9XwAdV%3E(video)%3C/a%3E%3Cbr%20/%3E%3Cbr%20/%3EVignette:%20Esther%20Dyson:%20Way%20to%20Wellville%20%3Ca%20href=)\n"
+
+

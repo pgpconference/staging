@@ -1,11 +1,3 @@
-# events:
-#   - name: GET Labs+Expo Registration
-#     details: Separate registration required for GET Labs+Expo. [Details here](http://www.getconference.org/get2016/labs.html).
-#     time: 12:00pm
-#   - name: GET Labs+Expo
-#     time: 1:00pm
-#     details: Detailed agenda [here](http://www.getconference.org/get2016/labs.html)
-
 a2016:
   year: 2016
   day1:
@@ -76,29 +68,3 @@ a2016:
       time: 05:15pm
     - title: Adjourn
       time: 05:30pm
-
-
-    #   subfolderitems:
-    #     - page: About
-    #       url: "/#about"
-    #     - page: Overview
-    #       url: "/#overview"
-    #     - page: Guidelines
-    #       url: "/#guidelines"
-    #     - page: Project Websites
-    #       type: "seperator"
-    #       url: "sep"
-    #     - page: Harvard PGP
-    #       url: "https://pgp.med.harvard.edu/"
-    #     - page: PGP Canada
-    #       url: "https://personalgenomes.ca/"
-    #     - page: PGP UK
-    #       url: "https://www.personalgenomes.org.uk/"
-    #     - page: Genom Austria
-    #       url: "http://genomaustria.at/das-projekt/"
-    # - title: News
-    #   url: "/news"
-    # - title: Blog
-    #   url: "/blog"
-    # - title: Contact
-    #   url: "/contact/"

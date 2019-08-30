@@ -2,6 +2,7 @@
 layout: default
 class: labs
 title: "About GET Labs + Expo"
+year: 2016
 ---
 
 
@@ -28,50 +29,11 @@ title: "About GET Labs + Expo"
 
 <h2 id="labs">GET Labs for Participants</h2>
 
-<ul class="labs-participants">
-  {% assign labs = site.labs2016 %}
-  {% for lab in labs %}
-    <li class="lab-entry">
-      <div class="lab-header">
-        <p>
-          {{ lab.title }}<br>
-          {% if lab.co-pi == "true" %}
-            co-PI: {{ lab.pi }}
-            co-PI: {{ lab.pi2 }}
-          {% elsif lab.investigator == "true" %}
-            Investigator: {{ lab.pi }}
-          {% else %}
-            PI: {{ lab.pi }}
-          {% endif %}
-
-        </p>
-      </div>
-      <div class="lab-body">
-        <div class="lab-about">{{ lab.content }}</div>
-        <a class="lab-link"><img src="{{ lab.image | relative_url }}" class="lab-img"></a>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-
-<h2 class="margin-top-tall">Expo for Research Teams</h2>
-
-<ul class="list-style-none">
-{% assign teams = site.expos2016 %}
-{% for team in teams %}
-    <li class="list-style-none">
-      <div class="lab-header">
-        <p>{{ team.title }}</p>
-      </div>
-      <div class="lab-body">
-        <div class="lab-about">{{ team.content }}</div>
-        <a class="lab-link"><img src="{{ team.image | relative_url }}" class="lab-img"></a>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-
+{%- assign labs_str = "site.labs" | append: page.year -%}
+{%- assign expos_str = "site.expos" | append: page.year -%}
+{%- include_cached labs.html labs_col=labs_str expos_col=expos_str -%}
 
 <h2 class="margin-top-tall">Who else is coming?</h2>
 
 <p><a href="{{ "/get2016/labs_participants" | relative_url }}">See who is coming</a> this year's event. We'll update the list every couple of days</p>
+

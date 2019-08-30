@@ -1,0 +1,93 @@
+<ul class="labs-participants">
+{%- for collection in site.collections -%}
+  {%- if include.labs_col contains collection.label -%}
+    {%- for lab in collection.docs -%}
+        <li class="lab-entry">
+         <div class="lab-header">
+           <p>
+             {{ lab.title }}<br>
+
+             {%- if lab.subtitle -%}
+             {{ lab.subtitle }}
+             {%- elsif lab.co-pi == "true" -%}
+             co-PI: {{ lab.pi }}
+             co-PI: {{ lab.pi2 }}
+             {%- elsif lab.investigator == "true" -%}
+             Investigator: {{ lab.pi }}
+             {%- elsif lab.pi -%}
+             PI: {{ lab.pi }}
+             {%- endif -%}
+
+           </p>
+         </div>
+         <div class="lab-body">
+           <div class="lab-about">{{ lab.content }}</div>
+           <a class="lab-link"><img src="{{ lab.image | relative_url }}" class="lab-img"></a>
+         </div>
+       </li>
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+</ul>
+
+
+{% if include.expos_col %}
+  <h2 class="margin-top-tall">Expo for Research Teams</h2>
+  <ul class="labs-participants">
+{% endif %}
+
+{%- for collection in site.collections -%}
+  {%- if include.expos_col contains collection.label -%}
+    {%- for expo in collection.docs -%}
+        <li class="lab-entry">
+         <div class="lab-header">
+           <p>
+             {{ expo.title }}<br>
+
+             {%- if expo.subtitle -%}
+               {{ expo.subtitle }}
+             {%- elsif expo.co-pi == "true" -%}
+               co-PI: {{ expo.pi }}
+               co-PI: {{ expo.pi2 }}
+             {%- elsif expo.investigator == "true" -%}
+               Investigator: {{ expo.pi }}
+             {%- elsif expo.pi -%}
+               PI: {{ expo.pi }}
+             {%- endif -%}
+
+           </p>
+         </div>
+         <div class="lab-body">
+           <div class="lab-about">{{ expo.content }}</div>
+           <a class="lab-link"><img src="{{ expo.image | relative_url }}" class="lab-img"></a>
+         </div>
+       </li>
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if include.expos_col -%}
+</ul>
+{%- endif -%}
+
+
+{%- comment -%}
+<h2 class="margin-top-tall">Expo for Research Teams</h2>
+
+<ul class="list-style-none">
+{%- assign teams = site.expos2016 -%}
+{%- for team in teams -%}
+    <li class="list-style-none">
+      <div class="lab-header">
+        <p>{{ team.title }}</p>
+      </div>
+      <div class="lab-body">
+        <div class="lab-about">{{ team.content }}</div>
+        <a class="lab-link"><img src="{{ team.image | relative_url }}" class="lab-img"></a>
+      </div>
+    </li>
+  {%- endfor -%}
+</ul>
+{%- endcomment -%}
+
+
