@@ -7,6 +7,7 @@
 * [Issues](#issues)
 * [Nav Menu](#nav-menu)
   * [Collections Ordering](#collections-ordering)
+  * [2013](#2013)
   * [2014](#2014)
     * [YouTube - Responsive](#youtube---responsive)
   * [2015](#2015)
@@ -59,6 +60,15 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 * Needs Dynamic Ordering Fix:
   * Sponsors
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
+
+<a id="2013"></a>
+### 2013
+
+* Sidebar needs content modifications
+* Pages completed so far
+  * Home
+  * Speakers
+
 
 <a id="2014"></a>
 ### 2014
@@ -128,6 +138,8 @@ See here:
 ### Sidebar
 
 * Speakers and Organizers need font formatting
+* Co-Organizers section needs to be conditional
+* Review various years for differences in sidebars
 
 <a id="2016-image-paths"></a>
 ### 2016 Image Paths
