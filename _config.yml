@@ -89,6 +89,7 @@ conference_year: 2016
 collections:
   speakers2016:
     output: false
+    sort_by: last
   speakers2015:
     output: false
   speakers2014:

@@ -1,7 +1,8 @@
 {% for collection in site.collections %}
   {% if include.col_name contains collection.label %}
   <ul class="speakers-list">
-  {% for speaker in collection.docs %}
+    {% assign sorted = (collection.docs | sort: 'last') %}
+    {% for speaker in sorted %}
   <li class="speaker">
     <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
     <div class="speaker-bio">{{ speaker.content }}</div>
