@@ -89,6 +89,25 @@ collections:
     output: false
   speakers2015:
     output: false
+  speakers2014:
+    output: false
+    order:
+      - alan-priscilla-oppenheimer-foundation.md
+      - google-cloud-platform.md
+      - complete-genomics.md
+      - autodesk.md
+      - ibm.md
+      - involution-studios.md
+      - personalgenomes-org.md
+      - qiagen.md
+  speakers2013:
+    output: false
+  speakers2012:
+    output: false
+  speakers2011:
+    output: false
+  speakers2010:
+    output: false
   organizers2016:
     output: false
   organizers2015:
@@ -100,6 +119,16 @@ collections:
   sponsors2016:
     output: false
   sponsors2015:
+    output: false
+  sponsors2014:
+    output: false
+  sponsors2013:
+    output: false
+  sponsors2012:
+    output: false
+  sponsors2011:
+    output: false
+  sponsors2010:
     output: false
   labs2016:
     output: false
