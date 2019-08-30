@@ -84,6 +84,8 @@ sass:
   style: expanded
   sourcemap: true
 
+conference_year: 2016
+
 collections:
   speakers2016:
     output: false
@@ -131,6 +133,16 @@ collections:
   sponsors2010:
     output: false
   labs2016:
+    output: false
+  labs2014:
+    output: false
+  labs2013:
+    output: false
+  labs2012:
+    output: false
+  labs2011:
+    output: false
+  labs2010:
     output: false
   expos2016:
     output: false

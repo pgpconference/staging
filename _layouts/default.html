@@ -12,8 +12,9 @@
   {% endif %}
     <div id="oho">
 
+    {% assign current_conference_year = "2016" %}
     {% assign year = page.year | default: '2016'%}
-    {%- include_cached header.html year=year -%}
+    {%- include_cached header.html year=year current_conf=current_conference_year -%}
 
     {% if page.layout == "home" %}
       {%- include_cached subheader.html -%}

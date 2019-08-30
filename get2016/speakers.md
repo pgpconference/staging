@@ -2,6 +2,7 @@
 layout: default
 class: speakers
 title: Speakers
+year: 2016
 ---
 
 <h2>Speakers & Discussion Leaders</h2>

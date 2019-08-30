@@ -172,6 +172,14 @@ ul {
 }
 
 /**
+ * About 2014
+ */
+
+body.about.two-thirds .content {
+  max-width: 775px;
+}
+
+/**
  * Speakers & Organizers
  */
 
@@ -320,3 +328,38 @@ img {
 .margin-top-extra {
   margin-top: 50px;
 }
+
+.maw-775 {
+  max-width: 775px;
+}
+
+.giant-text {
+  color: #48484a;
+  font-family: Georgia,Times, serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 8px;
+}
+
+/**
+ * Responsive Video - YouTube
+ */
+
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+
+  iframe {
+    height: 100%;
+    left: 0;
+    max-height: 315px;
+    max-width: 560px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+

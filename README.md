@@ -8,7 +8,9 @@
 * [Nav Menu](#nav-menu)
   * [Collections Ordering](#collections-ordering)
   * [2014](#2014)
+    * [YouTube - Responsive](#youtube---responsive)
   * [2015](#2015)
+    * [Labs](#labs)
     * [Agendas](#agendas)
     * [Index page needs to be finished](#index-page-needs-to-be-finished)
   * [Favicon](#favicon)
@@ -17,7 +19,9 @@
   * [Sidebar](#sidebar)
   * [2016 Image Paths](#2016-image-paths)
 * [Optional](#optional)
+  * [DRY](#dry)
   * [Nav](#nav)
+  * [404 Page](#404-page)
   * [Ordered Collections](#ordered-collections)
 * [Miscellaneous Notes For Luna](#miscellaneous-notes-for-luna)
   * [Mobile Nav](#mobile-nav)
@@ -46,7 +50,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="nav-menu"></a>
 ## Nav Menu
 
-Header Logo needs to link to relevant year
+* Header Logo needs to link to relevant year
 
 <a id="collections-ordering"></a>
 ### Collections Ordering
@@ -57,9 +61,28 @@ Header Logo needs to link to relevant year
 ### 2014
 
 * Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
+* Sidebar - need to add in embedded YouTube vid
+  * Find responsive code from the other page
+* Agenda - should I change the <address> at the bottom to be `font-style: normal`?
+* About - Content Width needs to be narrower
+* **Site Logo is Different**
+
+<a id="youtube---responsive"></a>
+#### YouTube - Responsive
+
+```html
+<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/PvGVMg1wjoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+```
+
+
 
 <a id="2015"></a>
 ### 2015
+
+<a id="labs"></a>
+#### Labs
+
+* Need to add Labs pages
 
 <a id="agendas"></a>
 #### Agendas
@@ -128,6 +151,13 @@ Needs to be done for:
 <a id="optional"></a>
 ## Optional
 
+<a id="dry"></a>
+### DRY
+
+* Ideally make the following more DRY:
+  * Agenda
+  * Labs
+
 <a id="nav"></a>
 ### Nav
 
@@ -141,6 +171,13 @@ Needs to be done for:
   {%- endif -%}
 {%- endfor -%}
 ```
+
+<a id="404-page"></a>
+### 404 Page
+
+* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
+  * Unclear if there's a way to do anything about this
+  * Displaying a sitemap might be the best option
 
 <a id="ordered-collections"></a>
 ### Ordered Collections
