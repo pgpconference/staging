@@ -1,38 +1,47 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 year: 2015
 ---
 
-<h2>About the GET Conference</h2>
-<p>For the past six years, this event has explored the frontiers of understanding about human biology. It serves as an annual forum to debate the technical, commercial, and societal impacts of advances in our ability to measure and understand people and their traits.</p>
+<h2>Historic Event</h2>
 
-<p>The GET Conference is produced by PersonalGenomes.org, a 501(c)(3) charitable organization based in the United States whose mission is to make a wide spectrum of human biological information accessible and actionable to increase biological literacy and improve human health.  We support groundbreaking initiatives including the Global Network of Personal Genome Projects, Open Humans and the GET Conference.</p>
+This year we are celebrating the 10th Anniversary of the Personal Genome Project and the 25th anniversary of the launch of the Human Genome Project. Since its inception in [2010](http://www.getconference.org/GET2010/index.html), the GET Conference series brings together the pioneers of personal genome sequencing to debate the technical, commercial, and societal impacts of affordable DNA sequencing. In 2015, we find ourselves on the verge of massive-scale population genome projects, and we will explore the impact of the breath-taking advances in genomic technologies for health and society.
 
-<h2>Sessions</h2>
-<p>We will explore this and more across several sessions:<br>
-</p
-><ul>
-  <li><b>Integrated Personal Omics Profiles</b>, chaired by Mike Snyder, Stanford<br></li>
-  <li><b>Microbiomes, Health, &amp; Built Environment</b>, chaired by Rob Knight, UCSD<br></li>
-  <li><b>AI &amp; Medical Research</b>, chaired by Joi Ito, MIT Media Lab<br></li>
-  <li><b>Networked Biology</b>, chaired by Corrie Painter, Broad Institute<br></li>
-</ul>
-<br>
-<p></p>
+## Agenda and Sessions
 
-<h2>About GET Labs + Expo</h2>
-<p>The GET Conference is preceded by a uniquely interactive event on April 25th called <a href="http://www.getconference.org/GET2016/labs.html">GET Labs + Expo</a>, (separate registration required).</p>
+Within a few years **millions of people** will have their **genomic data**. Multiple countries have embarked on mega-cohort initiatives aiming to advance **precision medicine** and the health of their populations. What are the opportunities to realize **social benefits** that exceed these **enormous investments**?
 
-<p>Sign-up for GET Labs and you can experience the best participatory health research studies around today and advance human health through direct participation in up to 17 different studies.</p>
+We will explore this and more across several sessions:
 
-<div class="align-center"><img src="{{ "/get2016/images/getlabs_2016.png" | relative_url }}" alt="labs"></div>
+*   **Populations**, chaired by Sir John Chisholm, Genomics England
+*   **Society**, chaired by Barbara Prainsack, King's College
+*   **Technology**, chaired by George Church, Harvard Medical School
+*   **Environment**, chaired by Tim Spector, UK Twins Registry
+*   **Traits**, chaired by Joseph Kvedar, Harvard Center for Connected Health
 
-<p>GET Expo is a forum for researchers where toolmakers and companies that support participatory health studies showcase their products, services, platforms and share know-how.</p>
+## Details
 
-<div class="align-center"><img src="{{ "/get2016/images/getexpo-all.png" | relative_url }}" alt="expo"></div>
+*   **Date & Place:** 17-19 September 2015 in Vienna, Austria
+*   **Venue:** CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences
+*   All participation fees are covered by PersonalGenomes.org & CeMM. Invited guests are responsible for their own travel.
 
-<h2 class="mt20">About GETy Awards</h2>
-<p>During the evening of April 25th, we will have our inaugural GETy Awards ceremony honoring people and projects that have displayed excellence in participant-centered research. There are seven award categories: Communications, Diversity, Governance, Participant Pioneers, People’s Choice, Sharing and Toolmakers. For details and to nominate, please visit the <a href="http://www.getconference.org/get2016/awards.html">GETy Awards page</a>.</p>
+## Your Contribution
+
+The conference will be a highly interactive gathering of opinion leaders and creative minds. Please visit the conference website to [apply for a personal invitation](http://www.getconference.org/apply.html) and/or [nominate a colleague](http://www.getconference.org/nominate.html) who could provide an interesting perspective. With the application form please feel free to submit **proposals for short talks pitching new concepts, provocative ideas**, etc. that will contribute to the discussion and stimulate our thinking about the **genomic future**.
+
+## About the GET Conference
+
+The GET Conference brings together leading thinkers to discuss how we measure and understand people and their traits. For the past five years, this event has explored the frontiers of understanding about human biology and serves as an annual forum to debate the technical, commercial, and societal impacts.
+
+The GET Conference is produced by PersonalGenomes.org, a 501(c)(3) charitable organization based in the United States whose mission is to make a wide spectrum of human biological information accessible and actionable to increase biological literacy and improve human health. We support groundbreaking initiatives including the Personal Genome Project, the Open Humans Network and the GET Conference.
+
+## Co-Organizers
+
+<img src="{{ "/get2015/images/get2015_coorganizers.jpg" | relative_url }} alt="GET 2015 Co-Organizers>
+
+## Thanks to our sponsors
+
+<img src="/get2015/images/autodesklogo_570_106.jpg" alt="Autodesk logo">
+<img src="/get2015/images/illumina_570x194.jpg" alt="illumina logo">
+<img src="/get2015/images/Novartis_570x241.jpg" alt="Novartis Pharmaceuticals logo">
+<img src="/get2015/images/Parametric_Human_570x200.jpg" alt="Parametric Human Project logo">
