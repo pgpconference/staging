@@ -25,3 +25,19 @@ header2015:
     url: http://www.getconference.org/apply.html"
   - title: Nominate
     url: http://www.getconference.org/nominate.html"
+
+header2014:
+  - title: 2014 Home
+    url: "/get2014/"
+  - title: Speakers
+    url: "/speakers"
+  - title: Agenda
+    url: "/agenda"
+  - title: Sponsors
+    url: "/sponsors"
+  - title: About
+    url: /about
+  - title: Labs
+    url: /labs
+  - title: Register
+    url: "http://www.getconference.eventbrite.com/"

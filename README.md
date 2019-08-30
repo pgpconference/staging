@@ -5,6 +5,8 @@
 * [Questions](#questions)
 * [Remaining Years](#remaining-years)
 * [Issues](#issues)
+  * [Ordering](#ordering)
+  * [2014](#2014)
   * [2015](#2015)
     * [Agendas](#agendas)
   * [Nav Menus](#nav-menus)
@@ -40,6 +42,16 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="issues"></a>
 ## Issues
 
+<a id="ordering"></a>
+### Ordering
+
+* Need to work out how to do dynamic ordering for collections (Speakers, Sponsors, etc).
+
+<a id="2014"></a>
+### 2014
+
+* Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
+
 <a id="2015"></a>
 ### 2015
 
@@ -73,6 +85,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 See here:
 
 ```ruby
+<a id="from-httpssimpleitrocksrubyjekyllcollectionsunderstanding-how-collections-work"></a>
 # From: https://simpleit.rocks/ruby/jekyll/collections/understanding-how-collections-work/
 {% for collection in site.collections %}
  Collection name: {{collection.label}}
@@ -149,7 +162,7 @@ Determin if `scripts/mobile-nav.js` is actually doing anything, or if I can dele
 
 1. Changed all #ids to .classes. This may require some adustive for previous conference years.
 
-```
+```css
 #oho
 #header
 #logo
@@ -180,8 +193,8 @@ Determin if `scripts/mobile-nav.js` is actually doing anything, or if I can dele
 #sidebar-narrow .personnel h3
 #sidebar-narrow .personnel img
 #sidebar-narrow .personnel img.no-border
+{}
 ```
 
 * Reminder: I already changed #content and #content-wide to .content and .content-wide.
   * If I run into issues, check this first
-  *

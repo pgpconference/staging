@@ -17,10 +17,22 @@
           </span>
         </label>
 
+        {%- assign year_str = "/get" | append: include.year | default: "2016" -%}
+        {%- if year_str contains "201" -%}
+        {%- endif -%}
         <ul class="trigger nav-links">
-          {% for item in site.data.navigation.header2016 %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-          {% endfor %}
+        {%- for menu in site.data.navigation -%}
+          {%- if menu[0] contains include.year -%}
+            {%- for item in menu[1] -%}
+              {%- unless item.url contains "http" %}
+                <li><a href="{{ site.baseurl }}{{ year_str }}{{ item.url }}">{{ item.title }}</a></li>
+              {%- endunless -%}
+              {%- if item.url contains "http" -%}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor -%}
         </ul>
       </nav>
     {%- endif -%}
