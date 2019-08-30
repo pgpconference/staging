@@ -5,11 +5,12 @@
 * [Questions](#questions)
 * [Remaining Years](#remaining-years)
 * [Issues](#issues)
+* [Nav Menu](#nav-menu)
   * [Ordering](#ordering)
   * [2014](#2014)
   * [2015](#2015)
     * [Agendas](#agendas)
-  * [Nav Menus](#nav-menus)
+    * [Index page needs to be finished](#index-page-needs-to-be-finished)
   * [Favicon](#favicon)
   * [Collections](#collections)
     * [Relative Directories](#relative-directories)
@@ -42,6 +43,11 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="issues"></a>
 ## Issues
 
+<a id="nav-menu"></a>
+## Nav Menu
+
+Header Logo needs to link to relevant year
+
 <a id="ordering"></a>
 ### Ordering
 
@@ -61,13 +67,8 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 * Expand column width
 * Generating accidental repeat data
 
-<a id="nav-menus"></a>
-### Nav Menus
-
-* Need to write conditional logic so that nav menu generates the year-relevant links
-  * Add `year: ` front matter to all pages
-    * encode year into url
-    *
+<a id="index-page-needs-to-be-finished"></a>
+#### Index page needs to be finished
 
 <a id="favicon"></a>
 ### Favicon
