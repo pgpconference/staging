@@ -1,5 +1,6 @@
 ---
 name: Goncalo Abecasis
+last: Abecasis
 image: /get2016/images/Goncalo-Abecasis.jpg
 order: 1
 ---

@@ -1,5 +1,6 @@
 ---
 name: Matthew Herper
+last: Herper
 image: /get2015/images/Matthew-Herper.jpg
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: Kathy Hudson
+last: Hudson
 image: /get2016/images/Kathy-Hudson.jpg
 order: 10
 ---

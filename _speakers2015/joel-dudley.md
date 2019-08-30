@@ -1,5 +1,6 @@
 ---
 name: Joel Dudley
+last: Dudley
 image: /get2015/images/Joel-Dudley.jpg
 ---
 

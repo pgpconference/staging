@@ -1,5 +1,6 @@
 ---
 name: Bartha Knoppers
+last: Knoppers
 image: /get2015/images/Bartha-Knoppers.jpg
 ---
 

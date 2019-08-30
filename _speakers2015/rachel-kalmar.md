@@ -1,5 +1,6 @@
 ---
 name: Rachel Kalmar
+last: Kalmar
 image: /get2015/images/Rachel-Kalmar.jpg
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: Hiroaki Kitano
+last: Kitano
 image: /get2016/images/Hiroaki-Kitano.jpg
 order: 12
 ---

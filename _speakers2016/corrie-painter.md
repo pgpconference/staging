@@ -1,5 +1,6 @@
 ---
 name: Corrie Painter
+last: Painter
 image: /get2016/images/Corrie-Painter.jpg
 order: 15
 ---

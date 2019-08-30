@@ -1,5 +1,6 @@
 ---
 name: Christoph Bock
+last: Bock
 image: /get2015/images/Christoph-Bock.jpg
 ---
 

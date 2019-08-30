@@ -1,5 +1,6 @@
 ---
 name: Meredith Salisbury
+last: Salisbury
 image: /get2015/images/Meredith-Salisbury.jpg
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: Christoph Bock
+last: Bock
 image: /assets/images/get2015/Christoph-Bock.jpg
 order: 3
 ---

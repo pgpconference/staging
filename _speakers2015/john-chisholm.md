@@ -1,5 +1,6 @@
 ---
 name: John Chisholm
+last: Chisholm
 image: /get2015/images/John-Chisholm.jpg
 ---
 

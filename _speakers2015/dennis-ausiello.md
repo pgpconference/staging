@@ -1,5 +1,6 @@
 ---
 name: Dennis Ausiello
+last: Ausiello
 image: /get2015/images/Dennis-Ausiello.jpg
 ---
 

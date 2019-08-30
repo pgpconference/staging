@@ -1,5 +1,6 @@
 ---
 name: Tim Spector
+last: Spector
 image: /get2015/images/Tim-Spector.jpg
 ---
 

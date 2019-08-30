@@ -1,5 +1,6 @@
 ---
 name: Jessica Green
+last: Green
 image: /get2016/images/Jessica-Green.jpg
 order: 8
 ---

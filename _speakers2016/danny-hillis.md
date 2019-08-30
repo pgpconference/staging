@@ -1,5 +1,6 @@
 ---
 name: Danny Hillis
+last: Hills
 image: /get2016/images/Danny-Hillis.jpg
 order: 9
 ---

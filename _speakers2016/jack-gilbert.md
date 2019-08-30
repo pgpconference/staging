@@ -1,5 +1,6 @@
 ---
 name: Jack Gilbert
+last: Gilbert
 image: /get2016/images/Jack-Gilbert.jpg
 order: 7
 ---

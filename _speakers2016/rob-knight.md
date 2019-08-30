@@ -1,5 +1,6 @@
 ---
 name: Rob Knight
+last: Knight
 image: /get2016/images/Rob-Knight.jpg
 order: 13
 ---

@@ -1,5 +1,6 @@
 ---
 name: Elaine Holmes
+last: Holmes
 image: /get2015/images/Elaine-Holmes.jpg
 ---
 

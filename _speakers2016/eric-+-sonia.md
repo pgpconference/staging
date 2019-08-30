@@ -1,5 +1,6 @@
 ---
 name: Eric + Sonia
+last: zzzzzzzzzzz
 image: /get2016/images/Sonia-Eric.jpg
 order: 19
 ---

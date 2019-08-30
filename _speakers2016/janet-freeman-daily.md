@@ -1,5 +1,6 @@
 ---
-name: janet freeman daily
+name: Janet Freeman Daily
+last: Daily
 image: /get2016/images/Janet-Freeman-Daily.jpg
 order: 6
 ---

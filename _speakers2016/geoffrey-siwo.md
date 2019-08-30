@@ -1,5 +1,6 @@
 ---
 name: Geoffrey Siwo
+last: Siwo
 image: /get2016/images/Geoffrey-Siwo.jpeg
 order: 16
 ---

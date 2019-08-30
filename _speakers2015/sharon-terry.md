@@ -1,5 +1,6 @@
 ---
 name: Sharon Terry
+last: Terry
 image: /get2013/images/Sharon-Terry.jpg
 ---
 

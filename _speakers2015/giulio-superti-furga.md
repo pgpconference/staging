@@ -1,5 +1,6 @@
 ---
-name: Giulio-Superti-Furga
+name: Giulio Superti-Furga
+last: Superti-Furga
 image: /get2015/images/Giulio-Superti-Furga.jpg
 ---
 

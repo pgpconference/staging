@@ -1,5 +1,6 @@
 ---
 name: Steven Keating
+last: Keating
 image: /get2015/images/Steven-Keating.jpg
 ---
 

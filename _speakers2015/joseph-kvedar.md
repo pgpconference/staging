@@ -1,5 +1,6 @@
 ---
 name: Joseph Kvedar
+last: Kvedar
 image: /get2015/images/Joseph-Kvedar.jpg
 ---
 

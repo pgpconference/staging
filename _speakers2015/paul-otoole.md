@@ -1,5 +1,6 @@
 ---
 name: Paul OToole
+last: OToole
 image: /get2015/images/Paul-OToole.jpg
 ---
 

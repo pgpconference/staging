@@ -1,5 +1,6 @@
 ---
 name: Erika von Mutius
+last: von Mutius
 image: /get2016/images/Erika-von Mutius.jpg
 order: 18
 ---

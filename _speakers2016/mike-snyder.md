@@ -1,5 +1,6 @@
 ---
 name: Mike Snyder
+last: Snyder
 image: /get2016/images/Mike-Snyder.jpg
 order: 17
 ---

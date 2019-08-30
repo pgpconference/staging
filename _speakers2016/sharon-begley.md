@@ -1,5 +1,6 @@
 ---
 name: Sharon Begley
+last: Begley
 image: /get2016/images/Sharon-Begley.jpg
 order: 2
 ---

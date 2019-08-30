@@ -1,5 +1,6 @@
 ---
 name: Sarah Gray
+last: Gray
 image: /get2015/images/Sarah-Gray.jpg
 ---
 

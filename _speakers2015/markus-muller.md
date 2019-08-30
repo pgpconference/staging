@@ -1,5 +1,6 @@
 ---
 name: Markus Müller
+last: Müller
 image: "/get2015/images/Markus-Muller.jpg"
 ---
 

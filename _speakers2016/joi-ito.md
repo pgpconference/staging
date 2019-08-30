@@ -1,5 +1,6 @@
 ---
 name: Joi Ito
+last: Ito
 image: /get2016/images/Joi-Ito.jpg
 order: 11
 ---

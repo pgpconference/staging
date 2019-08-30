@@ -1,5 +1,6 @@
 ---
 name: Rachel Liao
+last: Liao
 image: /get2016/images/Rachel_Liao.jpg
 order: 14
 ---

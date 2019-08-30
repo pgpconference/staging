@@ -1,5 +1,6 @@
 ---
 name: Mathew Pletcher
+last: Pletcher
 image: /get2015/images/Mathew-Pletcher.jpg
 ---
 

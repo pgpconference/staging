@@ -1,5 +1,6 @@
 ---
 name: Barbara Prainsack
+last: Prainsack
 image: /get2015/images/Barbara-Prainsack.jpg
 ---
 

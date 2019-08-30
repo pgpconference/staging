@@ -1,5 +1,6 @@
 ---
 name: Christiane Druml
+last: Druml
 image: /get2015/images/Christiane-Druml.jpg
 ---
 

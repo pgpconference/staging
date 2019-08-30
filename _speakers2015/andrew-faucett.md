@@ -1,5 +1,6 @@
 ---
 name: Andrew Faucett
+last: Faucett
 image: /get2015/images/Andrew-Faucett.jpg
 ---
 

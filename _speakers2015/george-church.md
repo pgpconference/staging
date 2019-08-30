@@ -1,5 +1,6 @@
 ---
 name: George Church
+last: Church
 image: /get2010/images/George-Church.jpg
 ---
 
