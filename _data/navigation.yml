@@ -41,3 +41,71 @@ header2014:
     url: /labs
   - title: Register
     url: "http://www.getconference.eventbrite.com/"
+
+header2013:
+  - title: 2013 HOME
+    url: "/get2013"
+  - title: SPEAKERS
+    url: "/speakers"
+  - title: AGENDA
+    url: "/agenda"
+  - title: LABS
+    url: "/labs"
+  - title: SPONSORS
+    url: "/sponsors"
+  - title: ABOUT
+    url: "/about"
+  - title: CONTACT
+    url: "/contact"
+  - title: PRESS
+    url: "/press"
+
+header2012:
+  - title: 2012 HOME
+    url: "/get2012/index.html"
+  - title: SPEAKERS
+    url: "/get2012/speakers.html"
+  - title: AGENDA
+    url: "/get2012/agenda.html"
+  - title: VENUE
+    url: "/get2012/venue.html"
+  - title: SPONSORS
+    url: "/get2012/sponsors.html"
+  - title: ABOUT
+    url: "/get2012/about.html"
+  - title: CONTACT
+    url: "/get2012/contact.html"
+  - title: PRESS
+    url: "/get2012/press.html"
+  - title: REGISTER
+    url: "http://www.getconference.eventbrite.com"
+
+header2011:
+  - title: 2011 HOME
+    url: "/get2011/index.html"
+  - title: ABOUT
+    url: "/get2011/about.html"
+  - title: SPEAKERS
+    url: "/get2011/speakers.html"
+  - title: AGENDA
+    url: "/get2011/agenda.html"
+  - title: SPONSORS
+    url: "/get2011/sponsors.html"
+  - title: CONTACT
+    url: "/get2011/contact.html"
+
+header2010:
+  - title: 2010 Home
+    url: "/get2010/index.html"
+  - title: ABOUT
+    url: "/get2010/about.html"
+  - title: SPEAKERS
+    url: "/get2010/speakers.html"
+  - title: AGENDA
+    url: "/get2010/agenda.html"
+  - title: SPONSORS
+    url: "/get2010/sponsors.html"
+  - title: PRESS
+    url: "/get2010/press.html"
+  - title: CURRENT EVENT
+    url: "http://www.getconference.org"

@@ -21,6 +21,7 @@
 * [Optional](#optional)
   * [DRY](#dry)
   * [Nav](#nav)
+  * [Naming Convention](#naming-convention)
   * [404 Page](#404-page)
   * [Ordered Collections](#ordered-collections)
 * [Miscellaneous Notes For Luna](#miscellaneous-notes-for-luna)
@@ -171,6 +172,12 @@ Needs to be done for:
   {%- endif -%}
 {%- endfor -%}
 ```
+
+<a id="naming-convention"></a>
+### Naming Convention
+
+* Any preference for `/get2012/speakers.html` vs `/speakers.html` in `_data/navigation.yml`.
+  * Currently configured to flexibly handle both
 
 <a id="404-page"></a>
 ### 404 Page
