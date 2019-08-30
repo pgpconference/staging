@@ -10,7 +10,6 @@
   * [2014](#2014)
     * [YouTube - Responsive](#youtube---responsive)
   * [2015](#2015)
-    * [Labs](#labs)
     * [Agendas](#agendas)
     * [Index page needs to be finished](#index-page-needs-to-be-finished)
   * [2016](#2016)
@@ -44,7 +43,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="remaining-years"></a>
 ## Remaining Years
 
-* Currently the 2010-2013 sites need to be imported. This is a much quicker process than the 2016 site was
+* Currently the 2010-2013 sites need to be imported. 2013 is currently in Progress
 
 <a id="issues"></a>
 ## Issues
@@ -66,10 +65,9 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 
 * Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
 * Sidebar - need to add in embedded YouTube vid
-  * Find responsive code from the other page
+  * See below for responsive code
 * Agenda - should I change the <address> at the bottom to be `font-style: normal`?
 * About - Content Width needs to be narrower
-* **Site Logo is Different**
 
 <a id="youtube---responsive"></a>
 #### YouTube - Responsive
@@ -83,16 +81,10 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="2015"></a>
 ### 2015
 
-<a id="labs"></a>
-#### Labs
-
-* Need to add Labs pages
-
 <a id="agendas"></a>
 #### Agendas
 
 * Expand column width
-* Generating accidental repeat data
 
 <a id="index-page-needs-to-be-finished"></a>
 #### Index page needs to be finished
