@@ -7,16 +7,17 @@
     <div class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</div>
     <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
   </li>
-    {% else %}
-    This is a custom Sponsor
-    {% endunless %}
-  {% endfor %}
-  {% endif%}
-{% endfor %}
+    {%- else -%}
+    <!-- This is a custom Sponsor -->
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
 </ul>
 
 
 {% for collection in site.collections %}
+  {% unless include.col_name contains "2011" or include.col_name contains "2012" %}
   {% if include.col_name contains collection.label %}
     {% for sponsor in collection.docs %}
       {% if sponsor.type == "custom" %}
@@ -31,6 +32,13 @@
     {% endfor %}
 </ul>
   {% endif%}
+  {% endunless %}
 {% endfor %}
 
+{% comment %}
+{% for collection in site.collections %}
+  {% if include.col_name contains "2011" or include.col_name contains "2012" %}
 
+  {% endif %}
+{% endfor %}
+{% endcomment %}
