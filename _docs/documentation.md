@@ -1,5 +1,6 @@
-## GET Conference Documentation
+# GET Conference Documentation
 
+## Page and Include Variables
 Variables required when using `include_cached`:
 
 `_includes/labs.html`:
