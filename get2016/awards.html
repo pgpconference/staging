@@ -13,8 +13,7 @@ year: 2016
   </div>
 </div>
 
-<div class="awards-header"><h2>Award Categories</h2></div>
-
+<h1 class="awards-header">Award Categories</h1>
 
 <ul class="awards-list">
   {% assign awards = site.awards2016 %}
@@ -23,7 +22,7 @@ year: 2016
     <div class="award-img"><img src="{{ award.image | relative_url }}" alt="{{ award.alt }}"></div>
     <div class="award-content">
       <p class="award-title">{{ award.title }} Award</p>
-      <div class="award-text">{{ award.content }}</siv>
+      <div class="award-text">{{ award.content }}</div>
     </div>
   </li>
   {% endfor %}

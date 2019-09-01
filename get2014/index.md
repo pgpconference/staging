@@ -3,7 +3,7 @@ layout: home
 year: 2014
 ---
 
-<h2>About the GET Conference on April 30th</h2>
+# About the GET Conference on April 30th
 
 The GET Conference brings together leading thinkers to discuss how we measure and understand people and their traits. This event explores the frontiers of understanding about human biology and serves as an annual forum to debate the technical, commercial, and societal impacts.
 

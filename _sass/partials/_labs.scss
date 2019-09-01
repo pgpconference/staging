@@ -1,3 +1,7 @@
+.labs-btn {
+  margin: 10px 0 40px;
+}
+
 .list-style-none {
   list-style: none;
   list-style-type: none;
@@ -66,13 +70,14 @@
     width: 700px;
   }
 
+  .labs .content h1,
   .labs .content h2 {
     margin: 25px 0 20px;
     padding: 0 0 0 25px;
   }
 
-  .labs-btn {
-    margin: 10px 0 40px;
+  .labs .content h1 {
+    margin: 0 0 20px;
   }
 
   .video-responsive {

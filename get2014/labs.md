@@ -5,8 +5,7 @@ title: "About GET Labs"
 year: 2014
 ---
 
-
-<h2>About GET Labs</h2>
+# About GET Labs
 
 Some of the most well-characterized humans on earth attend GET Labs. Many of these omic astronauts have already obtained personal genome sequencing, had their microbiomes characterized at various bodily habitats, and know something about the average length of their telomeres. Attendees often look forward to the opportunity to spit, swab, or be poked, measured, and surveyed for the good of science. The prospect of gaining access to these pioneers (and their data!) attracts an increasing number of research groups to join us for this event and organize phenotyping booths, specimen collection stations, sensor distribution and other activities.
 

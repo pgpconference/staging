@@ -5,7 +5,7 @@ title: GET Labs Participants
 year: 2015
 ---
 
-## GET Labs Participants
+# GET Labs Participants
 
 Open Humans registered for GET Labs 2016:
 

@@ -2,7 +2,7 @@
 layout: default
 class: press
 title: Press
-year: 2013
+year: 2012
 ---
 
 # Press Registration
