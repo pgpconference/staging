@@ -24,5 +24,4 @@ Some of the most well-characterized humans on earth attend the annual GET Confer
 
 ## Thanks to our Sponsors
 
-[![sponsors](/get2013/images/Sponsors_02182013b.jpg)](http://www.getconference.org/get2013/sponsors.html)
-
+<a href="http://www.getconference.org/get2013/sponsors.html"><img src="{{ "/get2013/images/Sponsors_02182013b.jpg" | relative_url }}" alt="sponsors"></a>
