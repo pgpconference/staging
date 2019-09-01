@@ -3,7 +3,7 @@ layout: home
 year: 2015
 ---
 
-<h2>Historic Event</h2>
+# Historic Events
 
 This year we are celebrating the 10th Anniversary of the Personal Genome Project and the 25th anniversary of the launch of the Human Genome Project. Since its inception in [2010](http://www.getconference.org/GET2010/index.html), the GET Conference series brings together the pioneers of personal genome sequencing to debate the technical, commercial, and societal impacts of affordable DNA sequencing. In 2015, we find ourselves on the verge of massive-scale population genome projects, and we will explore the impact of the breath-taking advances in genomic technologies for health and society.
 

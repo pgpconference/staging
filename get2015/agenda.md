@@ -8,10 +8,10 @@ date2: Sept 18th, 2015
 date3: Sept 19th, 2015
 ---
 
-<h2>Agenda</h2>
+# Agenda
 
 {% include_cached agenda.html year=page.year date1=page.date1 date2=page.date2 date3=page.date3 %}
 
-<p><a href="{{ "/get2015/About_GETGlobal_2015_v06232015.pdf" | relative_url }}">Agenda as PDF</a></p>
+[Agenda as PDF](/get2015/About_GETGlobal_2015_v06232015.pdf)
 
-<p>*Agenda is subject to change</p>
+*Agenda is subject to change

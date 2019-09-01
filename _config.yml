@@ -86,6 +86,11 @@ sass:
 
 conference_year: 2016
 
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
+
 collections:
   speakers2016:
     output: false

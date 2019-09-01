@@ -1,11 +1,12 @@
 ---
-name: Contact
+title: Contact
 class: contact
 type: default
 year: 2013
 ---
 
-<h2>Contact</h2>
+{:.page-heading}
+# Contact
 
 Email: info@getconference.org
 

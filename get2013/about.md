@@ -1,12 +1,11 @@
 ---
-name: About
+title: About
 class: about two-thirds
 layout: default
 year: 2013
 ---
 
-<h2>About</h2>
-
+# About
 
 The GET Conference is an annual event that brings together leading thinkers to discuss the important ways in which personal genomes will affect all of our lives in the coming years and to debate the technical, commercial, and societal impacts of new genomic technologies.
 

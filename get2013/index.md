@@ -3,7 +3,7 @@ layout: home
 year: 2013
 ---
 
-<h2>April 25-26, 2013</h2>
+# April 25-26, 2013
 
 The GET Conference is the event for people working at the frontiers of human biology. We invite leading thinkers to discuss the important ways in which new genomic technologies will affect all of our lives in the coming years and to debate their technical, commercial, and societal impacts. We bring together scientists, industry leaders, entrepreneurs, practitioners, investors, researchers, and others to discuss advances in our ability to measure and understand human biology.
 

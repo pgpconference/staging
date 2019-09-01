@@ -73,3 +73,23 @@
   width: 46px;
 }
 
+@media only screen and (min-width: 768px) {
+  .site-nav.nav2012,
+  .site-nav.nav2013 {
+    padding: 21px 0 1px;
+
+    li:first-of-type {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .site-nav.nav2013 {
+    padding: 71px 0 1px;
+
+    li:first-of-type {
+      display: initial;
+    }
+  }
+}
