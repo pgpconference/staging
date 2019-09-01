@@ -5,7 +5,8 @@
 * [Questions](#questions)
 * [Remaining Years](#remaining-years)
 * [Issues](#issues)
-* [Nav Menu](#nav-menu)
+  * [Styles](#styles)
+  * [Nav Menu](#nav-menu)
   * [Collections Ordering](#collections-ordering)
   * [Agendas](#agendas)
   * [2013](#2013)
@@ -31,6 +32,7 @@
   * [404 Page](#404-page)
   * [Ordered Collections](#ordered-collections)
 * [Miscellaneous Notes For Luna](#miscellaneous-notes-for-luna)
+  * [Page Titles and Content Padding](#page-titles-and-content-padding)
   * [Mobile Nav](#mobile-nav)
   * [Refactored SCSS Code](#refactored-scss-code)
 
@@ -54,8 +56,13 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="issues"></a>
 ## Issues
 
+<a id="styles"></a>
+### Styles
+
+* Rewrite SCSS so that `.content` and `.content-wide` having `padding-top`, and remove it from the h1 elements
+
 <a id="nav-menu"></a>
-## Nav Menu
+### Nav Menu
 
 * Header Logo needs to link to relevant year
 
@@ -240,6 +247,22 @@ Needs to be done for:
 ## Miscellaneous Notes For Luna
 
 A note or two for Luna:
+
+<a id="page-titles-and-content-padding"></a>
+### Page Titles and Content Padding
+
+I may need to adjust these for `min-width: 576px`:
+
+```css
+/* 425px */
+.content h1 {
+  margin: 0 0 20px;
+}
+
+.content {
+  padding-top: 20px;
+}
+```
 
 <a id="mobile-nav"></a>
 ### Mobile Nav
