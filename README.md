@@ -7,11 +7,16 @@
 * [Issues](#issues)
 * [Nav Menu](#nav-menu)
   * [Collections Ordering](#collections-ordering)
+  * [Agendas](#agendas)
   * [2013](#2013)
+    * [Homepage](#homepage)
+    * [Sidebar and Speakers](#sidebar-and-speakers)
+    * [Labs](#labs)
+    * [Sponsors](#sponsors)
   * [2014](#2014)
     * [YouTube - Responsive](#youtube---responsive)
   * [2015](#2015)
-    * [Agendas](#agendas)
+    * [Agendas](#agendas-1)
     * [Index page needs to be finished](#index-page-needs-to-be-finished)
   * [2016](#2016)
   * [Favicon](#favicon)
@@ -44,7 +49,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="remaining-years"></a>
 ## Remaining Years
 
-* Currently the 2010-2013 sites need to be imported. 2013 is currently in Progress
+* Currently the 2010-2012 sites need to be imported. 2013 is mostly finished
 
 <a id="issues"></a>
 ## Issues
@@ -61,14 +66,39 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
   * Sponsors
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
 
+<a id="agendas"></a>
+### Agendas
+
+* Inconsistent Column Width - add `_include` variable and css class
+  * 2013 & 2016 Narrow
+  * 2014 & 2015 Wide
+
 <a id="2013"></a>
 ### 2013
 
-* Sidebar needs content modifications
-* Pages completed so far
-  * Home
-  * Speakers
+<a id="homepage"></a>
+#### Homepage
 
+  * Subheader and Sidebar need correct content
+  * Broken sponsors img at bottom of the page
+
+<a id="sidebar-and-speakers"></a>
+#### Sidebar and Speakers
+
+* Sidebar has separate category for Discussion Leaders - which is not reflected on the Speakers
+  * Update Speakers template
+    * If sidebar, if category, etc
+<a id="labs"></a>
+#### Labs
+
+* Add conditional to change formatting of lab entries from `title <br> description` to `title: description`
+  * Probably just via "hide title", keep company name in content
+
+<a id="sponsors"></a>
+#### Sponsors
+
+* Figure out how to do the ordering
+  * Does it make sense to just hardcode into the page?
 
 <a id="2014"></a>
 ### 2014
@@ -91,7 +121,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="2015"></a>
 ### 2015
 
-<a id="agendas"></a>
+<a id="agendas-1"></a>
 #### Agendas
 
 * Expand column width

@@ -5,7 +5,7 @@ title: About
 year: 2014
 ---
 
-<h2> About the Organizer</h2>
+<h2>About the Organizer</h2>
 
 Annual GET Conference events are organized by PersonalGenomes.org, a 501(c)(3) charitable organization. [The mission of PersonalGenomes.org](http://www.personalgenomes.org/mission) is to make a wide spectrum of data about humans accessible and to increase biological literacy and improve human health. Our programs work to generate, aggregate, and interpret human biological and trait data on an unprecedented scale with open-source, open-access, and open-consent frameworks. Our efforts are informed by values encouraging both greater transparency and collaboration between researchers and participants.
 

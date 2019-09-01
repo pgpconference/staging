@@ -1,17 +1,19 @@
+<ul class="sponsors-list">
 {% for collection in site.collections %}
   {% if include.col_name contains collection.label %}
   {% for sponsor in collection.docs %}
-   {% unless sponsor.type == "custom" %}
-<ul class="sponsors-list">
+    {% unless sponsor.type == "custom" %}
   <li class="sponsor">
     <div class="sponsor-bio"><b><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>:</b> {{ sponsor.content }}</div>
     <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
   </li>
-  {% endunless %}
+    {% else %}
+    This is a custom Sponsor
+    {% endunless %}
   {% endfor %}
-</ul>
   {% endif%}
 {% endfor %}
+</ul>
 
 
 {% for collection in site.collections %}

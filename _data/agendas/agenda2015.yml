@@ -11,7 +11,8 @@ a2015:
   day2:
     - title: Registration
       time: 08:30am
-    - title: Opening RemarksGiulio Superti-Furga
+    - title: Opening Remarks
+      details: Giulio Superti-Furga
       time: 09:00am
     - title: "Session I: Populations"
       time: 09:15am

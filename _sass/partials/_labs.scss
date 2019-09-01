@@ -27,6 +27,15 @@
   margin: 0 auto;
 }
 
+.labs-giant {
+  font-size: 30px;
+  margin: 0 0 8px 0;
+  font-weight: normal;
+  color: #48484a;
+  font-family: Georgia,Times, serif;
+  line-height: 40px;
+}
+
 @media only screen and (min-width: 576px) {
   .lab-body {
     display: flex;

@@ -49,6 +49,8 @@ header2013:
     url: "/speakers"
   - title: AGENDA
     url: "/agenda"
+  - title: Venue
+    url: "/venue"
   - title: LABS
     url: "/labs"
   - title: SPONSORS
@@ -59,6 +61,8 @@ header2013:
     url: "/contact"
   - title: PRESS
     url: "/press"
+  - title: REGISTER
+    url: "http://www.getconference.eventbrite.com/"
 
 header2012:
   - title: 2012 HOME
