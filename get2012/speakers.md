@@ -5,7 +5,7 @@ title: Speakers
 year: 2012
 ---
 
-<h2>Speakers & Discussion Leaders</h2>
+# Speakers & Discussion Leaders
 
 {% assign str = "site.speakers" | append: page.year %}
 {% include_cached speakers.html col_name=str %}

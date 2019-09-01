@@ -1,8 +1,8 @@
 ---
-name: About
+title: About
 class: about two-thirds
 layout: default
-year: 2013
+year: 2012
 ---
 
 # About

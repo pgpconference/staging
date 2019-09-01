@@ -74,8 +74,8 @@
       margin: 25px 0 26px;
     }
 
-    .awards-header h2 {
-      margin: 0 0 1px;
+    h1.awards-header {
+      margin: 25px 0 1px;
     }
   }
 }
@@ -120,6 +120,7 @@
   text-align: center;
 }
 
+.content h1,
 .content h2 {
   text-align: center;
 }
@@ -190,12 +191,6 @@ img {
   display: block;
   vertical-align: middle;
 }
-
-.award-content {
-  text-align: center;
-  margin: 0;
-}
-
 
 /**
  * Judges

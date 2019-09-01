@@ -66,6 +66,11 @@ sass:
   style: expanded
   sourcemap: true
 
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
+
 collections:
   speakers2016:
     output: false

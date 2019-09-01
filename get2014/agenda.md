@@ -6,7 +6,7 @@ year: 2014
 date1: April 30, 2014
 ---
 
-<h2>Agenda</h2>
+# Agenda
 
 {% include_cached agenda.html year=page.year date1=page.date1 date2=page.date2 date3=page.date3 %}
 

@@ -5,7 +5,7 @@ title: Sponsors
 year: 2016
 ---
 
-<h2>Sponsors</h2>
+# Sponsors
 
 {% assign str = "site.sponsors" | append: page.year %}
 {%- include_cached sponsors.html col_name=str %}
