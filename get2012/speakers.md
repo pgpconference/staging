@@ -10,4 +10,5 @@ year: 2012
 {% assign str = "site.speakers" | append: page.year %}
 {% include_cached speakers.html col_name=str %}
 
-<p class="collections-tag">More details coming soon!</p>
+{:.collections-tag}
+More details coming soon!
