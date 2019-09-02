@@ -28,7 +28,8 @@
     {% if page.layout == "home" %}
       {% assign speakers_str = "site.speakers" | append: page.year %}
       {% assign organizers_str = "site.organizers" | append: page.year %}
-      {% include sidebar.html speakers_col=speakers_str organizers_col=organizers_str %}
+      {% assign sidebar_str = "sidebars/sidebar" | append: page.year | append: ".html" %}
+      {% include {{ sidebar_str }} speakers_col=speakers_str organizers_col=organizers_str %}
     {% endif %}
 
     {%- include_cached footer.html -%}
