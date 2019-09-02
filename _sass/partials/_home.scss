@@ -1,0 +1,126 @@
+/**
+* Homepage
+*/
+
+.home {
+  margin: 0 0 16px;
+}
+
+.home2012 ul {
+  padding: 0 0 15px;
+  list-style: none;
+}
+
+/**
+* Home 2011
+*/
+
+.home2011 {
+  padding: 16px 0 0;
+}
+
+.conference-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conference-award-img {
+  margin: 0 0 36px;
+}
+
+.conference-text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 576px) {
+  .conference-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 500px;
+  }
+
+  .conference-award-img {
+    margin: 0 2% 0 0;
+    width: 150px;
+  }
+
+  .conference-text {
+    text-align: left;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .conference-box {
+    justify-content: space-between;
+    width: 450px;
+  }
+
+  .conference-text {
+    width: 285px;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .conference-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 6px 0 0;
+    width: 575px;
+  }
+
+  .conference-text p {
+    padding: 0 30px 0 0;
+  }
+
+  .conference-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 395px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .conference-box {
+    justify-content: flex-start;
+    width: 525px;
+  }
+
+  .conference-text p {
+    padding: 0;
+  }
+
+  .conference-text {
+    width: 330px;
+    width: 62.75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home2011 {
+    padding: 0;
+  }
+  .conference-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 6px 0 0;
+    width: 575px;
+  }
+
+  .conference-text p {
+    padding: 0 13px 0 0;
+  }
+
+  .conference-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 395px;
+  }
+}
+
