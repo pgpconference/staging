@@ -1,0 +1,10 @@
+{%- assign speakers_str = "site.speakers" | append: page.year -%}
+{%- assign organizers_str = "site.organizers" | append: page.year -%}
+{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str organizers_col=organizers_str -%}
+
+<iframe width="300" height="169" src="http://www.youtube.com/embed/videoseries?list=PL56EAF7F3416F65ED&amp;hl=en_US" frameborder="0" allowfullscreen=""></iframe>
+<p><a href="http://www.youtube.com/user/PersonalGenomesOrg/feed">Watch videos from more leading thinkers</a></p>
+
+<div class="sidebar-list">
+  {%- include sidebars/blocks/past-events.html -%}
+</div>

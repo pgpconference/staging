@@ -1,0 +1,6 @@
+{%- assign speakers_str = "site.speakers" | append: page.year -%}
+{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str -%}
+
+<div class="sidebar-list">
+  {%- include sidebars/blocks/past-events.html -%}
+</div>

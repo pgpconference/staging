@@ -1,0 +1,21 @@
+{%- assign speakers_str = "site.speakers" | append: page.year -%}
+{%- assign organizers_str = "site.organizers" | append: page.year -%}
+
+{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str organizers_col=organizers_str -%}
+
+
+{% unless include.social == false %}
+<div class="sidebar-social-list">
+  <div class="sidebar-list">
+    {%- assign social = site.minima.social_links -%}
+    <h3>SOCIAL MEDIA</h3>
+    <span>Twitter: </span><a href="https://twitter.com/{{ social.twitter }}">@{{ social.twitter }}</a><br>
+    <p>Email Updates: <a href="https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b">Sign-up</a><br>
+    </p>
+  </div>
+
+  <div class="sidebar-list">
+    {%- include sidebars/blocks/past-events.html -%}
+  </div>
+</div>
+{% endunless %}

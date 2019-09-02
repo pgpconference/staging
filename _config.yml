@@ -72,59 +72,71 @@ titles_from_headings:
   collections: false
 
 collections:
-  speakers2016:
+  awards2016:
     output: false
-  speakers2015:
+  awards-presenters2010:
     output: false
-  speakers2014:
+  breakout-leaders2010:
     output: false
-  speakers2013:
+  discussion-leaders2010:
     output: false
-  speakers2012:
-    output: false
-  speakers2011:
-    output: false
-  speakers2010:
-    output: false
-  organizers2016:
-    output: false
-  organizers2015:
-    output: false
-  organizers2014:
-    output: false
-  past-conferences2016:
-    output: true
-  sponsors2016:
-    output: false
-  sponsors2015:
-    output: false
-  sponsors2014:
-    output: false
-  sponsors2013:
-    output: false
-  sponsors2012:
-    output: false
-  sponsors2011:
-    output: false
-  sponsors2010:
-    output: false
-  labs2016:
-    output: false
-  labs2014:
-    output: false
-  labs2013:
-    output: false
-  labs2012:
-    output: false
-  labs2011:
-    output: false
-  labs2010:
+  discussion-leaders2012:
     output: false
   expos2016:
     output: false
-  awards2016:
-    output: false
   judges2016:
     output: false
+  labs2010:
+    output: false
+  labs2011:
+    output: false
+  labs2012:
+    output: false
+  labs2013:
+    output: false
+  labs2014:
+    output: false
+  labs2016:
+    output: false
   media-partners2016:
+    output: false
+  moderators2010:
+    output: false
+  organizers2014:
+    output: false
+  organizers2015:
+    output: false
+  organizers2016:
+    output: false
+  past-conferences2016:
+    output: false
+  prototypes2010:
+    output: false
+  speakers2010:
+    output: false
+  speakers2011:
+    output: false
+  speakers2012:
+    output: false
+  speakers2013:
+    output: false
+  speakers2014:
+    output: false
+  speakers2015:
+    output: false
+  speakers2016:
+    output: false
+  sponsors2010:
+    output: false
+  sponsors2011:
+    output: false
+  sponsors2012:
+    output: false
+  sponsors2013:
+    output: false
+  sponsors2014:
+    output: false
+  sponsors2015:
+    output: false
+  sponsors2016:
     output: false

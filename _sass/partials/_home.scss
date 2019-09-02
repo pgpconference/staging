@@ -6,9 +6,23 @@
   margin: 0 0 16px;
 }
 
+/**
+ * Home 2015
+ */
+
+.home2015 {
+  .mt25 {
+      margin-top: 25px;
+    }
+
+  .sidebar-list h3 {
+    margin: 16px 0;
+  }
+}
+
 .home2012 ul {
-  padding: 0 0 15px;
   list-style: none;
+  padding: 0 0 15px;
 }
 
 /**
@@ -17,6 +31,11 @@
 
 .home2011 {
   padding: 16px 0 0;
+
+  .sidebar-list {
+    text-align: center;
+  }
+
 }
 
 .conference-box {
@@ -32,6 +51,16 @@
 .conference-text {
   text-align: center;
 }
+
+@media only screen and (min-width: 425px) {
+  .home2011 {
+    .sidebar {
+      margin: 0 auto;
+      width: 250px;
+    }
+  }
+}
+
 
 @media only screen and (min-width: 576px) {
   .conference-box {
@@ -50,9 +79,30 @@
     text-align: left;
     width: 300px;
   }
+
+  .home2011 .sidebar {
+    width: auto;
+
+    .speakers-list a {
+      margin: 0 9px 16px;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .home2011 {
+    padding: 0;
+    width: auto;
+
+    .content-wide h1 {
+        margin: 0 0 20px 24px;
+      }
+
+    .sidebar {
+      width: auto;
+    }
+  }
+
   .conference-box {
     justify-content: space-between;
     width: 450px;
@@ -60,6 +110,32 @@
 
   .conference-text {
     width: 285px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home2011 {
+    .sidebar {
+      width: 230px;
+
+      .speakers .speakers-list a,
+      .speakers .speakers-list a :last-of-type {
+        margin: 0 9px 16px;
+      }
+    }
+
+    .sidebar-header h3 {
+      margin: 0 10px 16px;
+    }
+
+    .sidebar-list {
+      text-align: left;
+
+      a,
+      p {
+        padding: 0;
+      }
+    }
   }
 }
 
@@ -103,7 +179,12 @@
 @media only screen and (min-width: 1200px) {
   .home2011 {
     padding: 0;
+
+    .content-wide h1 {
+      margin: 0 0 20px -25px
+    }
   }
+
   .conference-box {
     display: flex;
     flex-wrap: wrap;
