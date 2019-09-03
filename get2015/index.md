@@ -35,13 +35,15 @@ The GET Conference brings together leading thinkers to discuss how we measure an
 
 The GET Conference is produced by PersonalGenomes.org, a 501(c)(3) charitable organization based in the United States whose mission is to make a wide spectrum of human biological information accessible and actionable to increase biological literacy and improve human health. We support groundbreaking initiatives including the Personal Genome Project, the Open Humans Network and the GET Conference.
 
+{:.mt25}
 ## Co-Organizers
 
-<img src="{{ "/get2015/images/get2015_coorganizers.jpg" | relative_url }} alt="GET 2015 Co-Organizers>
+![GET 2015 Co-Organizers]({{ site.baseurl }}/get2015/images/get2015_coorganizers.jpg)
 
+{:.mt25}
 ## Thanks to our sponsors
 
-<img src="/get2015/images/autodesklogo_570_106.jpg" alt="Autodesk logo">
-<img src="/get2015/images/illumina_570x194.jpg" alt="illumina logo">
-<img src="/get2015/images/Novartis_570x241.jpg" alt="Novartis Pharmaceuticals logo">
-<img src="/get2015/images/Parametric_Human_570x200.jpg" alt="Parametric Human Project logo">
+![Autodesk logo]({{ site.baseurl }}/get2015/images/autodesklogo_570_106.jpg)
+![illumina logo]({{ site.baseurl }}/get2015/images/illumina_570x194.jpg)
+![Novartis Pharmaceuticals logo]({{ site.baseurl }}/get2015/images/Novartis_570x241.jpg)
+![Parametric Human Project logo]({{ site.baseurl }}/get2015/images/Parametric_Human_570x200.jpg)

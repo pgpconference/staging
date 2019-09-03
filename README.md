@@ -3,32 +3,31 @@
 <!-- MarkdownTOC -->
 
 * [Questions](#questions)
-  * [Sidebar](#sidebar)
 * [Remaining Years](#remaining-years)
 * [Issues](#issues)
+  * [Styles](#styles)
+  * [Nav Menu](#nav-menu)
   * [Collections Ordering](#collections-ordering)
-  * [Sidebars](#sidebars)
   * [Agendas](#agendas)
-  * [2011](#2011)
   * [2013](#2013)
     * [Homepage](#homepage)
     * [Sidebar and Speakers](#sidebar-and-speakers)
     * [Labs](#labs)
     * [Sponsors](#sponsors)
   * [2014](#2014)
+    * [YouTube - Responsive](#youtube---responsive)
   * [2015](#2015)
     * [Agendas](#agendas-1)
     * [Index page needs to be finished](#index-page-needs-to-be-finished)
   * [2016](#2016)
-    * [Home](#home)
-    * [Sponsors](#sponsors-1)
   * [Favicon](#favicon)
+  * [Collections](#collections)
     * [Relative Directories](#relative-directories)
+  * [Sidebar](#sidebar)
+  * [2016 Image Paths](#2016-image-paths)
 * [Optional](#optional)
   * [DRY](#dry)
   * [Nav](#nav)
-    * [Current Page](#current-page)
-    * [2012 & 2013](#2012--2013)
   * [Naming Convention](#naming-convention)
   * [404 Page](#404-page)
   * [Ordered Collections](#ordered-collections)
@@ -36,8 +35,6 @@
   * [Page Titles and Content Padding](#page-titles-and-content-padding)
   * [Mobile Nav](#mobile-nav)
   * [Refactored SCSS Code](#refactored-scss-code)
-* [Useful Resources and Snippets](#useful-resources-and-snippets)
-  * [YouTube - Responsive](#youtube---responsive)
 
 <!-- /MarkdownTOC -->
 
@@ -51,11 +48,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
     * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
 2. Google Analytics Setup?
 
-<a id="sidebar"></a>
-### Sidebar
-
-1. Is having `font-size: 14px` instead of `font-size: 12px` ok for the Sidebar headings?
-
 <a id="remaining-years"></a>
 ## Remaining Years
 
@@ -64,17 +56,22 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="issues"></a>
 ## Issues
 
+<a id="styles"></a>
+### Styles
+
+* Rewrite SCSS so that `.content` and `.content-wide` having `padding-top`, and remove it from the h1 elements
+
+<a id="nav-menu"></a>
+### Nav Menu
+
+* Header Logo needs to link to relevant year
+
 <a id="collections-ordering"></a>
 ### Collections Ordering
 
 * Needs Dynamic Ordering Fix:
   * Sponsors
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
-
-<a id="sidebars"></a>
-### Sidebars
-
-* Review various years for differences in sidebars
 
 <a id="agendas"></a>
 ### Agendas
@@ -83,20 +80,14 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
   * 2013 & 2016 Narrow
   * 2014 & 2015 Wide
 
-
-<a id="2011"></a>
-### 2011
-
-* Sidebar Speakers needs to be 2x2
-
 <a id="2013"></a>
 ### 2013
 
 <a id="homepage"></a>
 #### Homepage
 
-* Subheader and Sidebar need correct content
-* Broken sponsors img at bottom of the page
+  * Subheader and Sidebar need correct content
+  * Broken sponsors img at bottom of the page
 
 <a id="sidebar-and-speakers"></a>
 #### Sidebar and Speakers
@@ -104,7 +95,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 * Sidebar has separate category for Discussion Leaders - which is not reflected on the Speakers
   * Update Speakers template
     * If sidebar, if category, etc
-
 <a id="labs"></a>
 #### Labs
 
@@ -126,6 +116,15 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 * Agenda - should I change the <address> at the bottom to be `font-style: normal`?
 * About - Content Width needs to be narrower
 
+<a id="youtube---responsive"></a>
+#### YouTube - Responsive
+
+```html
+<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/PvGVMg1wjoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+```
+
+
+
 <a id="2015"></a>
 ### 2015
 
@@ -140,20 +139,18 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 <a id="2016"></a>
 ### 2016
 
-<a id="home"></a>
-#### Home
-
-* About GETy Awards heading needs `.margin-top-tall`
-
-<a id="sponsors-1"></a>
-#### Sponsors
-
-* Weird extra `</ul>` tag at the bottom... thought I'd fixed that already...
+* Speakers pg - Daniel Hills bio not bold at start
 
 <a id="favicon"></a>
 ### Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
+
+<a id="collections"></a>
+### Collections
+
+* Would like to find a way to tidy the directory structure up
+  * May be a Jekyll limitation though
 
 <a id="relative-directories"></a>
 #### Relative Directories
@@ -174,6 +171,33 @@ See here:
 {% endfor %}
 ```
 
+<a id="sidebar"></a>
+### Sidebar
+
+* Speakers and Organizers need font formatting
+* Co-Organizers section needs to be conditional
+* Review various years for differences in sidebars
+
+<a id="2016-image-paths"></a>
+### 2016 Image Paths
+
+Revert image paths to original structure - will be better for future editing
+
+Needs to be done for:
+* Collections:
+  * Co-Organizers
+  * Expos
+  * Labs
+  * Speakers-2016: christoph-bock.md
+  * Sponsors 2016
+* SASS
+  * `_custom.scss`
+  * `_get2016.scss`
+  * `media\_min-width-425.scss`
+  * `media\_min-width-576.scss`
+  * `media\_min-width-768.scss`
+
+
 <a id="optional"></a>
 ## Optional
 
@@ -189,9 +213,6 @@ See here:
 <a id="nav"></a>
 ### Nav
 
-<a id="current-page"></a>
-#### Current Page
-
 * See about integrating code for highlighting the current page into the Nav menu
 
 ```html
@@ -202,12 +223,6 @@ See here:
   {%- endif -%}
 {%- endfor -%}
 ```
-
-<a id="2012--2013"></a>
-#### 2012 & 2013
-
-* Deal with "too many items" issue by making text smaller - not by eliminating the home link
-  * Bad UX
 
 <a id="naming-convention"></a>
 ### Naming Convention
@@ -295,13 +310,3 @@ Determin if `scripts/mobile-nav.js` is actually doing anything, or if I can dele
 
 * Reminder: I already changed #content and #content-wide to .content and .content-wide.
   * If I run into issues, check this first
-
-<a id="useful-resources-and-snippets"></a>
-## Useful Resources and Snippets
-
-<a id="youtube---responsive"></a>
-### YouTube - Responsive
-
-```html
-<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/PvGVMg1wjoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-```

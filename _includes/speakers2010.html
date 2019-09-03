@@ -1,0 +1,79 @@
+<h2>Personal Genome Pioneers</h2>
+{% for collection in site.collections %}
+  {% if include.sp contains collection.label %}
+<ul class="speakers-list">
+  {% assign sorted = (collection.docs | sort: 'last') %}
+  {% for speaker in sorted %}
+<li class="speaker">
+  <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
+  <div class="speaker-bio">{{ speaker.content }}</div>
+</li>
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
+<h2>Moderators</h2>
+{% for collection in site.collections %}
+  {% if include.mod contains collection.label %}
+  <ul class="speakers-list">
+    {% assign sorted = (collection.docs | sort: 'last') %}
+    {% for speaker in sorted %}
+  <li class="speaker">
+    <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
+    <div class="speaker-bio">{{ speaker.content }}</div>
+  </li>
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
+<h2>Speakers for the Prototypes of the Future</h2>
+{% for collection in site.collections %}
+  {% if include.pro contains collection.label %}
+  <ul class="speakers-list">
+    {% assign sorted = (collection.docs | sort: 'last') %}
+    {% for speaker in sorted %}
+  <li class="speaker">
+    <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
+    <div class="speaker-bio">{{ speaker.content }}</div>
+  </li>
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
+
+<h2>Breakout Session Leaders</h2>
+{% for collection in site.collections %}
+  {% if include.brk contains collection.label %}
+  <ul class="speakers-list">
+    {% assign sorted = (collection.docs | sort: 'last') %}
+    {% for speaker in sorted %}
+  <li class="speaker">
+    <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
+    <div class="speaker-bio">{{ speaker.content }}</div>
+  </li>
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
+
+
+<h2>Awards Presenters</h2>
+{% for collection in site.collections %}
+  {% if include.awd contains collection.label %}
+  <ul class="speakers-list">
+    {% assign sorted = (collection.docs | sort: 'last') %}
+    {% for speaker in sorted %}
+  <li class="speaker">
+    <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
+    <div class="speaker-bio">{{ speaker.content }}</div>
+  </li>
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
+

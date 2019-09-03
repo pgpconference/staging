@@ -3,34 +3,40 @@
 
   {%- include head.html -%}
 
-  {% if page.layout == "home" %}
-    <body class="home">
-  {% elsif page.name contains "awards" %}
+  {%- if page.layout == "home" -%}
+    <body class="home home{{ page.year }}">
+  {%- elsif page.name contains "awards" -%}
     <body class="sub awards">
-  {% else %}
-    <body class="sub {{ page.class | downcase }}">
-  {% endif %}
+  {%- else -%}
+    <body class="sub {{ page.class | downcase }} {{ page.class | downcase | append: page.year }}">
+  {%- endif -%}
     <div id="oho">
 
-    {% assign current_conference_year = "2016" %}
-    {% assign year = page.year | default: '2016'%}
+    {%- assign current_conference_year = "2016" -%}
+    {%- assign year = page.year | default: "2016" -%}
     {%- include_cached header.html year=year current_conf=current_conference_year -%}
 
-    {% if page.layout == "home" %}
+    {%- if page.layout == "home" -%}
       {%- include_cached subheader.html -%}
       <main id="content-wide" class="content-wide clear" aria-label="Content">
-
-    {% else %}
+    {%- else -%}
       <main id="content" class="content" aria-label="Content">
-    {% endif %}
+    {%- endif -%}
       {{ content }}
     </main>
-    {% if page.layout == "home" %}
-      {% assign speakers_str = "site.speakers" | append: page.year %}
-      {% assign organizers_str = "site.organizers" | append: page.year %}
-      {% assign sidebar_str = "sidebars/sidebar" | append: page.year | append: ".html" %}
-      {% include {{ sidebar_str }} speakers_col=speakers_str organizers_col=organizers_str %}
-    {% endif %}
+
+    {%- if page.layout == "home" -%}
+      <div id="sidebar" class="sidebar">
+        {%- if page.year == 2016 -%}
+          {%- assign sidebar_str = "sidebars/sidebar" | append: page.year | append: ".html" -%}
+          {%- include {{ sidebar_str }} speakers_col=speakers_str organizers_col=organizers_str conf_year=current_conference_year -%}
+        {%- else -%}
+            {%- assign sidebar_str = "sidebars/sidebar" | append: page.year | append: ".html" -%}
+            {%- include {{ sidebar_str }} speakers_col=speakers_str organizers_col=organizers_str conf_year=current_conference_year -%}
+        {%- endif -%}
+      {%- endif -%}
+      </div>
+
 
     {%- include_cached footer.html -%}
     </div>

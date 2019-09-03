@@ -1,59 +1,21 @@
-<div id="sidebar" class="sidebar">
-  <div class="speakers">
+{%- assign speakers_str = "site.speakers" | append: page.year -%}
+{%- assign organizers_str = "site.organizers" | append: page.year -%}
 
-    <div class="sidebar-header"><h3>Speakers</h3></div>
-    <div class="speakers-list">
-      {% for collection in site.collections %}
-        {% if include.speakers_col contains collection.label %}
-          {% assign sorted = (collection.docs | sort: 'last') %}
-            {% for speaker in sorted %}
-        <a href="/get2016/speakers#{{ speaker.name }}">
-          <div class="sidebar-speaker-img"><img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}"></div>
-          <div class="speaker-name">{{ speaker.name }}</div>
-        </a>
-          {% endfor %}
-        {%  endif %}
-      {% endfor %}
-    </div>
+{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str organizers_col=organizers_str -%}
+
+
+{% unless include.social == false %}
+<div class="sidebar-social-list">
+  <div class="sidebar-list">
+    {%- assign social = site.minima.social_links -%}
+    <h3>SOCIAL MEDIA</h3>
+    <span>Twitter: </span><a href="https://twitter.com/{{ social.twitter }}">@{{ social.twitter }}</a><br>
+    <p>Email Updates: <a href="https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b">Sign-up</a><br>
+    </p>
   </div>
 
-{% for collection in site.collections %}
-  {% if include.organizers_col contains collection.label %}
-  <div class="organizers">
-    <h3>Co-Organizers</h3>
-    <div class="organizers-list">
-      {% for organizer in collection.docs | sort: 'order' %}
-        <a href="/get2016/organizer#{{ organizer.name }}">
-        <div class="sidebar-speaker-img"><img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}"></div>
-        <div class="speaker-name">{{ organizer.name }}</div>
-        </a>
-      {% endfor %}
-    </div>
+  <div class="sidebar-list">
+    {%- include sidebars/blocks/past-events.html -%}
   </div>
-  {%  endif %}
-{% endfor %}
-
-  {% unless include.social == false %}
-  <div class="sidebar-social-list">
-    <div class="sidebar-list">
-      {%- assign social = site.minima.social_links -%}
-      <h3>SOCIAL MEDIA</h3>
-      <span>Twitter: </span><a href="https://twitter.com/{{ social.twitter }}">@{{ social.twitter }}</a><br>
-      <p>Email Updates: <a href="https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b">Sign-up</a><br>
-      </p>
-    </div>
-
-    <div class="sidebar-list">
-      <h3>Past Events</h3>
-      <a href="/get2015/index.html">2015 GET Global</a><br>
-      <a href="/get2014/index.html">2014 GET Conference</a><br>
-      <a href="/get2014/labs.html">2014 GET Labs</a><br>
-      <a href="/get2013/index.html">2013 GET Conference</a><br>
-      <a href="/get2013/labs.html">2013 GET Labs</a><br>
-      <a href="/get2012/index.html">2012 GET Conference</a><br>
-      <a href="/get2011/index.html">2011 GET Conference</a><br>
-      <a href="/get2010/index.html">2010 GET Conference</a>
-    </div>
-  </div>
-  {% endunless %}
 </div>
+{% endunless %}

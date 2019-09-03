@@ -1,0 +1,38 @@
+past-events:
+  - title: 2015 GET Conference
+    year: 2015
+    url: /get2015
+  - title: 2014 GET Conference
+    year: 2014
+    url: /get2014
+  - title: 2014 GET Labs
+    year: 2014
+    url: /get2014/labs
+  - title: 2013 GET Conference
+    year: 2013
+    url: /get2013
+  - title: 2013 GET Labs
+    year: 2013
+    url: /get2013/labs
+  - title: 2012 GET Conference
+    year: 2012
+    url: /get2012
+  - title: 2011 GET Conference
+    year: 2011
+    url: /get2011
+  - title: 2010 GET Conference
+    year: 2010
+    url: /get2010
+
+current-events2015:
+  - title: 2015 GET Conference
+    year: 2015
+    url: /get2015
+
+upcoming-events2015:
+  - title: 2016 GET Conference
+    year: 2016
+    url: /get2016
+  - title: 2016 GET Labs
+    year: 2016
+    url: /get2016/labs
