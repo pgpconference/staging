@@ -1,0 +1,27 @@
+a2011:
+  day1:
+  - date: April 27, 2011
+  - title: Welcome
+    start: 10:00am
+    end: 10:05am
+  - title: David Goldstein (Duke University)
+    start: 10:05am
+    end: 10:45pm
+    details: Rare and common variants in human disease.
+  - title: Rade Drmanac (Complete Genomics, Inc.)
+    start: 10:55am
+    end: 11:35am
+    details: Complete sequencing of millions of human genomes for research and genomic medicine.
+  - title: Coffee
+    start: 11:45am
+    end: 12:15pm
+  - title: Dana Pe'er (Columbia University)
+    start: 12:15pm
+    end: 12:55pm
+    details: "Genotype to phenotype: A network approach."
+  - title: George Church (Harvard University)
+    start: 1:05pm
+    end: 1:45pm
+  - title: Adjourn
+    start: 2:00pm
+    details: Personalized and participatory genomic medicine.

@@ -1,47 +1,26 @@
 ---
 layout: home
+title: GET Conference 2010
 year: 2010
 ---
 
-<h2>Historic Event</h2>
+## Thank You for Making GET Conference 2010 a Success!
 
-This year we are celebrating the 10th Anniversary of the Personal Genome Project and the 25th anniversary of the launch of the Human Genome Project. Since its inception in [2010](http://www.getconference.org/GET2010/index.html), the GET Conference series brings together the pioneers of personal genome sequencing to debate the technical, commercial, and societal impacts of affordable DNA sequencing. In 2015, we find ourselves on the verge of massive-scale population genome projects, and we will explore the impact of the breath-taking advances in genomic technologies for health and society.
+We would like to thank all of our speakers, sponsors, moderators and attendees for making the GET Conference 2010 a resounding success. For us, the GET Conference offered a glimpse into the past, present and future of personal genomes, and sparked a number of exciting conversations. We hope it did for you as well.
 
-## Agenda and Sessions
+If you were unable to attend the GET Conference, or would just like to revisit it, you may check out the [photos](http://arep.med.harvard.edu/PGP/GET/) or visit our [press page](http://www.getconference.org/get2010/press.html), where we have collected a range of articles covering the conference. See also, the collection of [real-time Twitter coverage](http://www.genomicslawreport.com/index.php/2010/04/28/get2010-edition-of-weekly-twitter-roundup/) of the GET Conference provided by several of our attendees.
 
-Within a few years **millions of people** will have their **genomic data**. Multiple countries have embarked on mega-cohort initiatives aiming to advance **precision medicine** and the health of their populations. What are the opportunities to realize **social benefits** that exceed these **enormous investments**?
+We will be posting video from the conference once they are available. If you'd like to share your thoughts about the GET Conference 2010, or suggestions for next year's event, please [contact us](http://www.getconference.org/get2010/contact.html).
 
-We will explore this and more across several sessions:
+{% figure [caption:"Caption (markdown)"] [class:"class1 class2"] %}
+![pioneers]({{ site.baseurl }}/get2010/images/pioneers3.jpg)
+{% endfigure %}
 
-*   **Populations**, chaired by Sir John Chisholm, Genomics England
-*   **Society**, chaired by Barbara Prainsack, King's College
-*   **Technology**, chaired by George Church, Harvard Medical School
-*   **Environment**, chaired by Tim Spector, UK Twins Registry
-*   **Traits**, chaired by Joseph Kvedar, Harvard Center for Connected Health
-
-## Details
-
-*   **Date & Place:** 17-19 September 2015 in Vienna, Austria
-*   **Venue:** CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences
-*   All participation fees are covered by PersonalGenomes.org & CeMM. Invited guests are responsible for their own travel.
-
-## Your Contribution
-
-The conference will be a highly interactive gathering of opinion leaders and creative minds. Please visit the conference website to [apply for a personal invitation](http://www.getconference.org/apply.html) and/or [nominate a colleague](http://www.getconference.org/nominate.html) who could provide an interesting perspective. With the application form please feel free to submit **proposals for short talks pitching new concepts, provocative ideas**, etc. that will contribute to the discussion and stimulate our thinking about the **genomic future**.
-
-## About the GET Conference
-
-The GET Conference brings together leading thinkers to discuss how we measure and understand people and their traits. For the past five years, this event has explored the frontiers of understanding about human biology and serves as an annual forum to debate the technical, commercial, and societal impacts.
-
-The GET Conference is produced by PersonalGenomes.org, a 501(c)(3) charitable organization based in the United States whose mission is to make a wide spectrum of human biological information accessible and actionable to increase biological literacy and improve human health. We support groundbreaking initiatives including the Personal Genome Project, the Open Humans Network and the GET Conference.
-
-## Co-Organizers
-
-<img src="{{ "/get2015/images/get2015_coorganizers.jpg" | relative_url }} alt="GET 2015 Co-Organizers>
-
-## Thanks to our sponsors
-
-<img src="/get2015/images/autodesklogo_570_106.jpg" alt="Autodesk logo">
-<img src="/get2015/images/illumina_570x194.jpg" alt="illumina logo">
-<img src="/get2015/images/Novartis_570x241.jpg" alt="Novartis Pharmaceuticals logo">
-<img src="/get2015/images/Parametric_Human_570x200.jpg" alt="Parametric Human Project logo">
+Personal Genome Pioneers gathered at the GET Conference 2010.
+Back Row from left: Henry Louis Gates, Jr., James Lupski, Mikhail Shapiro*,
+Rosalynn Gill, Daniel Vorhaus*, Kirk Maxey, Esther Dyson, Hermann Hauser,
+Jay Flatley, George Church, Misha Angrist, John Halamka, Keith Batchelder,
+James Sherley, Jason Bobe*. Front Row from left: Greg Lucier, Stephen
+Quake, Anne West, James Watson, Seong-Jin Kim, John West, Caryn Saitz*
+Photo credit: Justin Knight, © PersonalGenomes.org. * indicates
+organizing committee. More [photos](http://arep.med.harvard.edu/PGP/GET/).
