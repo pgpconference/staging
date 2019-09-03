@@ -3,38 +3,24 @@
 <!-- MarkdownTOC -->
 
 * [Questions](#questions)
-* [Remaining Years](#remaining-years)
-* [Issues](#issues)
-  * [Styles](#styles)
-  * [Nav Menu](#nav-menu)
-  * [Collections Ordering](#collections-ordering)
-  * [Agendas](#agendas)
-  * [2013](#2013)
-    * [Homepage](#homepage)
-    * [Sidebar and Speakers](#sidebar-and-speakers)
-    * [Labs](#labs)
-    * [Sponsors](#sponsors)
-  * [2014](#2014)
-    * [YouTube - Responsive](#youtube---responsive)
-  * [2015](#2015)
-    * [Agendas](#agendas-1)
-    * [Index page needs to be finished](#index-page-needs-to-be-finished)
-  * [2016](#2016)
-  * [Favicon](#favicon)
-  * [Collections](#collections)
-    * [Relative Directories](#relative-directories)
-  * [Sidebar](#sidebar)
-  * [2016 Image Paths](#2016-image-paths)
+* [Nav Menu](#nav-menu)
+* [Collections Ordering](#collections-ordering)
+* [404 Page](#404-page)
+* [Agendas](#agendas)
+* [2010](#2010)
+* [2012](#2012)
+* [2014](#2014)
+* [2015](#2015)
+* [Homepage](#homepage)
+* [Labs](#labs)
+* [Sponsors](#sponsors)
+* [Favicon](#favicon)
+* [Collections](#collections)
+  * [Relative Directories](#relative-directories)
 * [Optional](#optional)
   * [DRY](#dry)
   * [Nav](#nav)
-  * [Naming Convention](#naming-convention)
-  * [404 Page](#404-page)
-  * [Ordered Collections](#ordered-collections)
-* [Miscellaneous Notes For Luna](#miscellaneous-notes-for-luna)
-  * [Page Titles and Content Padding](#page-titles-and-content-padding)
-  * [Mobile Nav](#mobile-nav)
-  * [Refactored SCSS Code](#refactored-scss-code)
+  * [404 Page](#404-page-1)
 
 <!-- /MarkdownTOC -->
 
@@ -48,112 +34,82 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
     * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
 2. Google Analytics Setup?
 
-<a id="remaining-years"></a>
-## Remaining Years
-
-* Currently the 2010-2012 sites need to be imported. 2013 is mostly finished
-
-<a id="issues"></a>
-## Issues
-
-<a id="styles"></a>
-### Styles
-
-* Rewrite SCSS so that `.content` and `.content-wide` having `padding-top`, and remove it from the h1 elements
-
 <a id="nav-menu"></a>
-### Nav Menu
+## Nav Menu
 
-* Header Logo needs to link to relevant year
+* Site < 2013 - Glitches at 768px (and fine again at 769)
 
 <a id="collections-ordering"></a>
-### Collections Ordering
+## Collections Ordering
 
 * Needs Dynamic Ordering Fix:
   * Sponsors
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
 
-<a id="agendas"></a>
-### Agendas
+<a id="404-page"></a>
+## 404 Page
+  * Broken logo when coming from 2010
 
+<a id="agendas"></a>
+## Agendas
+
+* Still need 2012 Agenda pg
 * Inconsistent Column Width - add `_include` variable and css class
   * 2013 & 2016 Narrow
   * 2014 & 2015 Wide
 
-<a id="2013"></a>
-### 2013
+<a id="2010"></a>
+## 2010
+
+* Homepage: horizontal content width
+* Sidebar: Producing extra people for some reason
+
+<a id="2012"></a>
+## 2012
+
+* Still needs Agenda page
+
+<a id="2014"></a>
+## 2014
+
+* Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
+* About - Content Width needs to be narrower
+
+<a id="2015"></a>
+## 2015
+* Agendas??
+  * Check if I need to expand column width
 
 <a id="homepage"></a>
-#### Homepage
+## Homepage
 
-  * Subheader and Sidebar need correct content
-  * Broken sponsors img at bottom of the page
+* Subheader needs to be adjusted for each conference year
 
-<a id="sidebar-and-speakers"></a>
-#### Sidebar and Speakers
-
-* Sidebar has separate category for Discussion Leaders - which is not reflected on the Speakers
-  * Update Speakers template
-    * If sidebar, if category, etc
 <a id="labs"></a>
-#### Labs
+## Labs
 
 * Add conditional to change formatting of lab entries from `title <br> description` to `title: description`
   * Probably just via "hide title", keep company name in content
 
 <a id="sponsors"></a>
-#### Sponsors
+## Sponsors
 
 * Figure out how to do the ordering
   * Does it make sense to just hardcode into the page?
 
-<a id="2014"></a>
-### 2014
-
-* Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
-* Sidebar - need to add in embedded YouTube vid
-  * See below for responsive code
-* Agenda - should I change the <address> at the bottom to be `font-style: normal`?
-* About - Content Width needs to be narrower
-
-<a id="youtube---responsive"></a>
-#### YouTube - Responsive
-
-```html
-<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/PvGVMg1wjoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-```
-
-
-
-<a id="2015"></a>
-### 2015
-
-<a id="agendas-1"></a>
-#### Agendas
-
-* Expand column width
-
-<a id="index-page-needs-to-be-finished"></a>
-#### Index page needs to be finished
-
-<a id="2016"></a>
-### 2016
-
-* Speakers pg - Daniel Hills bio not bold at start
-
 <a id="favicon"></a>
-### Favicon
+## Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
 
 <a id="collections"></a>
-### Collections
+## Collections
 
 * Would like to find a way to tidy the directory structure up
   * May be a Jekyll limitation though
 
 <a id="relative-directories"></a>
-#### Relative Directories
+### Relative Directories
 See here:
 
 ```ruby
@@ -170,33 +126,6 @@ See here:
  {% endfor %}
 {% endfor %}
 ```
-
-<a id="sidebar"></a>
-### Sidebar
-
-* Speakers and Organizers need font formatting
-* Co-Organizers section needs to be conditional
-* Review various years for differences in sidebars
-
-<a id="2016-image-paths"></a>
-### 2016 Image Paths
-
-Revert image paths to original structure - will be better for future editing
-
-Needs to be done for:
-* Collections:
-  * Co-Organizers
-  * Expos
-  * Labs
-  * Speakers-2016: christoph-bock.md
-  * Sponsors 2016
-* SASS
-  * `_custom.scss`
-  * `_get2016.scss`
-  * `media\_min-width-425.scss`
-  * `media\_min-width-576.scss`
-  * `media\_min-width-768.scss`
-
 
 <a id="optional"></a>
 ## Optional
@@ -224,89 +153,10 @@ Needs to be done for:
 {%- endfor -%}
 ```
 
-<a id="naming-convention"></a>
-### Naming Convention
-
-* Any preference for `/get2012/speakers.html` vs `/speakers.html` in `_data/navigation.yml`.
-  * Currently configured to flexibly handle both
-
-<a id="404-page"></a>
+<a id="404-page-1"></a>
 ### 404 Page
 
 * For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
   * Unclear if there's a way to do anything about this
   * Displaying a sitemap might be the best option
 
-<a id="ordered-collections"></a>
-### Ordered Collections
-
-* Specify order in `_config.yml` file instead using variables. See Jekyll - [Manually Ordering Documents](https://jekyllrb.com/docs/collections/#manually-ordering-documents)
-  * This was not working when I attempted. Troubleshoot if possible, since this will be useful for future iterations.
-
-<a id="miscellaneous-notes-for-luna"></a>
-## Miscellaneous Notes For Luna
-
-A note or two for Luna:
-
-<a id="page-titles-and-content-padding"></a>
-### Page Titles and Content Padding
-
-I may need to adjust these for `min-width: 576px`:
-
-```css
-/* 425px */
-.content h1 {
-  margin: 0 0 20px;
-}
-
-.content {
-  padding-top: 20px;
-}
-```
-
-<a id="mobile-nav"></a>
-### Mobile Nav
-
-Determin if `scripts/mobile-nav.js` is actually doing anything, or if I can delete it
-
-<a id="refactored-scss-code"></a>
-### Refactored SCSS Code
-
-1. Changed all #ids to .classes. This may require some adustive for previous conference years.
-
-```css
-#oho
-#header
-#logo
-#subheader
-#subheader .summary
-#subheader .summary h2
-#subheader .summary p
-#subheader .cta
-#subheader .cta h3
-#nav
-#nav li
-#nav li a:link, #nav li a:link, #nav li a:visited
-#nav li a:hover
-#sidebar
-#sidebar .personnel a
-#sidebar .personnel span
-#sidebar .personnel h3
-#sidebar .personnel img
-#sidebar .personnel img.no-border
-#sidebar .labs a
-#sidebar .labs span
-#sidebar .labs h3
-#sidebar .labs img
-#sidebar .labs img.no-border
-#sidebar-narrow
-#sidebar-narrow .personnel a
-#sidebar-narrow .personnel span
-#sidebar-narrow .personnel h3
-#sidebar-narrow .personnel img
-#sidebar-narrow .personnel img.no-border
-{}
-```
-
-* Reminder: I already changed #content and #content-wide to .content and .content-wide.
-  * If I run into issues, check this first
