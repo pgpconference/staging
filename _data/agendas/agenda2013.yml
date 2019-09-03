@@ -12,9 +12,10 @@ a2013:
       details: George Church
     - title: Introducing the Canadian Personal Genome Project <a href="https://www.youtube.com/watch?v=QbOAbgiKros&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=17&quot;\">(video)</a>
       time: 09:15am
-      details: "Jill Davies
-        <br> Stephen Scherer
-        <br> Discussion Leader: Carolyn Abraham"
+      details: >
+        Jill Davies
+        <br>Stephen Scherer
+        <br>Discussion Leader: Carolyn Abraham
     - title: Vignette <a href="https://www.youtube.com/watch?v=YGIxMYiPLOU&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=7">(video)</a>
       time: 10:15am
       details: John Lauerman
@@ -23,10 +24,11 @@ a2013:
       details: ""
     - title: Choosing to Be a Human Reference Standard <a href="https://www.youtube.com/watch?v=q-nZaIoPQb0&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=3">(video)</a>
       time: 10:45am
-      details: "Misha Angrist
-        <br> Dorit Berlin
-        <br> Marc Salit
-        <br> Discussion Leader: Robert Krulwich"
+      details: >
+        Misha Angrist
+        <br>Dorit Berlin
+        <br>Marc Salit
+        <br>Discussion Leader: Robert Krulwich
     - title: Bunch of Amateurs
       time: 11:45am
       details: Jack Hitt
@@ -35,22 +37,27 @@ a2013:
       details:
     - title: ""
       class: heading2013
-      details: "<h4>PRECISION MEDICINE</h4>
-        <br> Session introduced by Ryan Phelan"
+      details: >
+        <h4>PRECISION MEDICINE</h4>
+        <br>Session introduced by Ryan Phelan
     - title: Open Patient Reported Outcomes <a href="https://www.youtube.com/watch?v=ZfLZriyuDqQ&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=10">(video)</a>
       time: 01:15pm
       details: Benjamin Heywood
     - title: Genomics in the practice of medicine <a href="https://www.youtube.com/watch?v=xxsNM7A9pOs&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=5)">(video)</a>
       time: 01:30pm
-      details: "Robert Green
-        <br> Heidi Rehm
-        <br> Discussion Leader: Daniel MacArthur"
+      details: >
+        Robert Green
+        <br>Heidi Rehm
+        <br>Discussion Leader: Daniel MacArthur
+    - title: RESEARCH PARADIGMS
       time: 02:30pm Break
-    - title: ""
-      details: "<h4>RESEARCH PARADIGMS</h4>
-        <br> Session introduced by Greg Biggers 03:00pm Participant Access to Research Data <a href=\"https://www.youtube.com/watch?v=_rbZ7eAiYp4&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=6\">(video)</a>
-        <br> Jeff Carroll
-        <br> Ed Wild"
+      details: >
+        Session introduced by Greg Biggers
+    - title: Participant Access to Research Data <a href="https://www.youtube.com/watch?v=_rbZ7eAiYp4&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=6">(video)</a>
+      time: 03:00pm
+      details: >
+        Jeff Carroll
+        <br>Ed Wild
     - title: Reg4All
       time: 03:30pm
       details: Sharon Terry
@@ -62,12 +69,14 @@ a2013:
       details: <h4>BROADENING THE AUDIENCE</h4>
     - title: "Genetics in Hollywood: Inspiring Writers and Producers to Create Storylines that Improve Health Worldwide."
       time: 04:00pm
-      details: "Sandra de Castro Buffington
-        <br> Introduced by Marnie Gelbart and the Personal Genetics Education Project (pgEd.org)"
+      details: >
+        Sandra de Castro Buffington
+        <br>Introduced by Marnie Gelbart and the Personal Genetics Education Project (pgEd.org)
     - title: At the crossroads of design + biology <a href="https://www.youtube.com/watch?v=1jvgJBWKL3k&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=8">(video)</a>
       time: 04:30pm
-      details: "Rodrigo Martinez
-        <br> Introduced by Juan Enriquez"
+      details: >
+        Rodrigo Martinez
+        <br>Introduced by Juan Enriquez
     - title: Sponsor Message <a href="https://www.youtube.com/watch?v=B94MDnjBhjE&list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&index=15">(video)</a>
       time: 04:50pm
       details: Matt Posard
@@ -92,17 +101,19 @@ a2013:
       details: <h4>EXPLORERS SESSION</h4>
       time: 09:15am
       class: heading
-      details: "Rob Knight, Human Microbiome
-      <br>Holly Menninger, Home Microbiome <a href=\"https://www.youtube.com/watch?v=5pqXZt5AM6Q&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=13\">(video)</a>
-      <br>Rumi Chunara, Flu Near You <a href=\"https://www.youtube.com/watch?v=HQaNsKAk9j8&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=11\">(video)</a>
-      <br>John Moult, Critical Assessment of Genome Interpretation"
+      details: >
+        Rob Knight, Human Microbiome
+        <br>Holly Menninger, Home Microbiome <a href="https://www.youtube.com/watch?v=5pqXZt5AM6Q&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=13">(video)</a>
+        <br>Rumi Chunara, Flu Near You <a href="https://www.youtube.com/watch?v=HQaNsKAk9j8&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=11">(video)</a>
+        <br>John Moult, Critical Assessment of Genome Interpretation
     - title: Break
       time: 10:45am
       details:
     - title: EXPLORERS SESSION CONTINUED
       time: 11:00am
-      details: "Andreas Keller, Variability of Odor Perception <a href=\"https://www.youtube.com/watch?v=EizyVJ5Xlxs&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=12\">(video)</a>
-      <br> Sarah Tishkoff, Adaptation to Taste and Lactose Intolerance in Africa <a href=\"https://www.youtube.com/watch?v=ZAJ9s2ePYHY&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=14\">(video)</a>"
+      details: >
+        Andreas Keller, Variability of Odor Perception <a href="https://www.youtube.com/watch?v=EizyVJ5Xlxs&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=12">(video)</a>
+        <br>Sarah Tishkoff, Adaptation to Taste and Lactose Intolerance in Africa <a href="https://www.youtube.com/watch?v=ZAJ9s2ePYHY&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=14">(video)</a>
     - title: "Closing Remarks <a href=\"https://www.youtube.com/watch?v=RJgNfVCoFbc&amp;list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS&amp;index=16\">(video)</a>"
       time: 11:45am
     - title: Adjourn

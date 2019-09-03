@@ -1,5 +1,6 @@
 ---
 layout: home
+title: GET Conference 2015
 year: 2015
 ---
 
