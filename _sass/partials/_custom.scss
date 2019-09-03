@@ -185,30 +185,37 @@ body.about.two-thirds .content {
  * Speakers & Organizers
  */
 
-  .sidebar {
-    margin: 0 0 26px;
+.sidebar {
+  margin: 0 0 26px;
+}
+
+.sidebar .speakers-list,
+.sidebar .organizers-list {
+  img {
+    padding: 0 0 6px;
   }
 
- .sidebar .speakers-list,
- .sidebar .organizers-list {
-   a,
-   a div,
-   img {
-     width: 90px;
-   }
+  a,
+  a div,
+  img {
+    color: #000000;
+    font-size: 11px;
+    text-decoration: none;
+    width: 90px;
+  }
 
-   a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 9px 16px;
+ a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 9px 16px;
 
-    &:last-of-type {
-      // margin: 0 auto 0 0;
-      justify-self: flex-start;
-    }
-   }
+  &:last-of-type {
+    // margin: 0 auto 0 0;
+    justify-self: flex-start;
+  }
  }
+}
 
 .sidebar .speakers-list,
 .sidebar .organizers-list {

@@ -1,5 +1,5 @@
 ---
 name: Jason Bobe
-image: /assets/images/get2013/Jason-Bobe3.jpg
+image: /get2013/images/Jason-Bobe3.jpg
 order: 1
 ---

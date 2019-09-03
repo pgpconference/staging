@@ -1,5 +1,5 @@
 ---
 name: George Church
-image: /assets/images/get2016/George-Church.jpg
+image: /get2016/images/George-Church.jpg
 order: 3
 ---

@@ -1,7 +1,7 @@
 ---
 name: PatientsLikeMe
 link: https://www.patientslikeme.com/
-image: /assets/images/get2016/plm_290.jpeg
+image: /get2016/images/plm_290.jpeg
 order: 2
 ---
 

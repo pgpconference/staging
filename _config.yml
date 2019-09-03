@@ -24,7 +24,7 @@ minima:
   # See https://github.com/jekyll/minima/blob/master/_config.yml for a full list
   social_links:
     twitter: attendGET
-    github:  jekyll
+    github: jekyll
     rss: rss
 
 # If you want to link only specific pages in your header, uncomment
@@ -65,6 +65,13 @@ exclude:
 sass:
   style: expanded
   sourcemap: true
+
+defaults:
+  - scope:
+      path: ""
+      layout: home
+    values:
+      strip_title: false
 
 collections:
   speakers2016:

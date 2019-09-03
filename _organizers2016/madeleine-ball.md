@@ -1,5 +1,5 @@
 ---
 name: Madeleine Ball
-image: /assets/images/get2015/Madeleine-Ball.jpg
+image: /get2015/images/Madeleine-Ball.jpg
 order: 2
 ---

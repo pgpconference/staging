@@ -1,7 +1,7 @@
 ---
 name: Veritas Genetics
 link: https://www.veritasgenetics.com/
-image: /assets/images/get2016/Veritas_320.jpg
+image: /get2016/images/Veritas_320.jpg
 order: 4
 ---
 

@@ -2,7 +2,7 @@
 name: Boston Stress Study
 pi: "Neha Keshav, PhD. Neumitra, Boston"
 link: http://bostonstressstudy.com/)
-image: /assets/images/get2016/Neumitra_175.jpg
+image: /get2016/images/Neumitra_175.jpg
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 name: Icahn Institute
 link: http://icahn.mssm.edu/research/genomics
-image: /assets/images/get2016/Icahn_302.jpg
+image: /get2016/images/Icahn_302.jpg
 order: 1
 ---
 

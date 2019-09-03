@@ -1,7 +1,7 @@
 ---
 name: Seven Bridges
 link: https://www.sbgenomics.com/
-image: /assets/images/get2016/SevenBridges.jpg
+image: /get2016/images/SevenBridges.jpg
 order: 3
 ---
 
