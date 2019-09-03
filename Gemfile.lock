@@ -6,8 +6,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     backports (3.15.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -47,6 +47,7 @@ GEM
       jekyll-paginate (= 1.1.0)
       jekyll-readme-index (= 0.2.0)
       jekyll-redirect-from (= 0.14.0)
+      jekyll-relative-links (= 0.6.0)
       jekyll-remote-theme (= 0.3.1)
       jekyll-sass-converter (= 1.5.2)
       jekyll-seo-tag (= 2.5.0)
@@ -137,6 +138,8 @@ GEM
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.14.0)
+      jekyll (~> 3.3)
+    jekyll-relative-links (0.6.0)
       jekyll (~> 3.3)
     jekyll-remote-theme (0.3.1)
       jekyll (~> 3.5)
@@ -274,7 +277,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-include-cache
   jekyll-redirect-from
-  jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-titles-from-headings
