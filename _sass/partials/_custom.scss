@@ -32,7 +32,11 @@ h2 {
   margin: 0 0 8px;
 }
 
-.content-wide h1,
+.content-wide h1 {
+  margin: 0 0 8px;
+  width: 100%;
+}
+
 .content-wide h2,
 .sidebar h2 {
   margin: 20px 0 8px;
@@ -139,9 +143,12 @@ ul {
  * Subheader
  */
 
-.subheader,
-.content-wide {
+.subheader {
   padding: 0 16px;
+}
+
+.content-wide {
+  padding: 16px;
 }
 
 .row-top {
@@ -182,12 +189,44 @@ body.about.two-thirds .content {
 }
 
 /**
- * Speakers & Organizers
+ * Sidebar
  */
 
 .sidebar {
   margin: 0 0 26px;
 }
+
+.sidebar-social-list {
+  padding: 0 30px;
+}
+
+.sidebar-list {
+  width: 100%;
+}
+
+.sidebar-video {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 0 10px; */
+
+  p {
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .sidebar-video p {
+    margin: 4px auto 16px 10px;
+    text-align: left;
+  }
+}
+
+/**
+ * Speakers & Organizers
+ */
 
 .sidebar .speakers-list,
 .sidebar .organizers-list {
@@ -253,16 +292,13 @@ ol {
   padding: 0 0 15px 20px;
 }
 
-.sidebar-social-list {
-  padding: 0 30px;
-}
-
-.sidebar-list {
-  width: 100%;
-}
+/**
+ * Site Footer
+ */
 
 .site-footer {
-  padding: 20px 20px 10px;
+  margin: 0 0 16px;
+  padding: 20px 20px 0;
   text-align: center;
 }
 
