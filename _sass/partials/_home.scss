@@ -1,9 +1,9 @@
 /**
-* Homepage
+* Homepage - General
 */
 
 .home {
-  margin: 0 0 16px;
+  // margin: 0 0 16px;
 }
 
 /**
@@ -202,6 +202,35 @@
     flex-direction: column;
     justify-content: center;
     width: 395px;
+  }
+}
+
+
+/**
+ * Home 2010
+ */
+
+.home2010 {
+  .content-wide {
+    max-width: 545px;
+
+    h1:first-child {
+      margin: 0 0 8px;
+      text-align: left;
+    }
+  }
+}
+
+.figure-2010 {
+
+  width: 445px;
+
+  img {
+    margin: 0 0 6px;
+  }
+
+  figcaption {
+    padding: 0 0 0 6px;
   }
 }
 

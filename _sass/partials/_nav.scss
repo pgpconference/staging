@@ -73,23 +73,167 @@
   width: 46px;
 }
 
+@media only screen and (min-width: 576px) {
+  .top-nav {
+    display: block;
+    float: right;
+    height: 28px;
+    list-style: none;
+    // padding: 71px 0 1px 0;
+
+
+    li {
+      display: block;
+      // float: left;
+
+      a,
+      a:visited {
+        color: $text-color;
+        display: block;
+        float: left;
+        font-size: 12px;
+        margin: 0 25px 0 0;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:hover {
+        color: $link-hover-color;
+        display: block;
+        // margin: 0 25px;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
-  .site-nav.nav2012,
+  .top-nav {
+    width: auto;
+
+    li {
+      width: auto;
+      a,
+      &:last-of-type a {
+        padding: 0;
+      }
+    }
+  }
+
+  .site-nav {
+    background-color: inherit;
+    border: none;
+    float: right;
+    position: static;
+    width: auto;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+      margin-left: auto;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .site-nav.nav2012 {
+    padding: 21px 0 1px;
+    width: 100%;
+
+    ul {
+      float: right;
+
+      li a {
+        margin: 0 24px 0 0;
+
+        &:last-of-type a {
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+
   .site-nav.nav2013 {
     padding: 21px 0 1px;
 
-    li:first-of-type {
-      display: none;
+    li {
+      a,
+      a:visited {
+        margin: 0 16px 0 0;
+      }
+
+      &:last-of-type a {
+        margin: 0;
+      }
     }
   }
 }
 
 @media only screen and (min-width: 920px) {
+
+  .site-nav.nav2012 {
+    ul {
+      float: right;
+      margin: 0 auto;
+
+      li a,
+      li a:last-of-type {
+        margin: 0 30px 0 0;
+      }
+    }
+  }
+
+  .site-nav.nav2013 {
+    margin: 0 25px 0 0;
+    padding: 21px 0 1px;
+
+    li a,
+    li a:visited {
+      margin: 0 25px 0 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-nav {
+    display: block;
+    float: right;
+    height: 28px;
+    list-style: none;
+    // margin: 71px 0 1px;
+    padding: 0;
+  }
+
+  .site-nav.nav2012 ul {
+    width: 780px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .site-nav.nav2012 {
+    padding: 71px 0 0;
+    width: auto;
+
+    ul {
+      float: initial;
+      width: auto;
+    }
+  }
+
   .site-nav.nav2013 {
     padding: 71px 0 1px;
-
-    li:first-of-type {
-      display: initial;
-    }
   }
 }

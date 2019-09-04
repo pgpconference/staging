@@ -2,7 +2,7 @@
 @media only screen and (min-width: 768px) {
   #oho {
     margin: 0 auto;
-    padding: 50px 0 0;
+    padding: 50px 0 20px;
     width: calc(100vw - 6vw);
   }
 
@@ -37,8 +37,7 @@
       display: block;
       float: left;
 
-      a:link,
-      a:link,
+      a,
       a:visited {
         color: $text-color;
         display: block;
@@ -52,48 +51,6 @@
       a:hover {
         color: $link-hover-color;
         display: block;
-      }
-    }
-  }
-
-  .top-nav {
-    width: auto;
-
-    li {
-      width: auto;
-      a,
-      &:last-of-type a {
-        padding: 0;
-      }
-    }
-  }
-
-  .site-nav {
-    background-color: inherit;
-    border: none;
-    float: right;
-    position: static;
-    width: auto;
-
-    label[for="nav-trigger"] {
-      display: none;
-    }
-
-    .menu-icon {
-      display: none;
-    }
-
-    input ~ .trigger {
-      display: block;
-    }
-
-    .page-link {
-      display: inline;
-      padding: 0;
-      margin-left: auto;
-
-      &:not(:last-child) {
-        margin-right: 20px;
       }
     }
   }
@@ -157,6 +114,10 @@
 
     h1 {
       margin: 0 0 25px;
+
+      &:first-of-type {
+
+      }
     }
   }
 
