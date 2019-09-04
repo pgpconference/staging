@@ -22,7 +22,8 @@ We will be posting video from the conference once they are available, so please 
 
 {%- capture caption_text -%}
 Personal Genome Pioneers gathered at the GET Conference 2010.<br>
-Back Row from left: Henry Louis Gates, Jr., James Lupski, Mikhail Shapiro\*, Rosalynn Gill, Daniel Vorhaus\*, Kirk Maxey, Esther Dyson, Hermann Hauser, Jay Flatley, George Church, Misha Angrist, John Halamka, Keith Batchelder, James Sherley, Jason Bobe\*. Front Row from left: Greg Lucier, Stephen Quake, Anne West, James Watson, Seong-Jin Kim, John West, Caryn Saitz\* Photo credit: Justin Knight, © PersonalGenomes.org. <br>\* indicates organizing committee. More [photos](http://arep.med.harvard.edu/PGP/GET/). {% endcapture %}
+Back Row from left: Henry Louis Gates, Jr., James Lupski, Mikhail Shapiro\*, Rosalynn Gill, Daniel Vorhaus\*, Kirk Maxey, Esther Dyson, Hermann Hauser, Jay Flatley, George Church, Misha Angrist, John Halamka, Keith Batchelder, James Sherley, Jason Bobe\*. Front Row from left: Greg Lucier, Stephen Quake, Anne West, James Watson, Seong-Jin Kim, John West, Caryn Saitz\* Photo credit: Justin Knight, © PersonalGenomes.org. <br>\* indicates organizing committee. More [photos](http://arep.med.harvard.edu/PGP/GET/).
+{% endcapture %}
 
 {% capture pioneers_image %}
 {% figure caption:"{{ caption_text }}" [class:"figure-2010"] %}
