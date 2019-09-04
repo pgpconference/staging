@@ -7,7 +7,6 @@
 * [404 Page](#404-page)
 * [Agendas](#agendas)
 * [2010](#2010)
-* [2011](#2011)
 * [2012](#2012)
 * [2013](#2013)
 * [2014](#2014)
@@ -59,11 +58,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 ## 2010
 
 * Sidebar: West Family (last item) margin wrong
-
-<a id="2011"></a>
-## 2011
-
-* Sponsors needs some minor styling - just alignment stuff
 
 <a id="2012"></a>
 ## 2012
