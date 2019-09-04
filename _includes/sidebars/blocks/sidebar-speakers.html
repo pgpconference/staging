@@ -9,10 +9,12 @@
       {%- if include.speakers_col contains collection.label -%}
         {%- assign sorted = (collection.docs | sort: 'last') -%}
         {%- for speaker in sorted -%}
+        {%- unless speaker.sidebar == false or speaker.sidebar contains "false" -%}
         <a href="/get2016/speakers#{{ speaker.name }}">
           <div class="sidebar-speaker-img"><img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}"></div>
           <div class="speaker-name">{{ speaker.name }}</div>
         </a>
+        {%- endunless -%}
         {%- endfor -%}
       {%- endif -%}
     {%- endfor -%}
@@ -20,6 +22,7 @@
 </div>
 
 {%- if include.organizers_col -%}
+  <h3>Organizers</h3>
   {%- for collection in site.collections -%}
     {%- if include.organizers_col contains collection.label -%}
       <div class="organizers">

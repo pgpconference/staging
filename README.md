@@ -4,25 +4,19 @@
 
 * [Questions](#questions)
 * [Collections Ordering](#collections-ordering)
-* [404 Page](#404-page)
-* [Agendas](#agendas)
+  * [404 Page](#404-page)
 * [2010](#2010)
-* [2011](#2011)
 * [2012](#2012)
 * [2013](#2013)
-* [2014](#2014)
-* [2015](#2015)
 * [Homepage](#homepage)
-* [Labs](#labs)
 * [Favicon](#favicon)
-* [Collections](#collections)
-  * [Relative Directories](#relative-directories)
 * [File Check List](#file-check-list)
 * [Optional](#optional)
   * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
   * [Nav - Highlight Current Page](#nav---highlight-current-page)
-  * [404 Page](#404-page-1)
+  * [Collections](#collections)
+  * [Relative Directories](#relative-directories)
 
 <!-- /MarkdownTOC -->
 
@@ -44,28 +38,17 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
 
 <a id="404-page"></a>
-## 404 Page
-  * Broken logo when coming from 2010
+### 404 Page
 
-<a id="agendas"></a>
-## Agendas
-
-* Still need 2012 Agenda pg
-* Inconsistent Column Width - add `_include` variable and css class
-  * 2013 & 2016 Narrow
-  * 2014 & 2015 Wide
+* Not rendering with the body class for some reason
+* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
+  * Unclear if there's a way to do anything about this
+  * Displaying a sitemap might be the best option
 
 <a id="2010"></a>
 ## 2010
 
-* Homepage: horizontal content width
-* Sidebar: Producing extra people for some reason
-* Sidebar: Showing bios for some reason...
-
-<a id="2011"></a>
-## 2011
-
-* Sponsors needs some minor styling - just alignment stuff
+* Sidebar: West Family (last item) margin wrong
 
 <a id="2012"></a>
 ## 2012
@@ -81,57 +64,15 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
   * Page is weirdly generating a blank agenda item for no discernible reason
     * Just add a conditional for "if empty" into the Agenda template
 
-<a id="2014"></a>
-## 2014
-
-* Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
-* About - Content Width needs to be narrower
-
-<a id="2015"></a>
-## 2015
-* Agendas??
-  * Check if I need to expand column width
-
 <a id="homepage"></a>
 ## Homepage
 
 * Subheader needs to be adjusted for each conference year
 
-<a id="labs"></a>
-## Labs
-
-* Add conditional to change formatting of lab entries from `title <br> description` to `title: description`
-  * Probably just via "hide title", keep company name in content
-
 <a id="favicon"></a>
 ## Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
-
-<a id="collections"></a>
-## Collections
-
-* Would like to find a way to tidy the directory structure up
-  * May be a Jekyll limitation though
-
-<a id="relative-directories"></a>
-### Relative Directories
-See here:
-
-```ruby
-<a id="from-httpssimpleitrocksrubyjekyllcollectionsunderstanding-how-collections-work"></a>
-# From: https://simpleit.rocks/ruby/jekyll/collections/understanding-how-collections-work/
-{% for collection in site.collections %}
- Collection name: {{collection.label}}
- Relative path to the collection's source directory: {{collection.relative_directory }}
- Full path to the collection's directory: {{collection.directory}}
- Output collection files as individual files?: {{collection.output}}
- {% for doc in collection.docs%}
-  {{doc.title}}
-  {{doc.slug}}
- {% endfor %}
-{% endfor %}
-```
 
 <a id="file-check-list"></a>
 ## File Check List
@@ -140,6 +81,7 @@ Are the following being used:
 
 * `scripts/mobile-nav.js`
   * Remove from header if not
+
 
 <a id="optional"></a>
 ## Optional
@@ -175,10 +117,26 @@ Are the following being used:
 {%- endfor -%}
 ```
 
-<a id="404-page-1"></a>
-### 404 Page
+<a id="collections"></a>
+### Collections
 
-* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
-  * Unclear if there's a way to do anything about this
-  * Displaying a sitemap might be the best option
+* Would like to find a way to tidy the directory structure up
+  * May be a Jekyll limitation though
 
+<a id="relative-directories"></a>
+### Relative Directories
+See here:
+
+```ruby
+# From: https://simpleit.rocks/ruby/jekyll/collections/understanding-how-collections-work/
+{% for collection in site.collections %}
+ Collection name: {{collection.label}}
+ Relative path to the collection's source directory: {{collection.relative_directory }}
+ Full path to the collection's directory: {{collection.directory}}
+ Output collection files as individual files?: {{collection.output}}
+ {% for doc in collection.docs%}
+  {{doc.title}}
+  {{doc.slug}}
+ {% endfor %}
+{% endfor %}
+```

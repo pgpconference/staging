@@ -1,12 +1,12 @@
 ---
 layout: default
 class: agenda-detailed
-title: Agenda 2011
-year: 2011
-date1: April 27, 2011
+title: Agenda 2010
+year: 2010
+date1: April 27, 2010
 type: single_col
 ---
 
-# April 27, 2011
+# April 27, 2010
 
 {% include_cached agenda-detailed.html year=page.year date1=page.date1 date2=page.date2 %}

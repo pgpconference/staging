@@ -5,7 +5,7 @@ class: speakers
 year: 2010
 ---
 
-# 2011 Speakers
+# 2010 Speakers
 
 {% assign sp = "site.speakers" | append: page.year %}
 {% assign mod = "site.moderators" | append: page.year %}
@@ -13,8 +13,6 @@ year: 2010
 {% assign brk = "site.breakout-leaders" | append: page.year %}
 {% assign awd = "site.awards-presenters" | append: page.year %}
 {%- include speakers2010.html col_name=speakers_str speakers_col=speakers_str sp=sp mod=mod pro=pro brk=brk awd=awd -%}
-
-
 
 {:.h3-steering-committee}
 ### GET Conference 2010 Steering Committee

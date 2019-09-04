@@ -875,6 +875,27 @@ ul {
 }
 
 /**
+ * 404
+ */
+.body-404 .container {
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}
+.body-404 h1 {
+  margin: 30px 0;
+  font-size: 4em;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.body-404 .content h1 {
+  margin: 0 0 20px;
+  text-align: center;
+  padding: 0;
+  background: none;
+}
+
+/**
  * Non-Homepage
  */
 .content {
@@ -889,18 +910,46 @@ body.about.two-thirds .content {
 }
 
 /**
- * About 2010
+ * Figure 2010
  */
-.about2010 .content {
-  width: 775px;
+.figure-2010 img {
+  margin: 0 0 6px;
+}
+
+figcaption {
+  padding: 0 0 0 6px;
 }
 
 .about2010 .figure-2010,
 .about2010 .figcaption {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0 0 0 10px;
 }
 
+@media only screen and (min-width: 576px) {
+  .figure-2010 {
+    width: 445px;
+  }
+
+  .about2010 .figure-2010,
+  .about2010 .figcaption {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about2010 .figure-2010,
+  .about2010 .figcaption {
+    margin: 0;
+    padding: 0 0 0 10px;
+  }
+}
+/**
+ * About 2010
+ */
+@media only screen and (min-width: 920px) {
+  .about2010 .content {
+    width: 775px;
+  }
+}
 /**
  * Sidebar
  */
@@ -1450,27 +1499,55 @@ img {
     margin-right: 20px;
   }
 
-  .site-nav.nav2012 {
-    padding: 21px 0 1px;
-    width: 100%;
-  }
-  .site-nav.nav2012 ul {
-    float: right;
-  }
-  .site-nav.nav2012 ul li a {
+  .site-nav.nav2011 ul li a {
     margin: 0 24px 0 0;
-  }
-  .site-nav.nav2012 ul li a:last-of-type a {
-    margin: 0 10px 0 0;
   }
 
   .site-nav.nav2013 {
     padding: 21px 0 1px;
   }
+  .site-nav.nav2013 ul li a {
+    margin: 0 17px 0 0;
+  }
+
+  .site-nav.nav2010,
+  .site-nav.nav2012,
+  .site-nav.nav2014 {
+    padding: 21px 0 1px;
+    width: 100%;
+  }
+  .site-nav.nav2010 ul,
+  .site-nav.nav2012 ul,
+  .site-nav.nav2014 ul {
+    float: right;
+  }
+  .site-nav.nav2010 ul li a,
+  .site-nav.nav2012 ul li a,
+  .site-nav.nav2014 ul li a {
+    margin: 0 24px 0 0;
+  }
+  .site-nav.nav2010 ul li a:last-of-type a,
+  .site-nav.nav2012 ul li a:last-of-type a,
+  .site-nav.nav2014 ul li a:last-of-type a {
+    margin: 0 10px 0 0;
+  }
+
+  .site-nav.nav2010 ul li a,
+  .site-nav.nav2014 ul li a {
+    margin: 0 36px 0 0;
+  }
+
+  .site-nav.nav2010
+  .site-nav.nav2013 {
+    padding: 21px 0 1px;
+  }
+  .site-nav.nav2010
   .site-nav.nav2013 li a,
+  .site-nav.nav2010
   .site-nav.nav2013 li a:visited {
     margin: 0 16px 0 0;
   }
+  .site-nav.nav2010
   .site-nav.nav2013 li:last-of-type a {
     margin: 0;
   }
@@ -1489,8 +1566,21 @@ img {
     margin: 0 25px 0 0;
     padding: 21px 0 1px;
   }
-  .site-nav.nav2013 li a,
-  .site-nav.nav2013 li a:visited {
+  .site-nav.nav2013 ul li a,
+  .site-nav.nav2013 ul li a:visited {
+    margin: 0 25px 0 0;
+  }
+  .site-nav.nav2013 ul li:last-of-type a {
+    margin: 0;
+  }
+
+  .site-nav.nav2010,
+  .site-nav.nav2014 {
+    padding: 71px 0 1px;
+    width: auto;
+  }
+  .site-nav.nav2010 ul li a,
+  .site-nav.nav2014 ul li a {
     margin: 0 25px 0 0;
   }
 }
@@ -1618,13 +1708,17 @@ img {
   }
 }
 @media only screen and (min-width: 576px) {
+  .sponsor-img {
+    align-self: flex-start;
+    padding: 0 0 16px;
+  }
+
   .sponsors2011 .sponsor {
     flex-direction: row;
     justify-content: flex-start;
   }
-  .sponsors2011 .sponsor-img {
-    align-self: flex-start;
-    padding: 0 0 16px;
+  .sponsors2011 .sponsor-bio {
+    padding: 0 30px 0 0;
   }
   .sponsors2011 .org-left,
   .sponsors2011 .org-right {
@@ -1641,6 +1735,9 @@ img {
   }
 }
 @media only screen and (min-width: 768px) {
+  .sponsors2011 .sponsor-bio {
+    padding: 0 30px 0 0;
+  }
   .sponsors2011 .organizing-sponsors-box {
     display: flex;
     justify-content: space-around;
@@ -1704,6 +1801,14 @@ img {
 }
 
 @media only screen and (min-width: 576px) {
+  .speakers2010 .speakers-list {
+    margin: 0 auto 50px;
+  }
+  .speakers2010 .content h2 {
+    margin: 25px 0 16px;
+  }
+}
+@media only screen and (min-width: 576px) {
   .speakers2010 .content h2 {
     background: none;
     color: #48484a;
@@ -1711,18 +1816,8 @@ img {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.384615;
-    margin: 25px 0 16px;
+    margin: 0 0 16px;
     padding: 0;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .speakers2010 .content h2 {
-    margin: 36px 0 16px;
-  }
-}
-@media only screen and (min-width: 920px) {
-  .speakers2010 .content h2 {
-    margin: 50px 0 16px;
   }
 }
 /**

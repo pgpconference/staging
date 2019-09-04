@@ -7,7 +7,7 @@ year: 2012
 # Venue
 
 <address>
-  [Joseph B. Martin Conference Center](http://www.theconfcenter.hms.harvard.edu/)
+  {{ "[Joseph B. Martin Conference Center](http://www.theconfcenter.hms.harvard.edu/)" | markdownify | remove: '<p>' | remove: '</p>' }}<br>
   Harvard Medical School<br>
   New Research Buildiing<br>
   77 Ave Louis Pasteur<br>

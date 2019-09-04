@@ -11,7 +11,7 @@ Many Personal Genome Project (PGP) participants attend the GET Conference each y
 
 Researchers at the GET Conference will explore a wide range of human traits and their variability.
 
-{%- assign labs_str = "site.labs" | append: page.year -%}
+{% assign labs_str = "site.labs" | append: page.year %}
 {%- include_cached labs.html labs_col=labs_str expos_col=expos_str -%}
 
 Interested in featuring your research project or activity at the GET Conference? Send inquiries to Jason Bobe (jason at personalgenomes.org)

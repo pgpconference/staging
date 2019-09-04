@@ -45,7 +45,7 @@ h2 {
 
 .content h1,
 .content h2 {
-   // background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
+  // background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
   // padding: 0 0 0 10px;
   margin: 16px 0 20px;
   text-align: initial;
@@ -171,6 +171,82 @@ ul {
   margin: 10px auto;
 }
 
+/**
+ * 404
+ */
+
+.body-404 {
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  .content h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    padding: 0;
+    background: none;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .body-404 {
+    .container {
+      margin: 10px auto;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 30px 0;
+      font-size: 4em;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    .content h1 {
+      margin: 0 0 20px;
+      text-align: center;
+      padding: 0;
+      background: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  // .body-404 {
+  //   text-align: left;
+
+  //   .container {
+  //     margin: 10px auto;
+  //     max-width: 600px;
+  //     text-align: center;
+  //   }
+
+  //   h1 {
+  //     font-size: 4em;
+  //     letter-spacing: -1px;
+  //     line-height: 1;
+  //     margin: 30px 0;
+  //   }
+
+  //   .content h1 {
+  //     background: url("/pgpconference/assets/images/h2_bg.gif") 0 5px no-repeat;
+  //     margin: 0 0 20px;
+  //     padding: 0;
+  //     text-align: left;
+  //   }
+  // }
+}
+
 
 /**
  * Non-Homepage
@@ -189,18 +265,57 @@ body.about.two-thirds .content {
 }
 
 /**
- * About 2010
+ * Figure 2010
  */
 
-.about2010 .content {
-  width: 775px;
+.figure-2010 {
+  img {
+    margin: 0 0 6px;
+  }
+}
+
+figcaption {
+  padding: 0 0 0 6px;
 }
 
 .about2010 {
   .figure-2010,
   .figcaption {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 0 0 10px;
+  }
+}
+
+
+@media only screen and (min-width: 576px) {
+  .figure-2010 {
+    width: 445px;
+  }
+
+  .about2010 {
+    .figure-2010,
+    .figcaption {
+      padding: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about2010 {
+    .figure-2010,
+    .figcaption {
+      margin: 0;
+      padding: 0 0 0 10px;
+    }
+  }
+}
+
+/**
+ * About 2010
+ */
+
+@media only screen and (min-width: 920px) {
+  .about2010 .content {
+    width: 775px;
   }
 }
 
@@ -231,7 +346,6 @@ body.about.two-thirds .content {
     text-align: center;
   }
 }
-
 
 @media only screen and (min-width: 768px) {
   .sidebar-video p {

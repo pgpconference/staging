@@ -1,0 +1,50 @@
+a2010:
+  day1:
+    - title: Registration and Breakfast
+      start: 7:30am
+      end: 8:30am
+    - title: Welcome and Goals
+      start: 8:30am
+      end: 9:00am
+      details: George Church
+    - title: Personal Genome Pioneers
+      start: 9:00am
+      end: 12:00pm
+      details: >
+        Moderated sharing of personal genome experiences and visions
+        _Pioneers:_ James Watson, Stephen Quake, Esther Dyson
+        Henry Louis Gates, Misha Angrist, John West,
+        Jay Flatley, Greg Lucier, Seong-Jim Kim,
+        Rosalynn Gill, George Church, James Lupski
+        _Moderators:_ Robert Krulwich, Carl Zimmer
+        [(watch the videos, 12 parts)](https://www.youtube.com/playlist?list=PL1kf5_cQRRR448R79qZ0Q6CErLatrUgjz)
+    - title: Historic Group Photo by Justin Knight Photography
+      start: 12:00pm 
+      end: 12:30pm
+    - title: Lunch and Networking
+      start: 12:30pm 
+      end: 1:45pm
+      details: Congregate around themes
+    - title: Breakout Sessions Pitches
+      start: 1:45pm
+      end: 2:30pm
+    - title: Breakout Sessions
+      start: 2:30pm
+      end: 3:30pm
+      details: Intimate discussions led by Personal Genome Pioneers and other thought leaders.
+    - title: Coffee Break
+      start: 3:30pm
+      end: 3:45pm
+    - title: Prototypes of the Future
+      start: 3:45pm
+      end: 5:45pm
+      details: Prototypes of future genomic products, services, activities
+    - title: Awards
+      start: 5:45pm
+      end: 6:15pm
+    - title: Concluding Summary
+      start: 6:15pm
+      end: 6:30pm
+    - title: Cocktail Reception
+      start: 6:30pm
+      end: 8:00pm
