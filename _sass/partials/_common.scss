@@ -54,6 +54,11 @@ img {
   margin-bottom: 16px;
 }
 
+
+.mt0 {
+  margin-top: 0;
+}
+
 .mt10 {
   margin-top: 10px;
 }
@@ -86,6 +91,14 @@ img {
   font-weight: normal;
   line-height: 40px;
   margin: 0 0 8px;
+}
+
+.paragraph-header {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.384615;
+  text-align: left;
+  text-transform: none;
 }
 
 /**

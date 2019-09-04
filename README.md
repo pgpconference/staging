@@ -3,29 +3,31 @@
 <!-- MarkdownTOC -->
 
 * [Questions](#questions)
-* [Nav Menu](#nav-menu)
 * [Collections Ordering](#collections-ordering)
 * [404 Page](#404-page)
 * [Agendas](#agendas)
 * [2010](#2010)
+* [2011](#2011)
 * [2012](#2012)
+* [2013](#2013)
 * [2014](#2014)
 * [2015](#2015)
 * [Homepage](#homepage)
 * [Labs](#labs)
-* [Sponsors](#sponsors)
 * [Favicon](#favicon)
 * [Collections](#collections)
   * [Relative Directories](#relative-directories)
+* [File Check List](#file-check-list)
 * [Optional](#optional)
+  * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
-  * [Nav](#nav)
+  * [Nav - Highlight Current Page](#nav---highlight-current-page)
   * [404 Page](#404-page-1)
 
 <!-- /MarkdownTOC -->
 
 
-The GET Conference: https://pgpconference.github.io/pgpconference/
+The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 
 <a id="questions"></a>
 ## Questions
@@ -33,11 +35,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 1. Is there any reason the "Sign up for Email Updates" link on the Sidebar needs to go to /updates.html?
     * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
 2. Google Analytics Setup?
-
-<a id="nav-menu"></a>
-## Nav Menu
-
-* Site < 2013 - Glitches at 768px (and fine again at 769)
 
 <a id="collections-ordering"></a>
 ## Collections Ordering
@@ -63,11 +60,26 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 
 * Homepage: horizontal content width
 * Sidebar: Producing extra people for some reason
+* Sidebar: Showing bios for some reason...
+
+<a id="2011"></a>
+## 2011
+
+* Sponsors needs some minor styling - just alignment stuff
 
 <a id="2012"></a>
 ## 2012
 
 * Still needs Agenda page
+
+<a id="2013"></a>
+## 2013
+
+* Sponsors page needs to be properly ordered
+  * Write custom template
+* Agenda: Way too much space after first header on Agenda page
+  * Page is weirdly generating a blank agenda item for no discernible reason
+    * Just add a conditional for "if empty" into the Agenda template
 
 <a id="2014"></a>
 ## 2014
@@ -90,12 +102,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/
 
 * Add conditional to change formatting of lab entries from `title <br> description` to `title: description`
   * Probably just via "hide title", keep company name in content
-
-<a id="sponsors"></a>
-## Sponsors
-
-* Figure out how to do the ordering
-  * Does it make sense to just hardcode into the page?
 
 <a id="favicon"></a>
 ## Favicon
@@ -127,8 +133,23 @@ See here:
 {% endfor %}
 ```
 
+<a id="file-check-list"></a>
+## File Check List
+
+Are the following being used:
+
+* `scripts/mobile-nav.js`
+  * Remove from header if not
+
 <a id="optional"></a>
 ## Optional
+
+<a id="scss-refactor"></a>
+### SCSS Refactor
+
+* Move Speakers & Organizers section out from `_custom.scss` to `_collections.scss`
+* Would love to get rid of the whole `.site-nav` vs `.top-nav` issue
+  * Creates too many chained classes
 
 <a id="dry"></a>
 ### DRY
@@ -139,10 +160,11 @@ See here:
 * Is it possibly to have a single `_include_` for processing speaker lists that look exactly the same, but might need slightly different classes/data? (Judges, Speakers, etc)
   * Should be easy enough to do with a bit of liquid
 
-<a id="nav"></a>
-### Nav
+<a id="nav---highlight-current-page"></a>
+### Nav - Highlight Current Page
 
 * See about integrating code for highlighting the current page into the Nav menu
+  * Good for Accessibility
 
 ```html
 {%- for path in page_paths -%}

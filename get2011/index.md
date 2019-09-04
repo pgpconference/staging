@@ -1,6 +1,6 @@
 ---
 layout: home
-title:
+title: GET Conference 2011
 year: 2011
 ---
 
