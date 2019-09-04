@@ -33,10 +33,147 @@
 
 .sponsor-bio {
   width: 90%;
+
+  a {
+    font-weight: 700;
+  }
+}
+
+.sponsor {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.sponsor-img {
+  align-self: flex-start;
+  padding: 0 0 16px;
 }
 
 .sponsors .collections-tag {
   padding: 0 20px 16px 0;
+}
+
+.sponsors2014 {
+  .sponsor-bio a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/**
+ * Sponsors 2011
+ */
+
+.sponsors2011 {
+  .sponsor {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+
+  .sponsor-img {
+    align-self: flex-start;
+    padding: 0 0 16px;
+  }
+
+  .org-left,
+  .org-right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+    img {
+      margin: 0 0 0 25px;
+      padding: 35px 0;
+    }
+
+  }
+
+  .org-left a:first-of-type img {
+    margin: 0 0 0 25px;
+    padding: 10px 0 30px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .sponsors2011 {
+    .sponsors-list {
+      margin: 0 0 25px;
+    }
+
+    .org-left,
+    .org-right {
+      display: block;
+      width: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .sponsors2011 {
+    .sponsor {
+      // flex-direction: column-reverse;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    .sponsor-img {
+      align-self: flex-start;
+      padding: 0 0 16px;
+    }
+
+    .org-left,
+    .org-right {
+      width: 66%;
+
+      img {
+        margin: 0 0 0 25px;
+        padding: 35px 0;
+      }
+
+    }
+
+    .org-left a:first-of-type img {
+      margin: 0 0 0 25px;
+      padding: 10px 0 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sponsors2011 {
+    .sponsor {
+
+    }
+    .organizing-sponsors-box {
+      display: flex;
+      justify-content: space-around;
+      justify-content: initial;
+      margin: 0 0 0 -20px;
+      width: 730px;
+    }
+
+    .org-left,
+    .org-right {
+      width: initial;
+    }
+
+    .org-right {
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+      padding: 40px 0 0;
+    }
+
+    .org-left img,
+    .org-right img {
+      padding: 35px 0 40px;
+    }
+  }
 }
 
 /**

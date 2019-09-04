@@ -1,8 +1,8 @@
 <ul class="sponsors-list">
-{% for collection in site.collections %}
-  {% if include.col_name contains collection.label %}
-  {% for sponsor in collection.docs %}
-    {% unless sponsor.type == "custom" %}
+{%- for collection in site.collections -%}
+  {%- if include.col_name contains collection.label -%}
+  {%- for sponsor in collection.docs -%}
+    {%- unless sponsor.type == "custom" -%}
   <li class="sponsor">
     <div class="sponsor-bio"><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>: {{ sponsor.content }}</div>
     <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
@@ -12,7 +12,7 @@
     {%- endunless -%}
   {%- endfor -%}
   {%- endif -%}
-{% endfor %}
+{%- endfor -%}
 </ul>
 
 
@@ -22,13 +22,13 @@
     {%- for sponsor in collection.docs -%}
       {%- if sponsor.type == "custom" -%}
 
-      <h2>{{ sponsor.heading }}</h2>
-      <ul class="sponsors-list">
-        <li class="sponsor">
-          <div class="sponsor-bio"><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>: {{ sponsor.content }}</div>
-          <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
-        </li>
-      </ul>
+<h2>{{ sponsor.heading }}</h2>
+<ul class="sponsors-list">
+  <li class="sponsor">
+    <div class="sponsor-bio"><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>: {{ sponsor.content }}</div>
+    <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
+  </li>
+</ul>
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}
