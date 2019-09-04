@@ -1,8 +1,7 @@
 {%- assign speakers_str = "site.speakers" | append: page.year -%}
-{%- assign organizers_str = "site.organizers" | append: page.year -%}
 {%- assign discussion_leaders_str = "site.discussion-leaders" | append: page.year -%}
 
-{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str organizers_col=organizers_str discussion_leaders_col=discussion_leaders_str -%}
+{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str discussion_leaders_col=discussion_leaders_str -%}
 
 <iframe width="300" height="169" src="http://www.youtube.com/embed/videoseries?list=PL1kf5_cQRRR7AE_WEmZy_h-gyPywTaiqS" frameborder="0" allowfullscreen=""></iframe>
 <p><a href="http://www.youtube.com/user/PersonalGenomesOrg/feed">Watch videos from more leading thinkers</a></p>

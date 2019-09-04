@@ -1,19 +1,4 @@
 {%- assign speakers_str = "site.speakers" | append: page.year -%}
-{%- assign organizers_str = "site.organizers" | append: page.year -%}
-{%- assign discussion_leaders_str = "site.discussion-leaders" | append: page.year -%}
 
-{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str discussion_leaders_col=discussion_leaders_str -%}
+{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str -%}
 
-{% for collection in site.collections %}
-  {% if speakers_str contains collection.label %}
-  <ul class="speakers-list">
-    {% assign sorted = (collection.docs | sort: 'last') %}
-    {% for speaker in sorted %}
-  <li class="speaker">
-    <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
-    <div class="speaker-bio">{{ speaker.content }}</div>
-  </li>
-  {% endfor %}
-</ul>
-  {% endif%}
-{% endfor %}

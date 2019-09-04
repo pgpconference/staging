@@ -58,9 +58,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 <a id="2010"></a>
 ## 2010
 
-* Homepage: horizontal content width
-* Sidebar: Producing extra people for some reason
-* Sidebar: Showing bios for some reason...
+* Sidebar: West Family (last item) margin wrong
 
 <a id="2011"></a>
 ## 2011
