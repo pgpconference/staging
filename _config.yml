@@ -49,8 +49,8 @@ plugins:
 
 
 exclude:
-  #   - Gemfile
-  #   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
   #   - vendor/bundle/
   #   - vendor/cache/
   #   - vendor/gems/
