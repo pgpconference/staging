@@ -3,16 +3,12 @@
 <!-- MarkdownTOC -->
 
 * [Questions](#questions)
-* [Collections Ordering](#collections-ordering)
   * [404 Page](#404-page)
 * [2010](#2010)
 * [2012](#2012)
 * [2013](#2013)
-* [2014](#2014)
-* [2015](#2015)
 * [Homepage](#homepage)
 * [Favicon](#favicon)
-* [File Check List](#file-check-list)
 * [Optional](#optional)
   * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
@@ -31,13 +27,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 1. Is there any reason the "Sign up for Email Updates" link on the Sidebar needs to go to /updates.html?
     * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
 2. Google Analytics Setup?
-
-<a id="collections-ordering"></a>
-## Collections Ordering
-
-* Needs Dynamic Ordering Fix:
-  * Sponsors
-  * Try doing some debugging with this to see if I can go by a central _config.yml file_
 
 <a id="404-page"></a>
 ### 404 Page
@@ -68,16 +57,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
   * Page is weirdly generating a blank agenda item for no discernible reason
     * Just add a conditional for "if empty" into the Agenda template
 
-<a id="2014"></a>
-## 2014
-
-* Labs: Needs Cool Graphic in middle of the page
-* Labs: Needs Labs after Genomics on Google Cloud Platform
-
-<a id="2015"></a>
-## 2015
-
-* Sidebar spacing weird for both Co-Organizers
 <a id="homepage"></a>
 ## Homepage
 
@@ -87,15 +66,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 ## Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
-
-<a id="file-check-list"></a>
-## File Check List
-
-Are the following being used:
-
-* `scripts/mobile-nav.js`
-  * Remove from header if not
-
 
 <a id="optional"></a>
 ## Optional
