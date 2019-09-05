@@ -1,5 +1,6 @@
 ---
 name: Michael Linderman
+last: Linderman
 image: /get2014/images/Michael-Linderman.jpg
 ---
 

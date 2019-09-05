@@ -1,5 +1,6 @@
 ---
 name: Get genomed in 2013!
+alt: Get Genomed In 2013
 image: /get2013/images/uyg.jpg
 ---
 

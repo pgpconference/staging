@@ -8,6 +8,8 @@
 * [2010](#2010)
 * [2012](#2012)
 * [2013](#2013)
+* [2014](#2014)
+* [2015](#2015)
 * [Homepage](#homepage)
 * [Favicon](#favicon)
 * [File Check List](#file-check-list)
@@ -49,21 +51,33 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 ## 2010
 
 * Sidebar: West Family (last item) margin wrong
+* Sidebar: Discussion Leaders not sorting
 
 <a id="2012"></a>
 ## 2012
 
 * Still needs Agenda page
+* Sidebar Past Events text size - is this an issue?
 
 <a id="2013"></a>
 ## 2013
 
-* Sponsors page needs to be properly ordered
+* **Sponsors page needs to be properly ordered**
   * Write custom template
 * Agenda: Way too much space after first header on Agenda page
   * Page is weirdly generating a blank agenda item for no discernible reason
     * Just add a conditional for "if empty" into the Agenda template
 
+<a id="2014"></a>
+## 2014
+
+* Labs: Needs Cool Graphic in middle of the page
+* Labs: Needs Labs after Genomics on Google Cloud Platform
+
+<a id="2015"></a>
+## 2015
+
+* Sidebar spacing weird for both Co-Organizers
 <a id="homepage"></a>
 ## Homepage
 

@@ -1,5 +1,6 @@
 ---
 name: Jonathan Bingham
+last: Bingham
 image: /get2014/images/Jonathan-Bingham.jpg
 ---
 

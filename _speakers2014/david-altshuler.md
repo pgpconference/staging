@@ -1,5 +1,6 @@
 ---
 name: David Altshuler
+last: Altshuler
 image: /get2014/images/David-Altshuler.jpg
 ---
 

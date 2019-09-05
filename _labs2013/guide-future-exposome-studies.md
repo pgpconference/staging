@@ -1,6 +1,6 @@
 ---
 name: Guide Future Exposome Studies.
-alt:
+alt: Spectrometer
 image: /get2013/images/spectrometer_150.png
 ---
 

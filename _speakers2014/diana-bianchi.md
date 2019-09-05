@@ -1,5 +1,6 @@
 ---
 name: Diana Bianchi
+last: Bianchi
 image: /get2014/images/Diana-Bianchi.jpg
 ---
 

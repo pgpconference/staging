@@ -1,6 +1,6 @@
 ---
 name: "Map-Ed Genetics: Pin Yourself on Our World Map!"
-alt:
+alt: Personal Genetics Education Project logo
 image: /get2013/images/pged.jpg
 ---
 

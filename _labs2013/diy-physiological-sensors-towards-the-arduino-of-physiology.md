@@ -1,6 +1,6 @@
 ---
 name: "DIY Physiological Sensors: Towards the Arduino of Physiology."
-alt: bioglasses
+alt: EKG Graph
 image: /get2013/images/spike.jpg
 ---
 

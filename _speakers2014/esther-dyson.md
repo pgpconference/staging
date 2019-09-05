@@ -1,5 +1,6 @@
 ---
 name: Esther Dyson
+last: Dyson
 image: /get2015/images/Esther-Dyson.jpg
 ---
 

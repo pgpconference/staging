@@ -1,5 +1,6 @@
 ---
 name: Exploring Personal Genomics.
+alt: "Book: Exploring Personal Genomics, by Joel-Dudley"
 image: /get2013/images/exploring_genomics_book_150x194.jpg
 link: http://www.amazon.com/Exploring-Personal-Genomics-Joel-Dudley/dp/0199644497
 ---

@@ -1,5 +1,6 @@
 ---
 name: Nathan Pearson
+last: Pearson
 image: /get2014/images/Nathan-Pearson.jpg
 ---
 

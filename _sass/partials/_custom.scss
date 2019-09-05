@@ -314,7 +314,8 @@ figcaption {
  */
 
 @media only screen and (min-width: 920px) {
-  .about2010 .content {
+  .about2010 .content,
+  .press2010 .content {
     width: 775px;
   }
 }

@@ -1,6 +1,6 @@
 ---
 name: "Re-identification research: Can we connect the dots in the data? "
-alt:
+alt: PGP Profile / Voter List - Venn Diagram
 image: /get2013/images/data_venn_150.jpg
 ---
 

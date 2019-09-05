@@ -1,5 +1,6 @@
 ---
 name: Mark Gerstein
+last: Gerstein
 image: /get2014/images/Mark-Gerstein.jpg
 ---
 

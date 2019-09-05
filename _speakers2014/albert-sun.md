@@ -1,5 +1,6 @@
 ---
 name: Albert Sun
+last: Sun
 image: /get2014/images/Albert-Sun.jpg
 ---
 

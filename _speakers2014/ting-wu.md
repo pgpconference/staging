@@ -1,5 +1,6 @@
 ---
 name: Ting Wu
+last: Wu
 image: /get2014/images/Ting-Wu.jpg
 ---
 

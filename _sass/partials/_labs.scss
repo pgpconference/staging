@@ -40,6 +40,19 @@
   line-height: 40px;
 }
 
+.labs2014 .lab-entry:last-of-type {
+  margin: 40px 0 20px;
+}
+
+
+.labs-footer2014 {
+  max-width: 500px;
+
+  p:first-of-type {
+    margin: 0 0 36px;
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .lab-body {
     display: flex;

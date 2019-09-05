@@ -1,6 +1,6 @@
 ---
 name: Musical Pitch Perception.
-alt:
+alt: Sheet Music with 32nd notes
 image: /get2013/images/music.jpg
 ---
 

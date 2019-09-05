@@ -1,5 +1,6 @@
 ---
 name: David Epstein
+last: Epstein
 image: /get2014/images/David-Epstein.jpg
 ---
 

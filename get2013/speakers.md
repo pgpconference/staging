@@ -5,9 +5,10 @@ title: Speakers
 year: 2013
 ---
 
-# Speakers & Discussion Leaders
+# Speakers
 
 {% assign str = "site.speakers" | append: page.year %}
 {% include_cached speakers.html col_name=str %}
 
-<p class="collections-tag">Speaker list is subject to change.</p>
+{:.collections-tag}
+More speakers will be announced soon.

@@ -1,6 +1,6 @@
 ---
 name: Brain Genomics Superstruct Project (GSP).
-alt: brain fmri 200x197
+alt: Brain Fmri
 image: /get2013/images/brain_fmri_150.jpg
 ---
 

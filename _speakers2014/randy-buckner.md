@@ -1,5 +1,6 @@
 ---
 name: Randy Buckner
+last: Buckner
 image: /get2014/images/Randy-Buckner.jpg
 ---
 

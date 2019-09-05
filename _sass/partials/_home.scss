@@ -95,32 +95,28 @@
     width: auto;
 
     .content-wide h1 {
-        margin: 0 0 20px 24px;
-      }
-
-    .sidebar {
-      width: auto;
+      margin: 0 0 20px 24px;
     }
-  }
 
-  .conference-box {
-    justify-content: space-between;
-    width: 450px;
-  }
+    .conference-box {
+      justify-content: space-between;
+      width: 450px;
+    }
 
-  .conference-text {
-    width: 285px;
-  }
-}
+    .conference-text {
+      width: 285px;
+    }
 
-@media only screen and (min-width: 768px) {
-  .home2011 {
     .sidebar {
+      // padding: 0;
       width: 230px;
 
       .speakers .speakers-list a,
-      .speakers .speakers-list a :last-of-type {
-        margin: 0 9px 16px;
+      // .speakers .speakers-list a:last-of-type {
+      {
+        // margin: 0 9px 16px;
+        padding: 0 0 9px;
+        margin: 0 9px;
       }
     }
 
@@ -183,25 +179,25 @@
     .content-wide h1 {
       margin: 0 0 20px -25px
     }
-  }
 
-  .conference-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 6px 0 0;
-    width: 575px;
-  }
+    .conference-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 6px 0 0;
+      width: 575px;
+    }
 
-  .conference-text p {
-    padding: 0 13px 0 0;
-  }
+    .conference-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 395px;
 
-  .conference-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 395px;
+      p {
+        padding: 0 13px 0 0;
+      }
+    }
   }
 }
 
@@ -212,7 +208,8 @@
 
 .home2010 {
   .content-wide {
-    max-width: 545px;
+    box-sizing: content-box;
+    max-width: 500px;
 
     h1:first-child {
       margin: 0 0 8px;

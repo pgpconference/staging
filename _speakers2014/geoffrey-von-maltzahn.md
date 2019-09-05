@@ -1,5 +1,6 @@
 ---
 name: Geoffrey von Maltzahn
+last: Maltzahn
 image: /get2014/images/Geoffrey-vonMaltzahn.jpg
 ---
 

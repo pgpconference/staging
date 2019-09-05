@@ -1,5 +1,6 @@
 ---
 name: Flu Near You.
+alt: Flu Near You - do you have it in you?
 image: /get2013/images/FluNearYou_150.jpg
 ---
 
