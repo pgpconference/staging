@@ -197,6 +197,30 @@ ul {
   }
 }
 
+@media only screen and (min-width: 425px) {
+  .body-404 {
+    .container {
+      margin: 10px auto;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 30px 0;
+      font-size: 4em;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    .content h1 {
+      margin: 0 0 20px;
+      text-align: center;
+      padding: 0;
+      background: none;
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
   // .body-404 {
   //   text-align: left;

@@ -4,6 +4,7 @@
 
 * [Questions](#questions)
 * [Collections Ordering](#collections-ordering)
+  * [404 Page](#404-page)
 * [2010](#2010)
 * [2012](#2012)
 * [2013](#2013)
@@ -14,7 +15,6 @@
   * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
   * [Nav - Highlight Current Page](#nav---highlight-current-page)
-  * [404 Page](#404-page)
   * [Collections](#collections)
   * [Relative Directories](#relative-directories)
 
@@ -36,6 +36,14 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 * Needs Dynamic Ordering Fix:
   * Sponsors
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
+
+<a id="404-page"></a>
+### 404 Page
+
+* Not rendering with the body class for some reason
+* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
+  * Unclear if there's a way to do anything about this
+  * Displaying a sitemap might be the best option
 
 <a id="2010"></a>
 ## 2010
@@ -108,13 +116,6 @@ Are the following being used:
   {%- endif -%}
 {%- endfor -%}
 ```
-
-<a id="404-page"></a>
-### 404 Page
-
-* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
-  * Unclear if there's a way to do anything about this
-  * Displaying a sitemap might be the best option
 
 <a id="collections"></a>
 ### Collections
