@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    {%- if page.year <= 2013 -%}
+    {%- if page.year <= 2014 -%}
       {%- assign logo_path = "/get2010/images/GET-logo.gif" -%}
     {%- else -%}
       {%- assign logo_path = "/get2014/images/GET_Logo_126x80.gif" -%}

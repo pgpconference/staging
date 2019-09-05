@@ -149,7 +149,8 @@
     }
   }
 
-  .site-nav.nav2012 {
+  .site-nav.nav2012,
+  .site-nav.nav2014 {
     padding: 21px 0 1px;
     width: 100%;
 
@@ -163,6 +164,12 @@
           margin: 0 10px 0 0;
         }
       }
+    }
+  }
+
+  .site-nav.nav2014 {
+    ul li a {
+      margin: 0 36px 0 0;
     }
   }
 
@@ -202,6 +209,15 @@
 
     li a,
     li a:visited {
+      margin: 0 25px 0 0;
+    }
+  }
+
+  .site-nav.nav2014 {
+    padding: 71px 0 1px;
+    width: auto;
+
+    ul li a {
       margin: 0 25px 0 0;
     }
   }

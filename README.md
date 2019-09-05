@@ -9,7 +9,6 @@
 * [2010](#2010)
 * [2012](#2012)
 * [2013](#2013)
-* [2014](#2014)
 * [2015](#2015)
 * [Homepage](#homepage)
 * [Labs](#labs)
@@ -72,12 +71,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 * Agenda: Way too much space after first header on Agenda page
   * Page is weirdly generating a blank agenda item for no discernible reason
     * Just add a conditional for "if empty" into the Agenda template
-
-<a id="2014"></a>
-## 2014
-
-* Sponsors pg: IBM looks weird (content issue) - maybe add some sort of class to change the vertical text alignment there?
-* About - Content Width needs to be narrower
 
 <a id="2015"></a>
 ## 2015
