@@ -9,14 +9,14 @@
 * [2013](#2013)
 * [Homepage](#homepage)
 * [Favicon](#favicon)
-* [Collections](#collections)
-  * [Relative Directories](#relative-directories)
 * [File Check List](#file-check-list)
 * [Optional](#optional)
   * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
   * [Nav - Highlight Current Page](#nav---highlight-current-page)
   * [404 Page](#404-page)
+  * [Collections](#collections)
+  * [Relative Directories](#relative-directories)
 
 <!-- /MarkdownTOC -->
 
@@ -66,31 +66,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
 
-<a id="collections"></a>
-## Collections
-
-* Would like to find a way to tidy the directory structure up
-  * May be a Jekyll limitation though
-
-<a id="relative-directories"></a>
-### Relative Directories
-See here:
-
-```ruby
-<a id="from-httpssimpleitrocksrubyjekyllcollectionsunderstanding-how-collections-work"></a>
-# From: https://simpleit.rocks/ruby/jekyll/collections/understanding-how-collections-work/
-{% for collection in site.collections %}
- Collection name: {{collection.label}}
- Relative path to the collection's source directory: {{collection.relative_directory }}
- Full path to the collection's directory: {{collection.directory}}
- Output collection files as individual files?: {{collection.output}}
- {% for doc in collection.docs%}
-  {{doc.title}}
-  {{doc.slug}}
- {% endfor %}
-{% endfor %}
-```
-
 <a id="file-check-list"></a>
 ## File Check List
 
@@ -98,6 +73,7 @@ Are the following being used:
 
 * `scripts/mobile-nav.js`
   * Remove from header if not
+
 
 <a id="optional"></a>
 ## Optional
@@ -140,3 +116,26 @@ Are the following being used:
   * Unclear if there's a way to do anything about this
   * Displaying a sitemap might be the best option
 
+<a id="collections"></a>
+### Collections
+
+* Would like to find a way to tidy the directory structure up
+  * May be a Jekyll limitation though
+
+<a id="relative-directories"></a>
+### Relative Directories
+See here:
+
+```ruby
+# From: https://simpleit.rocks/ruby/jekyll/collections/understanding-how-collections-work/
+{% for collection in site.collections %}
+ Collection name: {{collection.label}}
+ Relative path to the collection's source directory: {{collection.relative_directory }}
+ Full path to the collection's directory: {{collection.directory}}
+ Output collection files as individual files?: {{collection.output}}
+ {% for doc in collection.docs%}
+  {{doc.title}}
+  {{doc.slug}}
+ {% endfor %}
+{% endfor %}
+```

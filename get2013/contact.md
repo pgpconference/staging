@@ -1,11 +1,10 @@
 ---
 title: Contact
 class: contact
-type: default
+layout: default
 year: 2013
 ---
 
-{:.page-heading}
 # Contact
 
 Email: info@getconference.org
