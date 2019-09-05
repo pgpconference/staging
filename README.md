@@ -4,13 +4,10 @@
 
 * [Questions](#questions)
 * [Collections Ordering](#collections-ordering)
-* [404 Page](#404-page)
-* [Agendas](#agendas)
 * [2010](#2010)
 * [2012](#2012)
 * [2013](#2013)
 * [Homepage](#homepage)
-* [Labs](#labs)
 * [Favicon](#favicon)
 * [Collections](#collections)
   * [Relative Directories](#relative-directories)
@@ -19,7 +16,7 @@
   * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
   * [Nav - Highlight Current Page](#nav---highlight-current-page)
-  * [404 Page](#404-page-1)
+  * [404 Page](#404-page)
 
 <!-- /MarkdownTOC -->
 
@@ -39,18 +36,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 * Needs Dynamic Ordering Fix:
   * Sponsors
   * Try doing some debugging with this to see if I can go by a central _config.yml file_
-
-<a id="404-page"></a>
-## 404 Page
-  * Broken logo when coming from 2010
-
-<a id="agendas"></a>
-## Agendas
-
-* Still need 2012 Agenda pg
-* Inconsistent Column Width - add `_include` variable and css class
-  * 2013 & 2016 Narrow
-  * 2014 & 2015 Wide
 
 <a id="2010"></a>
 ## 2010
@@ -75,12 +60,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 ## Homepage
 
 * Subheader needs to be adjusted for each conference year
-
-<a id="labs"></a>
-## Labs
-
-* Add conditional to change formatting of lab entries from `title <br> description` to `title: description`
-  * Probably just via "hide title", keep company name in content
 
 <a id="favicon"></a>
 ## Favicon
@@ -154,7 +133,7 @@ Are the following being used:
 {%- endfor -%}
 ```
 
-<a id="404-page-1"></a>
+<a id="404-page"></a>
 ### 404 Page
 
 * For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
