@@ -9,7 +9,6 @@
 * [2010](#2010)
 * [2012](#2012)
 * [2013](#2013)
-* [2015](#2015)
 * [Homepage](#homepage)
 * [Labs](#labs)
 * [Favicon](#favicon)
@@ -71,11 +70,6 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 * Agenda: Way too much space after first header on Agenda page
   * Page is weirdly generating a blank agenda item for no discernible reason
     * Just add a conditional for "if empty" into the Agenda template
-
-<a id="2015"></a>
-## 2015
-* Agendas??
-  * Check if I need to expand column width
 
 <a id="homepage"></a>
 ## Homepage

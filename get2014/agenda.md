@@ -1,7 +1,7 @@
 ---
 layout: default
 class: agenda
-title: Agenda
+title: Agenda 2014
 year: 2014
 date1: April 30, 2014
 ---

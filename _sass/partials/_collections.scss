@@ -181,6 +181,7 @@
   }
 }
 
+
 /**
  * Speakers
  */
@@ -228,6 +229,18 @@
 }
 
 @media only screen and (min-width: 576px) {
+  .speakers2010 {
+    .speakers-list {
+      margin: 0 auto 50px;
+    }
+
+    .content h2 {
+      margin: 25px 0 16px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
   .speakers2010 .content h2 {
     background: none;
     color: #48484a;
@@ -235,20 +248,21 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 1.384615;
-    margin: 25px 0 16px;
+    // margin: 25px 0 16px;
+    margin: 0 0 16px;
     padding: 0;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .speakers2010 .content h2 {
-    margin: 36px 0 16px;
+    // margin: 36px 0 16px;
   }
 }
 
 @media only screen and (min-width: 920px) {
   .speakers2010 .content h2 {
-    margin: 50px 0 16px;
+    // margin: 50px 0 16px;
   }
 }
 

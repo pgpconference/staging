@@ -1,7 +1,7 @@
 ---
 layout: default
 class: agenda
-title: Agenda
+title: Agenda 2015
 year: 2015
 date1: Sept 17th, 2015
 date2: Sept 18th, 2015
