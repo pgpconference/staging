@@ -2005,6 +2005,7 @@ img {
     margin: 40px 0 20px;
   }
   .home2010 .subheader .cta {
+    flex-direction: column;
     margin: 20px 0;
   }
 }

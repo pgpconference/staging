@@ -524,6 +524,7 @@
       }
 
       .cta {
+        flex-direction: column;
         margin: 20px 0;
       }
     }
@@ -549,6 +550,7 @@
 
       .cta {
         align-items: flex-end;
+        // flex-direction: row;
         justify-content: flex-start;
         margin: 42px 10px 20px 0;
         padding: 0 12px 0 0;

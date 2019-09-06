@@ -41,6 +41,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 
 * Sidebar: West Family (last item) margin wrong
 * Sidebar: Discussion Leaders not sorting
+* Subheader: 576-768 fix `.cta`
 
 <a id="2012"></a>
 ## 2012
