@@ -5,6 +5,7 @@ title: Sponsors
 year: 2013
 ---
 
+{:.hide}
 # Sponsors
 
 ## Global Visionary Sponsor

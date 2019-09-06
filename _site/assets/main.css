@@ -1152,6 +1152,10 @@ img {
   text-transform: none;
 }
 
+.hide {
+  display: none;
+}
+
 @media only screen and (max-width: 425px), (max-width: 2000px) {
   .content h1.paragraph-header,
   .content h2.paragraph-header {

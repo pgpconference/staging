@@ -31,23 +31,17 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 <a id="404-page"></a>
 ### 404 Page
 
-* Not rendering with the body class for some reason
-* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
-  * Unclear if there's a way to do anything about this
-  * Displaying a sitemap might be the best option
+* Displaying a sitemap might be the best option
 
 <a id="2010"></a>
 ## 2010
 
 * Sidebar: West Family (last item) margin wrong
-* Sidebar: Discussion Leaders not sorting
-* Subheader: 576-768 fix `.cta`
 
 <a id="2012"></a>
 ## 2012
 
 * Still needs Agenda page
-* Sidebar Past Events text size - is this an issue?
 
 <a id="2013"></a>
 ## 2013
@@ -125,3 +119,4 @@ See here:
  {% endfor %}
 {% endfor %}
 ```
+
