@@ -63,6 +63,7 @@ exclude:
   - scratch
   - ["docs", "ref", "scratch"]
 
+excerpt_separator: "<!--excerpt-->"
 sass:
   style: expanded
   sourcemap: true
@@ -73,6 +74,8 @@ titles_from_headings:
   collections: false
 
 collections:
+  agenda2012:
+    output: false
   awards2016:
     output: false
   awards-presenters2010:

@@ -4,10 +4,7 @@
 
 * [Questions](#questions)
   * [404 Page](#404-page)
-* [2010](#2010)
 * [2012](#2012)
-* [2013](#2013)
-* [Homepage](#homepage)
 * [Favicon](#favicon)
 * [Optional](#optional)
   * [SCSS Refactor](#scss-refactor)
@@ -33,29 +30,10 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 
 * Displaying a sitemap might be the best option
 
-<a id="2010"></a>
-## 2010
-
-* Sidebar: West Family (last item) margin wrong
-
 <a id="2012"></a>
 ## 2012
 
-* Still needs Agenda page
-
-<a id="2013"></a>
-## 2013
-
-* **Sponsors page needs to be properly ordered**
-  * Write custom template
-* Agenda: Way too much space after first header on Agenda page
-  * Page is weirdly generating a blank agenda item for no discernible reason
-    * Just add a conditional for "if empty" into the Agenda template
-
-<a id="homepage"></a>
-## Homepage
-
-* Subheader needs to be adjusted for each conference year
+* Finish styles for Agenda page
 
 <a id="favicon"></a>
 ## Favicon
