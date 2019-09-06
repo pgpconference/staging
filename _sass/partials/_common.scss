@@ -111,6 +111,10 @@ img {
   display: none;
 }
 
+.no-bold {
+  font-weight: 400;
+}
+
 @media only screen and (max-width: 425px), (max-width: 2000px) {
   .content h1.paragraph-header,
   .content h2.paragraph-header {

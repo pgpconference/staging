@@ -32,6 +32,14 @@
   width: 51px;
 }
 
+.session-title {
+  font-weight: 700;
+}
+
+.no-bold {
+  font-weight: 400;
+}
+
 .session-details {
   clear: both;
   display: inline-block;
@@ -103,6 +111,38 @@
   min-width: 210px;
 }
 
+
+/**
+ * Agenda - Two Columns - Agenda 2012
+ */
+
+ .two-cols-header {
+   display: flex;
+   // width: 100%;
+
+   .session-title {
+     max-width: 60%;
+     min-width: 210px;
+     width: 90%;
+   }
+ }
+
+ .two-cols {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0 0 0 77px;
+   max-width: none !important;
+   width: auto;
+
+   .col-left {
+     width: 45%;
+   }
+
+   .col-right {
+     width: 45%;
+   }
+ }
 
 @media only screen and (min-width: 425px) {
 

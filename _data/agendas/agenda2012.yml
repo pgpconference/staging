@@ -1,0 +1,98 @@
+a2012:
+  day1:
+    - title: Registration Opens
+      time: 07:45am
+    - title: Welcome and Opening Remarks
+      subtitle: George Church
+      time: 08:15am
+    - title: Pioneer Session
+    - subtitle: '"N=1: Pioneers of self-tracking"'
+      time: 08:30am
+      details: >
+        Eric Alm -- 1 year daily sampling of gut microbiome
+        David Ewing Duncan -- experimental man
+        Larry Smarr -- 60 datapoints over 10 years
+        <br> Moderated by Steven Dean
+
+#
+# - title: short break
+#   time: 10:45am
+# - title: Breakthrough Technologies
+#   time: 11:00am
+#   details: >
+#     Jay Lee -- single cell sequencing
+#     Steven Gordon -- clinical sequencing
+#     Stefan Roever -- nanopore sequencing  
+#     Moderated by Juan Enriquez
+# - title: "Vignette: Exceptional Human Traits"
+#   time: 12:00pm
+#   details: >
+#     Absolute Pitch
+#     Peter Gregersen and Elena Kowalsky
+# - title: A Genomic View of Human Origins
+# - subtitle: Svante Pääbo, PhD
+#   time: 12:15pm
+# - title: "Lunch: take a break, or join a discussion or activity"
+#   time: 1:00pm
+#   col1: >
+#     **"Personal genomics education: Take action in your community"**
+#  
+#     Discussion session, 1:15-2:00pm (Room 258) [More
+#     details](http://www.pged.org/journal/2012/4/16/national-education-get-2012-session-with-dana-waring-and-chr.html)
+#      
+#     Join Dana Waring, Education Director of the Personal Genetics Education Project (pgEd), and Chris Korey, Professor of Biology from the College of Charleston (also PGP participant #huA4F281) for a conversation about how you can contribute to personal genomics education. What insights do you have that could help accelerate public understanding of the advantages as well as complexities of knowing one's genome?  
+
+#     In addition to exchanging ideas on the most pressing issues concerning the scientific and social implications of personal genetics, participants will leave with a set of tools to conduct formal and informal sessions that can educate the public in an unbiased manner. Our premise is that PGPers have a unique and powerful voice with which to engage the general public about the hopes, realities, and ethical nuances of personal genomics.
+#   col2: >
+#     **Connected Health Pedometer Distro**
+#     1:15-2:00pm (2nd floor, Room 214)
+#     Pedometers will be distributed to select PGP participants. More details to be announced soon. \n\n
+
+#     QS Show & Tell
+#     1:15-2:00pm (2nd floor, Room 217)
+#     Learn about Quantified Self movement and see a few short "show and tell" talks by practitioners.
+
+# - title: Genetics and Health 1.0
+#   subtitle: "How will genetic data be used by health care institutions?"
+#   time: 2:15pm
+#   details: >
+#     Ira Klein, Aetna
+#     Eric Perakslis, FDA
+#     Micheal Vincent, Pfizer
+#     John Wilbanks, WeConsent.us
+#      
+#     Moderated by Esther Dyson
+# - title: Breakout Session
+#   time: 3:30pm
+#   col1: >
+#     Flash Talks (amphitheater)  
+
+#     Pete Estep -- PGP saliva to data pipeline
+#     Jimmy Lin -- crowdfunding for rare disease
+#     Jose Gomez-Marquez -- trickle up innovation
+#     Holly Menninger -- wildlife of your home
+#     Abigail Wark -- measuring circles in human evolution
+#   col2: >
+#     Genome Workshop (Room 217)
+
+#     "So, you have some genome data. What now?"
+#     Led by Madeleine Ball, Joel Dudley, Daniel MacArthur
+#     \n\n
+
+#     "**Genentech: Infinite Variations (Room 214)**"
+#     Social media as an outreach tool for research
+# - title: Prototypes of the the Future
+#   subtitle: Cells as Technology & Personalized Tissues
+#   time: 4:30pm
+#   details: >
+#     Geraldine Hamilton -- Organs on Chips
+#     George Church -- Personal Pluripotent Cells, Organs & Superpowers For All
+# - title: "Vignette: Exceptional Human Traits"
+#   time: 5:30pm
+#   details: Face Blindness featuring Ken Nakayama
+# - title: Wrap-up & Reception
+#   time: 5:45pm
+
+# *Agenda is subject to change
+
+#  
