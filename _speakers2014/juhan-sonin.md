@@ -1,5 +1,6 @@
 ---
 name: Juhan Sonin
+last: Sonin
 image: /get2014/images/Juhan-Sonin.jpg
 ---
 

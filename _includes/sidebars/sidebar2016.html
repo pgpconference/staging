@@ -1,7 +1,7 @@
 {%- assign speakers_str = "site.speakers" | append: page.year -%}
 {%- assign organizers_str = "site.organizers" | append: page.year -%}
 
-{%- include sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str organizers_col=organizers_str -%}
+{%- include_cached sidebars/blocks/sidebar-speakers.html speakers_col=speakers_str organizers_col=organizers_str -%}
 
 
 {% unless include.social == false %}

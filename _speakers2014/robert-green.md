@@ -1,5 +1,6 @@
 --- 
 name: Robert Green
+last: Green
 image: /get2013/images/Robert-Green.jpg
 ---
 

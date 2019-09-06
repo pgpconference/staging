@@ -1,5 +1,6 @@
 --- 
 name: Heidi Rehm
+last: Rehm
 image: /get2013//get2014/images/Heidi-Rehm.jpg
 ---
 

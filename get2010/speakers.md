@@ -18,7 +18,7 @@ year: 2010
 ### GET Conference 2010 Steering Committee
 
 <ul class="steering-committee">
-  <li>Jason Bobe, PersonalGenomes.org</li><br>
+  <li>Jason Bobe, PersonalGenomes.org</li>
   <li>Caryn Saitz, Creative Strategic Solutions</li>
   <li>Mikhail Shapiro, Third Rock Ventures</li>
   <li>Daniel Vorhaus, Robinson, Bradshaw, Hinson</li>

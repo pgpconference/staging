@@ -1,5 +1,6 @@
 ---
 name: Deborah Estrin
+last: Estrin
 image: /get2014/images/Deborah-Estrin.jpg
 ---
 

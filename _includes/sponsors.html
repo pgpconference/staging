@@ -17,7 +17,7 @@
 
 
 {%- for collection in site.collections -%}
-  {%- unless include.col_name contains "2011" or include.col_name contains "2012" %}
+  {%- unless include.col_name contains "2011" or include.col_name contains "2012" or include.col_name contains "2013" %}
   {%- if include.col_name contains collection.label -%}
     {%- for sponsor in collection.docs -%}
       {%- if sponsor.type == "custom" -%}

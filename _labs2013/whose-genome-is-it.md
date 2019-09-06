@@ -1,6 +1,6 @@
 ---
 name: Whose genome is it?
-alt:
+alt: Tree
 image: /get2013/images/tree.jpg
 ---
 We recently developed a method to identify personal genomes through surname inference. This method relies on the fact that Y-chromosomes and surnames are usually inherited together. Online genetic genealogy databases post hundreds of thousands of profiles linking Y-chromosome short tandem repeat (Y-STR) profiles with surnames. We showed that using only publicly available resources, we can obtain high-quality Y-STR results from low-coverage whole genome sequencing datasets and use these profiles to infer the surname of the individual behind the dataset. The inferred surname combined with additional metadata, such as the state of residence and the age of the individual, is often enough for full identification.

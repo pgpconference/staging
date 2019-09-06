@@ -1,5 +1,6 @@
 ---
 name: AJ Jacobs
+last: Jacobs
 image: /get2014/images/AJ-Jacobs.jpg
 ---
 

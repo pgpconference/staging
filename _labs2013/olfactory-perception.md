@@ -1,6 +1,6 @@
 ---
 name: Olfactory Perception
-alt:
+alt: Metallic nose, reflecting odor perception
 image: /get2013/images/nose.jpg
 ---
 

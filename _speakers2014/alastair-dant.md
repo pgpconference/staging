@@ -1,5 +1,6 @@
 ---
 name: Alastair Dant
+last: Dant
 image: /get2014/images/alastair-dant.jpg
 ---
 

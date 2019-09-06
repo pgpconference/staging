@@ -9,6 +9,9 @@
 
              {%- if lab.subtitle -%}
              {{ lab.subtitle }}
+               {%- if lab.subtitle2 -%}
+                 <br>{{ lab.subtitle2 }}
+               {%- endif -%}
              {%- elsif lab.co-pi == "true" -%}
              co-PI: {{ lab.pi }}
              co-PI: {{ lab.pi2 }}

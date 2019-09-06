@@ -1,5 +1,6 @@
 --- 
 name: Ryan Phelan
+last: Phelan
 image: /get2013/images/ryan-phelan.jpg
 ---
 

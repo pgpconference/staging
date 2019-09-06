@@ -1,5 +1,6 @@
 ---
 name: Michelle Meyer
+last: Meyer
 image: /get2014/images/michelle-meyer.jpg
 ---
 

@@ -1,0 +1,27 @@
+<ul class="session-list">
+{%- for collection in site.collections -%}
+  {%- if include.col_name contains collection.label -%}
+  {%- assign sorted = (collection.docs | sort: 'time') -%}
+    {%- for session in sorted -%}
+      <li class="sessions">
+        {%- unless "two-cols" contains session.class -%}
+        <time class="session-time">{{ session.time }}</time>
+        <div class="session-details  {{ session.class }}">
+          <div class="session-title"><strong>{{ session.title }}</strong></div>
+          {{ session.content | markdownify }}
+        </div>
+        {% endunless %}
+        {% if "two-cols" contains session.class %}
+        <div class="session-header two-cols-header">
+          <time class="session-time">{{ session.time }}</time>
+          <div class="session-title"><strong>{{ session.title }}</strong></div>
+        </div>
+        <div class="session-details two-cols">{{ session.content | markdownify }}</div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  {%- endif -%}
+{%- endfor -%}
+</ul>
+
+

@@ -1,5 +1,6 @@
 ---
 name: TestMyBrain.org
+alt: Mind Eye
 image: /get2013/images/mind_eye.jpg
 ---
 At TestMyBrain, we are interested in a few main questions:

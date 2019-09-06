@@ -1,5 +1,6 @@
 ---
 name: How active are you?
+alt: Man standing on a field
 image: /get2013/images/activity_150.jpg
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: Carolyn Johnson
+last: Johnson
 image: /get2014/images/Carolyn-Johnson.jpg
 ---
 

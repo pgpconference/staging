@@ -22,7 +22,7 @@
     <div class="organizers-list">
       {% for collection in site.collections %}
         {% if include.organizers_col contains collection.label %}
-          {% for organizer in collection.docs | sort: 'order' %}
+          {% for organizer in collection.docs | sort: 'last' %}
         <a href="/get2016/organizer#{{ organizer.name }}">
           <div class="sidebar-speaker-img"><img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}"></div>
           <div class="speaker-name">{{ organizer.name }}</div>

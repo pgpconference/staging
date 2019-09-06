@@ -19,5 +19,19 @@ While we do anticipate growing this event to support much broader audiences, cur
 
 <div class="giant-text"><p class="margin-top-extra">Researchers will explore a wide range of human traits and their variability.</p></div>
 
-{%- assign labs_str = "site.labs" | append: page.year  -%}
+**GET LABS AGENDA FOR APRIL 29TH & VENUE MAP:** Download now as a [PDF]({{ "/get2014/images/GETLABS_floorplan_agenda_04292014.pdf" | relative_url }}).
+
+[![GETLABS Floorplan Agenda 2015]({{ "/get2014/images/getlabs_agenda_floorplan_500px.jpg)" | relative_url }}]({{ "/get2014/images/GETLABS_floorplan_agenda_04292014.pdf" | relative_url }})
+
+{% assign labs_str = "site.labs" | append: page.year %}
 {%- include_cached labs.html labs_col=labs_str -%}
+
+{% capture labs_footer%}
+**Suggest a GET Lab:** If you want to recommend a researcher or research project, [we welcome your suggestions](http://www.getconference.org/get2014/contact.html). Thank you!
+
+**Fellows program:** We provide competitive support to researchers who wish to bring their research to GET Labs. [Learn more](http://www.getconference.org/get2014/fellows.html). Update: Thanks to all the applicants, all fellows have been selected and notified for the 2014 program.
+{% endcapture %}
+
+<div class="labs-footer2014">
+  {{ labs_footer | markdownify }}
+</div>

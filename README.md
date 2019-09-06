@@ -3,14 +3,9 @@
 <!-- MarkdownTOC -->
 
 * [Questions](#questions)
-* [Collections Ordering](#collections-ordering)
   * [404 Page](#404-page)
-* [2010](#2010)
 * [2012](#2012)
-* [2013](#2013)
-* [Homepage](#homepage)
 * [Favicon](#favicon)
-* [File Check List](#file-check-list)
 * [Optional](#optional)
   * [SCSS Refactor](#scss-refactor)
   * [DRY](#dry)
@@ -30,58 +25,20 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
     * I've currently set it up to just go straight to the [sign-up form](https://personalgenomes.us3.list-manage.com/subscribe?u=3980aaa2746fd428de44b2ab4&id=34d31b2d4b)
 2. Google Analytics Setup?
 
-<a id="collections-ordering"></a>
-## Collections Ordering
-
-* Needs Dynamic Ordering Fix:
-  * Sponsors
-  * Try doing some debugging with this to see if I can go by a central _config.yml file_
-
 <a id="404-page"></a>
 ### 404 Page
 
-* Not rendering with the body class for some reason
-* For previous conference years, it's a bit awkward that the nav links stay for current year's conference.
-  * Unclear if there's a way to do anything about this
-  * Displaying a sitemap might be the best option
-
-<a id="2010"></a>
-## 2010
-
-* Sidebar: West Family (last item) margin wrong
+* Displaying a sitemap might be the best option
 
 <a id="2012"></a>
 ## 2012
 
 * Still needs Agenda page
 
-<a id="2013"></a>
-## 2013
-
-* Sponsors page needs to be properly ordered
-  * Write custom template
-* Agenda: Way too much space after first header on Agenda page
-  * Page is weirdly generating a blank agenda item for no discernible reason
-    * Just add a conditional for "if empty" into the Agenda template
-
-<a id="homepage"></a>
-## Homepage
-
-* Subheader needs to be adjusted for each conference year
-
 <a id="favicon"></a>
 ## Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
-
-<a id="file-check-list"></a>
-## File Check List
-
-Are the following being used:
-
-* `scripts/mobile-nav.js`
-  * Remove from header if not
-
 
 <a id="optional"></a>
 ## Optional
@@ -140,3 +97,4 @@ See here:
  {% endfor %}
 {% endfor %}
 ```
+

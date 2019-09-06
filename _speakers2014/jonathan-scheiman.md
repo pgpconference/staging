@@ -1,5 +1,6 @@
 ---
 name: Jonathan Scheiman
+last: Scheiman
 image: /get2014/images/jonathan-scheiman.jpg
 ---
 

@@ -17,7 +17,8 @@
     {%- include_cached header.html year=year current_conf=current_conference_year -%}
 
     {%- if page.layout == "home" -%}
-      {%- include_cached subheader.html -%}
+        {%- assign subheader_str = "subheaders/subheader" | append: page.year | append: ".html" -%}
+        {%- include {{ subheader_str }} -%}
       <main id="content-wide" class="content-wide clear" aria-label="Content">
     {%- else -%}
       <main id="content" class="content" aria-label="Content">
