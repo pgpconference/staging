@@ -32,6 +32,9 @@
 <loc>http://localhost:4000/pgpconference/get2016/agenda.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/pgpconference/get2012/agenda.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/pgpconference/get2013/agenda.html</loc>
 </url>
 <url>
@@ -50,10 +53,10 @@
 <loc>http://localhost:4000/pgpconference/get2011/contact.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pgpconference/get2013/contact.html</loc>
+<loc>http://localhost:4000/pgpconference/get2012/contact.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pgpconference/get2012/contact.html</loc>
+<loc>http://localhost:4000/pgpconference/get2013/contact.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pgpconference/get2011/</loc>
