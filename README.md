@@ -33,7 +33,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 <a id="2012"></a>
 ## 2012
 
-* Still needs Agenda page
+* Finish styles for Agenda page
 
 <a id="favicon"></a>
 ## Favicon
