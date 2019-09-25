@@ -2,16 +2,25 @@ title: "GET :: Genomes Environments Traits"
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/pgpconference" # the subpath of your site, e.g. /blog
+  For the past six years, this event has explored the frontiers of
+  understanding about human biology. It serves as an annual forum to debate
+  the technical, commercial, and societal impacts of advances in our
+  ability to measure and understand people and their traits.
+
+  The GET Conference is produced by PersonalGenomes.org, a 501(c)(3)
+  charitable organization based in the United States whose mission is to
+  make a wide spectrum of human biological information accessible and
+  actionable to increase biological literacy and improve human health.
+  We support groundbreaking initiatives including the Global Network of
+  Personal Genome Projects, Open Humans and the GET Conference.
+# baseurl: "/pgpconference" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: PGorg
 # flickr_username: personalgenomes
 # # github_username:  jekyll
 # author: "Personal Genome Project: Global Network"
 # google_analytics: UA-145673922-1
+port: 5000
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
