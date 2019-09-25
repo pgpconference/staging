@@ -10,7 +10,7 @@
         {%- assign sorted = (collection.docs | sort: 'last') -%}
         {%- for speaker in sorted -%}
         {%- unless speaker.sidebar == false or speaker.sidebar contains "false" -%}
-        <a href="/get2016/speakers#{{ speaker.name }}">
+        <a href="/speakers#{{ speaker.name | absolute_url }}">
           <div class="sidebar-speaker-img"><img src="{{ speaker.image | absolute_url }}" alt="{{ speaker.name }}"></div>
           <div class="speaker-name">{{ speaker.name }}</div>
         </a>
