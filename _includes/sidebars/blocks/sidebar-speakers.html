@@ -11,7 +11,7 @@
         {%- for speaker in sorted -%}
         {%- unless speaker.sidebar == false or speaker.sidebar contains "false" -%}
         <a href="/get2016/speakers#{{ speaker.name }}">
-          <div class="sidebar-speaker-img"><img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }}"></div>
+          <div class="sidebar-speaker-img"><img src="{{ speaker.image | absolute_url }}" alt="{{ speaker.name }}"></div>
           <div class="speaker-name">{{ speaker.name }}</div>
         </a>
         {%- endunless -%}
@@ -30,7 +30,7 @@
         <div class="organizers-list">
         {%- for organizer in collection.docs | sort: 'last' -%}
           <a href="/{{ page.year }}/organizer#{{ organizer.name }}">
-            <div class="sidebar-speaker-img"><img src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}"></div>
+            <div class="sidebar-speaker-img"><img src="{{ organizer.image | absolute_url }}" alt="{{ organizer.name }}"></div>
             <div class="speaker-name">{{ organizer.name }}</div>
           </a>
         {%- endfor -%}
@@ -48,7 +48,7 @@
         <div class="speakers-list">
         {%- for leader in collection.docs | sort: 'last' -%}
           <a href="/{{ page.year }}/leader#{{ leader.name }}">
-            <div class="sidebar-speaker-img"><img src="{{ leader.image | relative_url }}" alt="{{ leader.name }}"></div>
+            <div class="sidebar-speaker-img"><img src="{{ leader.image | absolute_url }}" alt="{{ leader.name }}"></div>
             <div class="speaker-name">{{ leader.name }}</div>
           </a>
         {%- endfor -%}
