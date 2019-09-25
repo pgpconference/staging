@@ -10,8 +10,8 @@
         {%- assign sorted = (collection.docs | sort: 'last') -%}
         {%- for speaker in sorted -%}
         {%- unless speaker.sidebar == false or speaker.sidebar contains "false" -%}
-        <a href="/speakers#{{ speaker.name | absolute_url }}">
-          <div class="sidebar-speaker-img"><img src="{{ speaker.image | absolute_url }}" alt="{{ speaker.name }}"></div>
+        <a href="{{ site.url }}{{ site.baseurl }}/get{{ page.year }}/speakers#{{ speaker.name | remove: " " }}">
+          <div class="sidebar-speaker-img"><img src="{{ speaker.image | aboslute_url }}" alt="{{ speaker.name }}"></div>
           <div class="speaker-name">{{ speaker.name }}</div>
         </a>
         {%- endunless -%}
@@ -22,15 +22,14 @@
 </div>
 
 {%- if include.organizers_col -%}
-  <h3>Organizers</h3>
   {%- for collection in site.collections -%}
     {%- if include.organizers_col contains collection.label -%}
       <div class="organizers">
         <h3>Co-Organizers</h3>
         <div class="organizers-list">
         {%- for organizer in collection.docs | sort: 'last' -%}
-          <a href="/{{ page.year }}/organizer#{{ organizer.name }}">
-            <div class="sidebar-speaker-img"><img src="{{ organizer.image | absolute_url }}" alt="{{ organizer.name }}"></div>
+          <a href="{{ site.url }}{{ site.baseurl }}/get{{ page.year }}/speakers#{{ organizer.name | remove: " " }}">
+            <div class="sidebar-speaker-img"><img src="{{ organizer.image | aboslute_url }}" alt="{{ organizer.name }}"></div>
             <div class="speaker-name">{{ organizer.name }}</div>
           </a>
         {%- endfor -%}
@@ -47,8 +46,8 @@
         <h3>Discussion Leaders</h3>
         <div class="speakers-list">
         {%- for leader in collection.docs | sort: 'last' -%}
-          <a href="/{{ page.year }}/leader#{{ leader.name }}">
-            <div class="sidebar-speaker-img"><img src="{{ leader.image | absolute_url }}" alt="{{ leader.name }}"></div>
+          <a href="{{ site.url }}{{ site.baseurl }}/get{{ page.year }}/speakers#{{ leader.name | remove: " " }}">
+            <div class="sidebar-speaker-img"><img src="{{ leader.image | aboslute_url }}" alt="{{ leader.name }}"></div>
             <div class="speaker-name">{{ leader.name }}</div>
           </a>
         {%- endfor -%}
