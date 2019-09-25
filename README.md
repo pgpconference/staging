@@ -3,7 +3,8 @@
 <!-- MarkdownTOC -->
 
 * [Checklist from PGP Global Site](#checklist-from-pgp-global-site)
-* [navigation](#navigation)
+  * [Staging & Production](#staging--production)
+    * [Google Analytics](#google-analytics)
 * [Questions](#questions)
   * [404 Page](#404-page)
 * [2012](#2012)
@@ -23,17 +24,26 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 ## Checklist from PGP Global Site
 
 * Contact Form?
-* Favicon setup
 * Agnostic config
-* Cleanup Branches
-* Cleanup Files
 * Absolute URLS (in-progress)
 * SEO
-* Google Analytics - add conditional `if site.url contains "pgp.lunacodesdesign.com" then analytics`
-  * Obviously change this to `getconference.com` when the time comes
 
-<a id="navigation"></a>
-## navigation
+<a id="staging--production"></a>
+### Staging & Production
+
+<a id="google-analytics"></a>
+#### Google Analytics
+
+Change Google Analytics code in `head.html` to read:
+
+```html
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- if site.url contains "personalgenomes" -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+{%- endif -%}
+```
+
 <a id="questions"></a>
 ## Questions
 
