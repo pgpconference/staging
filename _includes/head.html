@@ -18,8 +18,7 @@
   <meta name="theme-color" content="#ffffff">
   {%- endif -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {{ site.url }}
-    {%- if site.url contains "get" or "get" contains site.url -%}
+    {%- if site.url contains "get" -%}
     {%- include google-analytics.html -%}
     {%- endif -%}
   {%- endif -%}
