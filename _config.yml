@@ -15,11 +15,10 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Personal Genome Projects, Open Humans and the GET Conference.
 # baseurl: "/pgpconference" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: PGorg
-# flickr_username: personalgenomes
-# # github_username:  jekyll
+
+twitter_username: attendGET
 # author: "Personal Genome Project: Global Network"
-# google_analytics: UA-145673922-1
+google_analytics: UA-145673922-2
 port: 5000
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -33,7 +32,7 @@ minima:
   # See https://github.com/jekyll/minima/blob/master/_config.yml for a full list
   social_links:
     twitter: attendGET
-    github:  jekyll
+    # github:  jekyll
     rss: rss
 
 # If you want to link only specific pages in your header, uncomment
@@ -72,7 +71,7 @@ exclude:
   - scratch
   - ["docs", "ref", "scratch"]
 
-excerpt_separator: "<!--excerpt-->"
+excerpt_separator: "<!--more-->"
 sass:
   style: expanded
   sourcemap: true

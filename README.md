@@ -3,6 +3,7 @@
 <!-- MarkdownTOC -->
 
 * [Checklist from PGP Global Site](#checklist-from-pgp-global-site)
+* [navigation](#navigation)
 * [Questions](#questions)
   * [404 Page](#404-page)
 * [2012](#2012)
@@ -19,16 +20,18 @@
 <a id="checklist-from-pgp-global-site"></a>
 ## Checklist from PGP Global Site
 
-* PrefixFree
-* Subdomain and CNAME
 * Contact Form?
 * Favicon setup
 * Agnostic config
-* Enable all relevant plugins
 * Cleanup Branches
+* Cleanup Files
+* Absolute URLS (in-progress)
+* SEO
 
 The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 
+<a id="navigation"></a>
+## navigation
 <a id="questions"></a>
 ## Questions
 
