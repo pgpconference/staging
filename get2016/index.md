@@ -2,7 +2,7 @@
 layout: home
 year: 2016
 redirect_from:
-  - get2016/
+  - /get2016/
 ---
 
 {% comment %}

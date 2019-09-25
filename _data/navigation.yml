@@ -14,13 +14,13 @@ header2016:
 
 header2015:
   - title: 2015 Home
-    url: "/get2015"
+    url: "/get2015/"
   - title: Agenda
-    url: "/agenda"
+    url: "/get2015/agenda"
   - title: Speakers
-    url: "/speakers"
+    url: "/get2015/speakers"
   - title: Sponsors
-    url: "/sponsors"
+    url: "/get2015/sponsors"
   - title: Apply
     url: "https://docs.google.com/forms/d/e/1FAIpQLSdwoT-lu_iZB6S1aXmvOPinOiRwRD1TSOW4-1Z2CZOz9joI0Q/viewform"
   - title: Nominate
@@ -30,37 +30,37 @@ header2014:
   - title: 2014 Home
     url: "/get2014/"
   - title: Speakers
-    url: "/speakers"
+    url: "/get2014/speakers"
   - title: Agenda
-    url: "/agenda"
+    url: "/get2014/agenda"
   - title: Sponsors
-    url: "/sponsors"
+    url: "/get2014/sponsors"
   - title: About
-    url: /about
+    url: /get2014/about
   - title: Labs
-    url: /labs
+    url: /get2014/labs
   - title: Register
     url: "http://www.getconference.eventbrite.com/"
 
 header2013:
   - title: 2013 HOME
-    url: "/get2013"
+    url: "/get2013/"
   - title: SPEAKERS
-    url: "/speakers"
+    url: "/get2013/speakers"
   - title: AGENDA
-    url: "/agenda"
+    url: "/get2013/agenda"
   - title: Venue
-    url: "/venue"
+    url: "/get2013/venue"
   - title: LABS
-    url: "/labs"
+    url: "/get2013/labs"
   - title: SPONSORS
-    url: "/sponsors"
+    url: "/get2013/sponsors"
   - title: ABOUT
-    url: "/about"
+    url: "/get2013/about"
   - title: CONTACT
-    url: "/contact"
+    url: "/get2013/contact"
   - title: PRESS
-    url: "/press"
+    url: "/get2013/press"
   - title: REGISTER
     url: "http://www.getconference.eventbrite.com/"
 
