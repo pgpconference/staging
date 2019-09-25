@@ -22,6 +22,7 @@
 </div>
 
 {%- if include.organizers_col -%}
+  <h3>Organizers</h3>
   {%- for collection in site.collections -%}
     {%- if include.organizers_col contains collection.label -%}
       <div class="organizers">
