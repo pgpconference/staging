@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC -->
 
+* [Checklist from PGP Global Site](#checklist-from-pgp-global-site)
 * [Questions](#questions)
   * [404 Page](#404-page)
 * [2012](#2012)
@@ -15,6 +16,16 @@
 
 <!-- /MarkdownTOC -->
 
+<a id="checklist-from-pgp-global-site"></a>
+## Checklist from PGP Global Site
+
+* PrefixFree
+* Subdomain and CNAME
+* Contact Form?
+* Favicon setup
+* Agnostic config
+* Enable all relevant plugins
+* Cleanup Branches
 
 The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 
@@ -39,6 +50,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 ## Favicon
 
 * Need to set Favicon. Generate favicon files using [Real Favicon Generator](https://realfavicongenerator.net/)
+  * Need to make background transparent instead of white
 
 <a id="optional"></a>
 ## Optional
