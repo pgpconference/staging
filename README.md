@@ -17,6 +17,8 @@
 
 <!-- /MarkdownTOC -->
 
+The GET Conference: https://pgpconference.github.io/pgpconference/ repo
+
 <a id="checklist-from-pgp-global-site"></a>
 ## Checklist from PGP Global Site
 
@@ -27,8 +29,8 @@
 * Cleanup Files
 * Absolute URLS (in-progress)
 * SEO
-
-The GET Conference: https://pgpconference.github.io/pgpconference/ repo
+* Google Analytics - add conditional `if site.url contains "pgp.lunacodesdesign.com" then analytics`
+  * Obviously change this to `getconference.com` when the time comes
 
 <a id="navigation"></a>
 ## navigation
