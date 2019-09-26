@@ -150,3 +150,18 @@ img {
     width: 100%;
   }
 }
+
+.video-2015 {
+  overflow: hidden;
+
+  iframe {
+    height: 100%;
+    left: 0;
+    max-height: 315px;
+    max-width: 560px;
+    // position: absolute;
+    position: static;
+    top: 0;
+    width: 100%;
+  }
+}
