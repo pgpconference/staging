@@ -19,7 +19,7 @@ Around 150 of the most well-characterized humans on earth will attend GET Labs. 
 
 ## Thanks to our sponsors
 
-<img src="{{ "/get2014/images/sponsors_all.jpg"| relative_url }}" alt="sponsors">
+<img src="{{ "/get2014/images/sponsors_all.jpg"| absolute_url }}" alt="sponsors">
 
 ## Produced By PersonalGenomes.org
 
