@@ -29,7 +29,7 @@
         <div class="organizers-list">
         {%- for organizer in collection.docs | sort: 'last' -%}
           <a href="{{ site.url }}{{ site.baseurl }}/get{{ page.year }}/speakers#{{ organizer.name | remove: " " }}">
-            <div class="sidebar-speaker-img"><img src="{{ organizer.image | aboslute_url }}" alt="{{ organizer.name }}"></div>
+            <div class="sidebar-speaker-img"><img src="{{ site.url }}{{ site.baseurl }}{{ organizer.image }}" alt="{{ organizer.name }}"></div>
             <div class="speaker-name">{{ organizer.name }}</div>
           </a>
         {%- endfor -%}
