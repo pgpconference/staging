@@ -22,11 +22,11 @@ year: 2011
     {{ "[![UPenn](images/penn.gif)](http://www.upenn.edu)" | markdownify | remove: '<p>' | remove: '</p>' }}
     {%- endcomment -%}
 
-    <a href="http://www.fi.edu/"><img src="{{ "/get2011/images/TFI.jpg" | relative_url }}" alt="Franklin Institute" /></a>
+    <a href="http://www.fi.edu/"><img src="{{ "/get2011/images/TFI.jpg" | absolute_url }}" alt="Franklin Institute" /></a>
 
-    <a href="http://www.pennmedicine.org/"><img src="{{ "/get2011/images/pennmed.gif" | relative_url }}" alt="Penn Medicine" /></a>
+    <a href="http://www.pennmedicine.org/"><img src="{{ "/get2011/images/pennmed.gif" | absolute_url }}" alt="Penn Medicine" /></a>
 
-    <a href="http://www.upenn.edu"><img src="{{ "/get2011/images/penn.gif" | relative_url }}" alt="UPenn" /></a>
+    <a href="http://www.upenn.edu"><img src="{{ "/get2011/images/penn.gif" | absolute_url }}" alt="UPenn" /></a>
 
   </div>
 
@@ -37,9 +37,9 @@ year: 2011
     {{ "[![PersonalGenomes.org](images/personalgenomes.gif)](http://www.personalgenomes.org/)" | markdownify | remove: '<p>' | remove: '</p>' }}
     {%- endcomment -%}
 
-    <a href="http://www.genomics.upenn.edu/"><img src="{{ "/get2011/images/PGFI.jpg" | relative_url }}" alt="Penn Genome Frontiers Institute" /></a>
+    <a href="http://www.genomics.upenn.edu/"><img src="{{ "/get2011/images/PGFI.jpg" | absolute_url }}" alt="Penn Genome Frontiers Institute" /></a>
 
-    <a href="http://www.personalgenomes.org/"><img src="{{ "/get2011/images/personalgenomes.gif" | relative_url }}" alt="PersonalGenomes.org" /></a>
+    <a href="http://www.personalgenomes.org/"><img src="{{ "/get2011/images/personalgenomes.gif" | absolute_url }}" alt="PersonalGenomes.org" /></a>
   </div>
 </div>
 

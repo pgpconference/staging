@@ -14,7 +14,7 @@ year: 2013
   <li class="sponsor">
     <div class="sponsor-bio"><a href="http://www.gene.com/">Genentech Inc</a>: <p>At Genentech, we’re passionate about finding solutions for people facing the world’s most difficult-to-treat conditions. That’s why we use cutting-edge science to create and deliver innovative medicines around the globe.</p>
 </div>
-    <img src="{{ "/get2012/images/genentech.jpg" | relative_url }}" alt="Genentech Inc" class="sponsor-img">
+    <img src="{{ "/get2012/images/genentech.jpg" | absolute_url }}" alt="Genentech Inc" class="sponsor-img">
   </li>
 </ul>
 
@@ -24,7 +24,7 @@ year: 2013
   <li class="sponsor">
     <div class="sponsor-bio"><a href="http://www.illumina.com/">Illumina</a>: <p>At Illumina, our goal is to accelerate genetics. Illumina’s technologies are providing the foundation for understanding disease at the molecular level and through that process, we will enable radical improvements in human health over the next decade. Our technologies for genotyping and sequencing are fueling the emerging field of consumer genomics and are beginning to be applied to create innovations in molecular diagnostics.</p>
 </div>
-    <img src="{{ "/get2010/images/illumina.jpg" | relative_url }}" alt="Illumina" class="sponsor-img">
+    <img src="{{ "/get2010/images/illumina.jpg" | absolute_url }}" alt="Illumina" class="sponsor-img">
   </li>
 </ul>
 

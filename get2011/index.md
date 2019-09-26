@@ -8,7 +8,7 @@ year: 2011
 
 <div class="conference-box">
   <div class="conference-award-img">
-    <img src="{{ "/get2011/images/FI_Bower_Bronze.jpg" | relative_url }}" alt="">
+    <img src="{{ "/get2011/images/FI_Bower_Bronze.jpg" | absolute_url }}" alt="">
   </div>
   <div class="conference-text"><p>On April 27, 2011 we held a symposium about next generation DNA sequencing technologies and their applications in scientific research, health, and medicine.</p>
   <p>Speakers included George Church (Harvard University), Rade Drmanac (Complete Genomics, Inc), David Goldstein (Duke University) and Dana Pe'er (Columbia University).</p>
