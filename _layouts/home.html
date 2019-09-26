@@ -2,8 +2,14 @@
 layout: default
 ---
 
-<div class="home home{{ page.year }}">
+{%- unless page.year == 2016 -%}
+  <div class="home home{{ page.year }}">
+    {{ content }}
+  </div>
+{%- endunless -%}
 
-  {{ content }}
-
-</div>
+{%- if page.year == 2016 -%}
+  <div class="home2016-content">
+    {{ content}}
+  </div>
+{%- endif -%}
