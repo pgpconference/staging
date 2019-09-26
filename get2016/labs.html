@@ -10,7 +10,7 @@ title: "About GET Labs + Expo"
 <p>The GET Conference is preceded by a uniquely interactive event on April 25th called GET Labs + Expo.  Anyone can sign-up for <strong>GET Labs</strong>, where you get the opportunity to experience some of the best participatory health research studies available today. You can advance human health and disease research through direct participation in up to 17 different studies. <strong>GET Expo</strong> is a forum designed especially for researchers interested in learning about new tools and services that support the execution of successful participatory research studies. We know how challenging this can be, so we provide space for people with solutions and experience to come together. Details listed below.</p>
 
 <p>Interested in attending Labs+Expo on April 25th?<br>
-<a href="https://www.eventbrite.com/e/get-labs-tickets-21118572218"><img class="labs-btn" src="{{ "/get2010/images/btn_register_now.gif" | relative_url }}" alt="Register Now"></a></p>
+<a href="https://www.eventbrite.com/e/get-labs-tickets-21118572218"><img class="labs-btn" src="{{ "/get2010/images/btn_register_now.gif" | absolute_url }}" alt="Register Now"></a></p>
 
 <div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/PvGVMg1wjoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -48,7 +48,7 @@ title: "About GET Labs + Expo"
       </div>
       <div class="lab-body">
         <div class="lab-about">{{ lab.content }}</div>
-        <a class="lab-link"><img src="{{ lab.image | relative_url }}" class="lab-img"></a>
+        <a class="lab-link"><img src="{{ lab.image | absolute_url }}" class="lab-img"></a>
       </div>
     </li>
   {% endfor %}
@@ -65,7 +65,7 @@ title: "About GET Labs + Expo"
       </div>
       <div class="lab-body">
         <div class="lab-about">{{ team.content }}</div>
-        <a class="lab-link"><img src="{{ team.image | relative_url }}" class="lab-img"></a>
+        <a class="lab-link"><img src="{{ team.image | absolute_url }}" class="lab-img"></a>
       </div>
     </li>
   {% endfor %}
@@ -74,4 +74,4 @@ title: "About GET Labs + Expo"
 
 <h2 class="margin-top-tall">Who else is coming?</h2>
 
-<p><a href="{{ "/get2016/labs_participants" | relative_url }}">See who is coming</a> this year's event. We'll update the list every couple of days</p>
+<p><a href="{{ "/get2016/labs_participants" | absolute_url }}">See who is coming</a> this year's event. We'll update the list every couple of days</p>

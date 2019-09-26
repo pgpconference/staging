@@ -5,7 +5,7 @@
     {%- unless sponsor.type == "custom" -%}
   <li class="sponsor">
     <div class="sponsor-bio"><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>: {{ sponsor.content }}</div>
-    <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
+    <img src="{{ sponsor.image | absolute_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
   </li>
     {%- else -%}
     <!-- This is a custom Sponsor -->
@@ -26,7 +26,7 @@
 <ul class="sponsors-list">
   <li class="sponsor">
     <div class="sponsor-bio"><a href="{{ sponsor.link }}">{{ sponsor.name }}</a>: {{ sponsor.content }}</div>
-    <img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
+    <img src="{{ sponsor.image | absolute_url }}" alt="{{ sponsor.name }}" class="sponsor-img">
   </li>
 </ul>
       {%- endif -%}
