@@ -11,7 +11,7 @@
         {%- for speaker in sorted -%}
         {%- unless speaker.sidebar == false or speaker.sidebar contains "false" -%}
         <a href="{{ site.url }}{{ site.baseurl }}/get{{ page.year }}/speakers#{{ speaker.name | remove: " " }}">
-          <div class="sidebar-speaker-img"><img src="{{ speaker.image | aboslute_url }}" alt="{{ speaker.name }}"></div>
+          <div class="sidebar-speaker-img"><img src="{{ site.url }}{{ site.baseurl }}{{ speaker.image }}" alt="{{ speaker.name }}"></div>
           <div class="speaker-name">{{ speaker.name }}</div>
         </a>
         {%- endunless -%}
