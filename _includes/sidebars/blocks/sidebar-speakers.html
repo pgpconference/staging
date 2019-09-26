@@ -47,7 +47,7 @@
         <div class="speakers-list">
         {%- for leader in collection.docs | sort: 'last' -%}
           <a href="{{ site.url }}{{ site.baseurl }}/get{{ page.year }}/speakers#{{ leader.name | remove: " " }}">
-            <div class="sidebar-speaker-img"><img src="{{ leader.image | aboslute_url }}" alt="{{ leader.name }}"></div>
+            <div class="sidebar-speaker-img"><img src="{{ site.url }}{{ site.baseurl }}{{ leader.image }}" alt="{{ leader.name }}"></div>
             <div class="speaker-name">{{ leader.name }}</div>
           </a>
         {%- endfor -%}
