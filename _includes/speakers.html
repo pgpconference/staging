@@ -4,7 +4,7 @@
     {% assign sorted = (collection.docs | sort: 'last') %}
     {% for speaker in sorted %}
   <li class="speaker">
-    <img class="speaker-img" src="{{ speaker.image | relative_url | escape }}" alt="{{ speaker.name }}">
+    <img class="speaker-img" src="{{ speaker.image | absolute_url | escape }}" alt="{{ speaker.name }}">
     <div class="speaker-bio">{{ speaker.content }}</div>
   </li>
   {% endfor %}

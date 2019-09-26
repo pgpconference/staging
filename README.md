@@ -27,6 +27,7 @@ The GET Conference: https://pgpconference.github.io/pgpconference/ repo
 * Agnostic config
 * Absolute URLS (in-progress)
 * SEO
+* Check for Broken Links
 
 <a id="staging--production"></a>
 ### Staging & Production

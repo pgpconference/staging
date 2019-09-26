@@ -6,7 +6,7 @@ year: 2016
 ---
 
 <div class="awards-banner">
-  <img src="{{ "/get2016/images/GETy_Awards_200.jpg" | relative_url }}" alt="GETy Awards">
+  <img src="{{ "/get2016/images/GETy_Awards_200.jpg" | absolute_url }}" alt="GETy Awards">
   <div class="gety-text">
     <p>Honoring Excellence in Participant-Centered Research</p>
     <p><a style="color:#d91f2a; font-weight:bold" href="http://www.getconference.org/get2016/gety-awards-release.html" target="_blank">Announcing GETy Award Winners</a>
@@ -19,7 +19,7 @@ year: 2016
   {% assign awards = site.awards2016 %}
   {% for award in awards %}
   <li class="award">
-    <div class="award-img"><img src="{{ award.image | relative_url }}" alt="{{ award.alt }}"></div>
+    <div class="award-img"><img src="{{ award.image | absolute_url }}" alt="{{ award.alt }}"></div>
     <div class="award-content">
       <p class="award-title">{{ award.title }} Award</p>
       <div class="award-text">{{ award.content }}</div>
@@ -39,9 +39,9 @@ year: 2016
   {% assign partners = site.media-partners2016 %}
   {% for partner in partners %}
   <div class="partner-row">
-    <div class="partner-img media-partner-img"><img src="{{ partner.image | relative_url }}" alt="{{ partner.name }} logo"></div>
-    <div class="partner-fb"><a href="{{ partner.facebook }}" alt="{{ partner.name | relative_url }} Facebook">Facebook</a></div>
-    <div class="partner-tw"><a href="{{ partner.twitter }}" alt="{{ partner.name | relative_url }} Twitter">@{{ partner.name }}</a></div>
+    <div class="partner-img media-partner-img"><img src="{{ partner.image | absolute_url }}" alt="{{ partner.name }} logo"></div>
+    <div class="partner-fb"><a href="{{ partner.facebook }}" alt="{{ partner.name | absolute_url }} Facebook">Facebook</a></div>
+    <div class="partner-tw"><a href="{{ partner.twitter }}" alt="{{ partner.name | absolute_url }} Twitter">@{{ partner.name }}</a></div>
   </div>
   {% endfor %}
 </div>

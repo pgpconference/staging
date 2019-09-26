@@ -18,7 +18,7 @@ year: 2012
   {%- if col_str contains collection.label -%}
     {%- for sponsor in collection.docs -%}
       {%- if sponsor.type == "custom" -%}
-      <li class="sponsor"><img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }}"></li>
+      <li class="sponsor"><img src="{{ sponsor.image | absolute_url }}" alt="{{ sponsor.name }}"></li>
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}
