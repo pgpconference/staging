@@ -13,28 +13,20 @@
 If you want to give the folder a different local name:
 `git clone https://github.com/pgpconference/pgpconference.git staging-pgp`
 
-2. **Important:** tell Git to ignore any changes to the CNAME file: `git update-index --skip-worktree CNAME`. This is **absolutely essential** to the setup. Otherwise, the CNAME file will constantly cause havoc between the staging and production sites
+### Automated Setup
 
-If for some reason, you *do* need to edit the CNAME, you would:
+run setup.sh after cloning the repo `source setup.sh` or `. setup.sh`
 
-```sh
-git update-index --no-skip-worktree CNAME
 
-# Make your changes, and then:
-git commit CNAME -m "What/Why CNAME was changed"
-git push staging remote/branch
+### Manual Setup
 
-# Tell git to ignore CNAME again
-git update-index --skip-worktree CNAME
-```
-
-3. Add Staging Remote & Fetch
+1. Add Staging Remote & Fetch
 
 ```bash
 git remote add staging https://github.com/pgpglobal/staging.git
 git fetch staging
 ```
-4. Create and checkout local staging branch
+2. Create and checkout local staging branch
   `git checkout -b staging`
 5. Tell staging to track Remote staging:gh-pages (note: you must currently be on the staging branch for this to work)
   `gb -u staging/gh-pages`
