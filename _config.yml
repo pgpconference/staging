@@ -82,6 +82,7 @@ exclude:
   - ref
   - scratch
   - ["docs", "ref", "scratch"]
+  - setup.sh
 
 excerpt_separator: "<!--more-->"
 sass:
