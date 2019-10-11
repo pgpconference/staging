@@ -4,6 +4,7 @@ git update-index --skip-worktree CNAME
 # Add Staging remote & Pull all of the branches
 git remote add staging https://github.com/pgpconference/staging.git
 git checkout -b staging
+git fetch --all
 gb -u staging/gh-pages
 git pull staging
 
