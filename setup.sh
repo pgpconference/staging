@@ -1,3 +1,6 @@
+# Don't mess with the CNAME File!!!!
+git update-index --skip-worktree CNAME
+
 # Add Staging remote & fetch all changes from both remotes
 git remote add staging https://github.com/pgpconference/staging.git
 git fetch --all
@@ -9,9 +12,6 @@ gb -u staging/gh-pages
 
 # Pull any changes for the new branch
 git pull
-
-# Don't mess with the CNAME File!!!!
-git update-index --skip-worktree CNAME
 
 # set `push.default` to always have staging push to staging:gh-pages.
 git config push.default upstream
