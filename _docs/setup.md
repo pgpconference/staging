@@ -46,6 +46,10 @@ git push staging HEAD:gh-pages
 git push staging HEAD
 ```
 
+5. **Ignore CNAME File**
+
+You must run `git update-index --skip-worktree CNAME`. Not doing so will cause havoc between the staging and production sites.
+
 ## Editing
 
 ### Main Workflow
