@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   We support groundbreaking initiatives including the Global Network of
   Personal Genome Projects, Open Humans and the GET Conference.
 # baseurl: "/pgpconference" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://staging.getconference.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Jekyll SEO Tag Settings
 logo: /assets/images/get-fav-logo-204x230.png
@@ -94,6 +94,7 @@ titles_from_headings:
   strip_title: true
   collections: false
 
+collections_dir: collections
 collections:
   agenda2012:
     output: false
