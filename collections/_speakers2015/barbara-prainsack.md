@@ -1,0 +1,7 @@
+---
+name: Barbara Prainsack
+last: Prainsack
+image: /get2015/images/Barbara-Prainsack.jpg
+---
+
+**Barbara Prainsack** is Professor at the Department of Social Science, Health and Medicine at King's College London. Her research focuses on the “real world” challenges in the governance of genomics, often by bringing marginalized and peripheral perspectives into regulatory and ethical debates. For example, Barbara carried out the first empirical study on prisoners’ understandings of forensic DNA technologies, and she brought the voice of monozygotic twins into ethical and regulatory debates on human reproductive cloning. At the moment, Barbara explores various aspects of participatory practices in medicine, using both qualitative and quantitative methods. She also seeks to participate in the formulation of new legal and ethical instruments in medicine, promoting a solidarity-based perspective (a new book on this topic, with Alena Buyx, will be published with Cambridge University Press in 2016). Last but not least, Barbara is very active in policy-related work: She is a member of the Austrian Bioethics Council, advising the federal government in Vienna; a member of the Ethics Group of the National DNA Database in the UK, and she led the European Science Foundation's (ESF) Forward Look on 'Personalised Medicine for the European Citizen' from 2011-2013 (with Aarno Palotie and Stephen Holgate).

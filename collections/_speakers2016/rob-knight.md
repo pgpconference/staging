@@ -1,0 +1,8 @@
+---
+name: Rob Knight
+last: Knight
+image: /get2016/images/Rob-Knight.jpg
+order: 13
+---
+
+**Rob Knight** is Professor of Pediatrics and Computer Science & Engineering at the University of California, San Diego, and author of [“Follow Your Gut: The Enormous Impact of Tiny Microbes”](http://books.simonandschuster.com/Follow-Your-Gut/Rob-Knight/TED-Books/9781476784748). He received a B.Sc. in Biochemistry in 1996 from the University of Otago in his native New Zealand, a PhD in 2001 from Princeton University in Ecology and Evolutionary Biology, and performed postdoctoral work at the University of Colorado, Boulder before becoming a faculty member in the interdisciplinary BioFrontiers Institute there in 2004\. He moved to UC San Diego in 2015 to direct the new [Microbiome Initiative](https://knightlab.ucsd.edu/wordpress/?p=116). His work focuses on using readout technologies such as next-generation sequencing to improve our understanding of the structure, function and dynamics of the human microbiome, contributing to the main data analysis in the NIH-funded [Human Microbiome Project](http://hmpdacc.org/). He is co-founder of the [Earth Microbiome Project](http://www.earthmicrobiome.org/) <a>and the</a> [American Gut Project](http://americangut.org/). Current research interests include relating the human mcirobiome to diseases ranging from obesity to mental illness, spatial and temporal mapping of microbial communities on different scales ranging from our bodies to our planet, and developing new data visualization methods that assist in resolving the challenge of microbial “Big Data”.

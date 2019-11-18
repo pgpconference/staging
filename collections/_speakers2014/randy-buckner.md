@@ -1,0 +1,7 @@
+---
+name: Randy Buckner
+last: Buckner
+image: /get2014/images/Randy-Buckner.jpg
+---
+
+Randy L. Buckner is Professor of Psychology and of Neuroscience at Harvard University and affiliated with the Center for Brain Science. He is also Professor at the Harvard Medical School and the Director for Psychiatric Neuroimaging Research at the Massachusetts General Hospital. He received his Ph.D. degree in neuroscience from Washington University, under the direction of Steven Petersen and Marcus Raichle. He trained with Bruce Rosen as a postdoctoral fellow and then Instructor of Radiology at Harvard Medical School, where he pioneered new functional MRI methods to study human memory. Over the past decade his work has expanded to include studies of Alzheimer's disease and neuropsychiatric illness with a focus on developing biomarkers for disease detection and progression. This work has led to a description of the brain’s default network and how it is targeted early in the progression of Alzheimer’s disease. Professor Buckner’s awards include the Wiley Young Investigator Award from the Organization of Human Brain Mapping, the Young Investigator Award from the Cognitive Neuroscience Society, the 2007 Troland Research Award from the National Academy of Sciences, and the 2010 Award for Medical Research in Alzheimer’s Disease from the MetLife Foundation. He is a fellow of the American Academy of Arts and Sciences.
