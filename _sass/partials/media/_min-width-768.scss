@@ -144,7 +144,7 @@
     }
 
     h1, h2 {
-      background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
+      background: url('images/h2_bg.gif') 0 5px no-repeat;
       font-size: 16px;
       font-style: italic;
       line-height: 20px;
@@ -235,6 +235,7 @@
 
   .sidebar-list {
     margin: 0 10px;
+    text-align: left;
   }
 
   .sidebar-list  {

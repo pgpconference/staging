@@ -14,13 +14,13 @@ header2016:
 
 header2015:
   - title: 2015 Home
-    url: "/get2015"
+    url: "/get2015/"
   - title: Agenda
-    url: "/agenda"
+    url: "/get2015/agenda"
   - title: Speakers
-    url: "/speakers"
+    url: "/get2015/speakers"
   - title: Sponsors
-    url: "/sponsors"
+    url: "/get2015/sponsors"
   - title: Apply
     url: "https://docs.google.com/forms/d/e/1FAIpQLSdwoT-lu_iZB6S1aXmvOPinOiRwRD1TSOW4-1Z2CZOz9joI0Q/viewform"
   - title: Nominate
@@ -30,86 +30,86 @@ header2014:
   - title: 2014 Home
     url: "/get2014/"
   - title: Speakers
-    url: "/speakers"
+    url: "/get2014/speakers"
   - title: Agenda
-    url: "/agenda"
+    url: "/get2014/agenda"
   - title: Sponsors
-    url: "/sponsors"
+    url: "/get2014/sponsors"
   - title: About
-    url: /about
+    url: /get2014/about
   - title: Labs
-    url: /labs
+    url: /get2014/labs
   - title: Register
     url: "http://www.getconference.eventbrite.com/"
 
 header2013:
   - title: 2013 HOME
-    url: "/get2013"
+    url: "/get2013/"
   - title: SPEAKERS
-    url: "/speakers"
+    url: "/get2013/speakers"
   - title: AGENDA
-    url: "/agenda"
+    url: "/get2013/agenda"
   - title: Venue
-    url: "/venue"
+    url: "/get2013/venue"
   - title: LABS
-    url: "/labs"
+    url: "/get2013/labs"
   - title: SPONSORS
-    url: "/sponsors"
+    url: "/get2013/sponsors"
   - title: ABOUT
-    url: "/about"
+    url: "/get2013/about"
   - title: CONTACT
-    url: "/contact"
+    url: "/get2013/contact"
   - title: PRESS
-    url: "/press"
+    url: "/get2013/press"
   - title: REGISTER
     url: "http://www.getconference.eventbrite.com/"
 
 header2012:
   - title: 2012 HOME
-    url: "/get2012/index.html"
+    url: "/get2012/"
   - title: SPEAKERS
-    url: "/get2012/speakers.html"
+    url: "/get2012/speakers"
   - title: AGENDA
-    url: "/get2012/agenda.html"
+    url: "/get2012/agenda"
   - title: VENUE
-    url: "/get2012/venue.html"
+    url: "/get2012/venue"
   - title: SPONSORS
-    url: "/get2012/sponsors.html"
+    url: "/get2012/sponsors"
   - title: ABOUT
-    url: "/get2012/about.html"
+    url: "/get2012/about"
   - title: CONTACT
-    url: "/get2012/contact.html"
+    url: "/get2012/contact"
   - title: PRESS
-    url: "/get2012/press.html"
+    url: "/get2012/press"
   - title: REGISTER
     url: "http://www.getconference.eventbrite.com"
 
 header2011:
   - title: 2011 HOME
-    url: "/get2011/index.html"
+    url: "/get2011"
   - title: ABOUT
-    url: "/get2011/about.html"
+    url: "/get2011/about"
   - title: SPEAKERS
-    url: "/get2011/speakers.html"
+    url: "/get2011/speakers"
   - title: AGENDA
-    url: "/get2011/agenda.html"
+    url: "/get2011/agenda"
   - title: SPONSORS
-    url: "/get2011/sponsors.html"
+    url: "/get2011/sponsors"
   - title: CONTACT
-    url: "/get2011/contact.html"
+    url: "/get2011/contact"
 
 header2010:
   - title: 2010 Home
-    url: "/get2010/index.html"
+    url: "/get2010"
   - title: ABOUT
-    url: "/get2010/about.html"
+    url: "/get2010/about"
   - title: SPEAKERS
-    url: "/get2010/speakers.html"
+    url: "/get2010/speakers"
   - title: AGENDA
-    url: "/get2010/agenda.html"
+    url: "/get2010/agenda"
   - title: SPONSORS
-    url: "/get2010/sponsors.html"
+    url: "/get2010/sponsors"
   - title: PRESS
-    url: "/get2010/press.html"
+    url: "/get2010/press"
   - title: CURRENT EVENT
     url: "http://www.getconference.org"

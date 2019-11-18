@@ -3,4 +3,7 @@ _site
 .jekyll-metadata
 notes/
 ref/
-scripts/
+# scripts/
+_config_plugins_local.yml
+_deletion
+CNAME

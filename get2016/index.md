@@ -2,7 +2,9 @@
 layout: home
 year: 2016
 redirect_from:
-  - get2016/
+  - /get2016/
+title: "GET :: Genomes Environments Traits"
+description: "2016 Homepage"
 ---
 
 {% comment %}

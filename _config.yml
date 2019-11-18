@@ -1,6 +1,6 @@
-title: "GET :: Genomes Environments Traits"
-author: GitHub User
-email: your-email@domain.com
+title: "GET :: Genomes Environments Traits Conference"
+author: "GET :: Genomes Environments Traits Conference"
+email: info@getconference.org
 description: > # this means to ignore newlines until "show_excerpts:"
   For the past six years, this event has explored the frontiers of
   understanding about human biology. It serves as an annual forum to debate
@@ -15,14 +15,25 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Personal Genome Projects, Open Humans and the GET Conference.
 # baseurl: "/pgpconference" # the subpath of your site, e.g. /blog
 url: "https://getconference.net" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: PGorg
-# flickr_username: personalgenomes
-# # github_username:  jekyll
-# author: "Personal Genome Project: Global Network"
-# google_analytics: UA-145673922-1
+
+# Jekyll SEO Tag Settings
+logo: /assets/images/get-fav-logo-204x230.png
+social:
+  - https://twitter.com/attendGET
+  # - https://facebook.com/PersonalGenomesOrg
+  - https://www.linkedin.com/company/personalgenomes-org
+  - https://www.youtube.com/user/PersonalGenomesOrg
+
+twitter:
+  username: attendGET
+  card: summary
+
+twitter_username: attendGET
+google_analytics: UA-145673922-2
 port: 5000
 
 show_excerpts: false # set to true to show excerpts on the homepage
+excerpt_seperator: "<!--more-->"
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -33,7 +44,7 @@ minima:
   # See https://github.com/jekyll/minima/blob/master/_config.yml for a full list
   social_links:
     twitter: attendGET
-    github:  jekyll
+    # github:  jekyll
     rss: rss
 
 # If you want to link only specific pages in your header, uncomment
@@ -71,8 +82,9 @@ exclude:
   - ref
   - scratch
   - ["docs", "ref", "scratch"]
+  - setup.sh
 
-excerpt_separator: "<!--excerpt-->"
+excerpt_separator: "<!--more-->"
 sass:
   style: expanded
   sourcemap: true

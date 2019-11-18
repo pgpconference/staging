@@ -45,7 +45,7 @@ h2 {
 
 .content h1,
 .content h2 {
-  // background: url('#{$baseurl}/assets/images/h2_bg.gif') 0 5px no-repeat;
+  // background: url('images/h2_bg.gif') 0 5px no-repeat;
   // padding: 0 0 0 10px;
   margin: 16px 0 20px;
   text-align: initial;
@@ -207,7 +207,7 @@ ul {
   //   }
 
   //   .content h1 {
-  //     background: url("/pgpconference/assets/images/h2_bg.gif") 0 5px no-repeat;
+  //     background: url("images/h2_bg.gif") 0 5px no-repeat;
   //     margin: 0 0 20px;
   //     padding: 0;
   //     text-align: left;
@@ -301,15 +301,16 @@ figcaption {
 }
 
 .sidebar-list {
+  text-align: center;
   width: 100%;
 }
 
 .sidebar-video {
-  overflow: hidden;
+  /* margin: 0 10px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin: 0 10px; */
+  overflow: hidden;
 
   p {
     text-align: center;
@@ -352,6 +353,10 @@ figcaption {
     // margin: 0 auto 0 0;
     justify-self: flex-start;
   }
+ }
+
+ a div {
+  margin: 0 6px;
  }
 }
 

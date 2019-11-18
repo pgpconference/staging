@@ -8,7 +8,8 @@
     {%- else -%}
       {%- assign logo_path = "/get2014/images/GET_Logo_126x80.gif" -%}
     {%- endif -%}
-    <div id="logo" class="site-logo"><a class="site-title" rel="author" href="{{ site.url }}{{ site.baseurl }}/get2016" itemprop="headline"><img src="{{ site.url }}{{ site.baseurl }}{{ logo_path }}" alt="Genomes Environments Traits"></a></div>
+    <!-- Hopefull fix Master -->
+    <div id="logo" class="site-logo"><a class="site-title" rel="author" href="{{ "/get2016" | absolute_url }}" itemprop="headline"><img src="{{ logo_path | absolute_url }}" alt="Genomes Environments Traits"></a></div>
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav top-nav nav{{ page.year}}">
@@ -31,9 +32,9 @@
             {%- for item in menu[1] -%}
               {%- unless item.url contains "http" %}
               {%- if current_conf contains page.year or item.url contains year_str -%}
-                <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
               {%- else -%}
-                <li><a href="{{ site.baseurl }}{{ year_str }}{{ item.url }}">{{ item.title }}</a></li>
+                <li><a href="{{ year_str }}{{ item.url | absolute_url }}">{{ item.title }}</a></li>
               {%- endif -%}
               {%- endunless -%}
               {%- if item.url contains "http" -%}

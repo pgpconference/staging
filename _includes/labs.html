@@ -25,7 +25,7 @@
          </div>
          <div class="lab-body">
            <div class="lab-about">{{ lab.content }}</div>
-           <a class="lab-link"><img src="{{ lab.image | relative_url }}" class="lab-img"></a>
+           <a class="lab-link"><img src="{{ lab.image | absolute_url }}" class="lab-img"></a>
          </div>
        </li>
     {%- endfor -%}
@@ -62,7 +62,7 @@
          </div>
          <div class="lab-body">
            <div class="lab-about">{{ expo.content }}</div>
-           <a class="lab-link"><img src="{{ expo.image | relative_url }}" class="lab-img"></a>
+           <a class="lab-link"><img src="{{ expo.image | absolute_url }}" class="lab-img"></a>
          </div>
        </li>
     {%- endfor -%}
@@ -72,25 +72,3 @@
 {%- if include.expos_col -%}
 </ul>
 {%- endif -%}
-
-
-{%- comment -%}
-<h2 class="margin-top-tall">Expo for Research Teams</h2>
-
-<ul class="list-style-none">
-{%- assign teams = site.expos2016 -%}
-{%- for team in teams -%}
-    <li class="list-style-none">
-      <div class="lab-header">
-        <p>{{ team.title }}</p>
-      </div>
-      <div class="lab-body">
-        <div class="lab-about">{{ team.content }}</div>
-        <a class="lab-link"><img src="{{ team.image | relative_url }}" class="lab-img"></a>
-      </div>
-    </li>
-  {%- endfor -%}
-</ul>
-{%- endcomment -%}
-
-

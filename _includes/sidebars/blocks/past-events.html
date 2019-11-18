@@ -1,8 +1,10 @@
 <h3>Past Events</h3>
 {%- for events in site.data.events -%}
-  {%- for event in events[1] -%}
-    {%- if event.year < page.year -%}
-      <a href="{{ event.url | relative_url }}">{{ event.title }}</a><br>
-    {%- endif -%}
-  {%- endfor -%}
+  {%- if events[0] contains "past" or "past" contains events -%}
+    {%- for event in events[1] -%}
+      {%- if event.year < page.year -%}
+        <a href="{{ event.url | absolute_url }}">{{ event.title }}</a><br>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 {%- endfor -%}

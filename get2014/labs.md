@@ -19,9 +19,9 @@ While we do anticipate growing this event to support much broader audiences, cur
 
 <div class="giant-text"><p class="margin-top-extra">Researchers will explore a wide range of human traits and their variability.</p></div>
 
-**GET LABS AGENDA FOR APRIL 29TH & VENUE MAP:** Download now as a [PDF]({{ "/get2014/images/GETLABS_floorplan_agenda_04292014.pdf" | relative_url }}).
+**GET LABS AGENDA FOR APRIL 29TH & VENUE MAP:** Download now as a [PDF]({{ "/get2014/images/GETLABS_floorplan_agenda_04292014.pdf" | absolute_url }}).
 
-[![GETLABS Floorplan Agenda 2015]({{ "/get2014/images/getlabs_agenda_floorplan_500px.jpg)" | relative_url }}]({{ "/get2014/images/GETLABS_floorplan_agenda_04292014.pdf" | relative_url }})
+[![GETLABS Floorplan Agenda 2015]({{ "/get2014/images/getlabs_agenda_floorplan_500px.jpg)" | absolute_url }}]({{ "/get2014/images/GETLABS_floorplan_agenda_04292014.pdf" | absolute_url }})
 
 {% assign labs_str = "site.labs" | append: page.year %}
 {%- include_cached labs.html labs_col=labs_str -%}
