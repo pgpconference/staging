@@ -94,6 +94,7 @@ titles_from_headings:
   strip_title: true
   collections: false
 
+collections_dir: collections
 collections:
   agenda2012:
     output: false
