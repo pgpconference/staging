@@ -9,7 +9,7 @@ git branch -d gh-pages master
 # Create and checkout local staging branch
 git checkout -b staging
 # Tell staging to track Remote staging:gh-pages
-gb -u staging/gh-pages
+gb -u staging/staging
 
 # Pull any changes for the new branch
 git pull
