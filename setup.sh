@@ -18,6 +18,7 @@ git pull
 
 # Remove any lingering traces of master and gh-pages branches
 git fetch --prune
+# Not sure if this is working
 
 # set `push.default` to always have staging push to staging:gh-pages.
 git config push.default upstream
