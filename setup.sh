@@ -4,6 +4,7 @@ git update-index --skip-worktree CNAME
 # Add Staging remote & fetch all changes from both remotes
 git remote add staging https://github.com/pgpconference/staging.git
 git fetch --all
+git branch -d gh-pages master 
 
 # Create and checkout local staging branch
 git checkout -b staging
