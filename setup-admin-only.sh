@@ -16,9 +16,9 @@ git checkout -b staging
 # Tell staging to track Remote staging:gh-pages
 gb -u staging/staging
 
-git checkout -b gh-pages
+# git checkout -b gh-pages
 # Tell gh-pages to track Remote staging:gh-pages
-gb -u staging/gh-pages
+# gb -u staging/gh-pages
 
 # Pull any changes for the new branch
 git pull
