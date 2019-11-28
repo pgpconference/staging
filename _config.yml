@@ -60,7 +60,7 @@ plugins:
   - github-pages
   - jekyll-admin
   - jekyll-feed
-  - jekyll-figure
+  # - jekyll-figure
   - jekyll-include-cache
   - jekyll-redirect-from
   - jekyll-seo-tag
