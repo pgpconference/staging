@@ -1,5 +1,5 @@
 plugins:
-  # - jekyll-admin
+  - jekyll-admin
   - jekyll-include-cache
   # - jekyll-feed
   - github-pages
