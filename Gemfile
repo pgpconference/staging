@@ -21,7 +21,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-feed', "~> 0.6"
-  gem 'jekyll-figure'
+  # gem 'jekyll-figure'
   gem 'jekyll-include-cache'
   gem 'jekyll-redirect-from'
   gem 'jekyll-seo-tag'
