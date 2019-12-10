@@ -1,3 +1,5 @@
+# Remind the user to install dependencies, if they haven't already
+
 # Don't mess with the CNAME File!!!!
 git update-index --skip-worktree CNAME
 
